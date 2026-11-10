@@ -1,0 +1,401 @@
+# ru translations: English<TAB>translation
+ fps	 fps
+ min (0 = never)	 мин (0 = никогда)
+'{}' is not a valid HH:MM time	«{}» — недопустимое время HH:MM
+After recording	После записи
+After recording:	После записи:
+Analysing video…	Анализ видео…
+Animated GIF	Анимированный GIF
+Annotations	Аннотации
+Appearance	Внешний вид
+Arrow	Стрелка
+Audio	Звук
+Audio-only recording (MP3)	Только звук (MP3)
+Auto stop after	Автоостановка через
+Auto-boost volume when recording speakers	Автоматически усиливать громкость при записи динамиков
+Background:	Фон:
+Blur	Размытие
+Bottom left	Внизу слева
+Bottom right	Внизу справа
+Browse…	Обзор…
+Callout	Выноска
+Change…	Изменить…
+Clear	Очистить
+Click a window (or drag a region) to record it  •  Esc to cancel	Щёлкните окно (или выделите область), чтобы записать его  •  Esc — отмена
+Click to place the fixed-size region  •  Esc to cancel	Щёлкните, чтобы разместить область фиксированного размера  •  Esc — отмена
+Clicks	Щелчки
+Clip	Клип
+Close	Закрыть
+Colour:	Цвет:
+Control bar	Панель управления
+Convert to GIF	Преобразовать в GIF
+Convert to MP4	Преобразовать в MP4
+Convert to MP4…	Преобразовать в MP4…
+Convert to animated GIF…	Преобразовать в анимированный GIF…
+Could not open {}: {}	Не удалось открыть {}: {}
+Could not start recording: {}	Не удалось начать запись: {}
+Countdown	Обратный отсчёт
+Dark	Тёмная
+Decoding audio…	Декодирование звука…
+Disarm	Отменить
+Discard	Удалить
+Discard recording	Удалить запись
+Discard this recording?	Удалить эту запись?
+Do nothing	Ничего не делать
+Done	Готово
+Drag a rectangle on the video to zoom into it during the selected time range	Выделите прямоугольник на видео, чтобы увеличить его в выбранном интервале
+Drag on the video to place it at the current time	Перетащите на видео, чтобы разместить в текущий момент
+Drag to select the area to record	Выделите область для записи
+Drag to select the area to record  •  Esc / right-click to cancel	Выделите область для записи  •  Esc / правый щелчок — отмена
+Drag: scrub • Drag yellow handles: trim • Drag on ruler / Shift+drag: select range	Перетаскивание: перемотка • Жёлтые маркеры: обрезка • По линейке / Shift+перетаскивание: выбор интервала
+Draw:	Рисование:
+Duration: 	Длительность: 
+Ellipse	Эллипс
+Encoding audio…	Кодирование звука…
+End	Конец
+End = playhead	Конец = курсор
+Example: {}	Пример: {}
+Examples: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Applied when Options is closed.	Примеры: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Применяется после закрытия окна параметров.
+Export	Экспорт
+Export finished	Экспорт завершён
+Exporting…	Экспорт…
+Extract Audio	Извлечь звук
+Extract audio (M4A / MP3)…	Извлечь звук (M4A / MP3)…
+Fade in (s)	Появление (с)
+Fade out (s)	Исчезание (с)
+File name template:	Шаблон имени файла:
+Finishing capture…	Завершение записи…
+Finishing…	Завершение…
+Fixed Region	Фиксированная область
+Fixed region size	Размер фиксированной области
+Folder:	Папка:
+Format	Формат
+Frame rate	Частота кадров
+Frames per second	Кадров в секунду
+From 	С 
+Full Screen	Весь экран
+Full screen	Весь экран
+GIF fps	GIF fps
+GIF max width	Макс. ширина GIF
+General	Общие
+Height	Высота
+Hide recording settings	Скрыть параметры записи
+Hide the control bar while recording (use hotkeys)	Скрывать панель управления во время записи (используйте горячие клавиши)
+Highlight	Выделение
+Highlight colour:	Цвет выделения:
+Highlight mouse cursor	Выделять указатель мыши
+Highlight the mouse cursor	Выделять указатель мыши
+Hotkeys	Горячие клавиши
+INCLUDE	ВКЛЮЧИТЬ
+Include webcam (picture-in-picture)	Добавить веб-камеру (картинка в картинке)
+Insert a title page at the playhead	Вставить титульный кадр в позиции курсора
+Insert at: 	Вставить в: 
+Join Videos	Объединить видео
+Join videos…	Объединить видео…
+Jump to start	Перейти к началу
+Keep Softromeda Screen Recorder running for the timer to work.	Чтобы таймер сработал, не закрывайте Softromeda Screen Recorder.
+Keep recording	Продолжить запись
+Keystrokes	Нажатия клавиш
+Language	Язык
+Language:	Язык:
+Last region	Последняя область
+Left	Слева
+Left click:	Левый щелчок:
+Light	Светлая
+Line width %	Толщина линии, %
+Loading…	Загрузка…
+M4A (AAC)	M4A (AAC)
+MP3	MP3
+MP3 (audio only)	MP3 (только звук)
+MP4 (H.264 + AAC)	MP4 (H.264 + AAC)
+Mark out ]	Точка выхода ]
+Match video aspect ratio	По соотношению сторон видео
+Max width	Макс. ширина
+Mic volume	Громкость микрофона
+Microphone	Микрофон
+Microphone volume	Громкость микрофона
+Mouse & Keyboard	Мышь и клавиатура
+Mute audio	Отключить звук
+Next frame (→)	Следующий кадр (→)
+No devices found	Устройства не найдены
+No monitor found.	Монитор не найден.
+Number: 	Номер: 
+On Windows the control bar is never captured in the video.	В Windows панель управления никогда не попадает в видео.
+Open	Открыть
+Open a video to start editing.	Откройте видео, чтобы начать редактирование.
+Open in video editor	Открыть в видеоредакторе
+Open log file	Открыть файл журнала
+Optional TTF/OTF font for keystrokes, captions and title pages (e.g. for Korean or other scripts).	Необязательный шрифт TTF/OTF для нажатий клавиш, подписей и титульных кадров (например, для корейского или другой письменности).
+Options	Параметры
+Original size	Исходный размер
+Output	Вывод
+Output length: {}	Длительность результата: {}
+Output must differ from the input file.	Выходной файл должен отличаться от исходного.
+Output size	Размер на выходе
+Please choose a different file name than the source video.	Выберите имя файла, отличное от исходного видео.
+Position:	Положение:
+Previous frame (←)	Предыдущий кадр (←)
+Properties	Свойства
+Put the computer to sleep when the recording is complete	Переводить компьютер в спящий режим по окончании записи
+Quality	Качество
+RECORDING SETTINGS	ПАРАМЕТРЫ ЗАПИСИ
+Radius	Радиус
+Record	Запись
+Record a fixed {}×{} area	Записать фиксированную область {}×{}
+Record a window — click it to select. The recording follows the window when you move it, even behind other windows.	Запись окна — щёлкните по нему. Запись следует за окном при перемещении, даже если оно за другими окнами.
+Record audio	Записывать звук
+Record microphone	Записывать микрофон
+Record speakers (system audio)	Записывать динамики (системный звук)
+Record the last area again ({})	Снова записать последнюю область ({})
+Record the sound playing on this PC (right-click for devices)	Записывать звук, воспроизводимый на этом ПК (правый щелчок — выбор устройства)
+Record the whole screen	Записать весь экран
+Record the whole screen under the mouse (right-click to choose a monitor)	Записать весь экран под указателем мыши (правый щелчок — выбор монитора)
+Record your voice (right-click to choose the microphone)	Записывать ваш голос (правый щелчок — выбор микрофона)
+Recording discarded.	Запись удалена.
+Recording failed: {}	Ошибка записи: {}
+Recording saved	Запись сохранена
+Recording starts…	Запись начинается…
+Recording stopped early: {}	Запись остановлена досрочно: {}
+Recording…	Запись…
+Recover	Восстановить
+Recover recording?	Восстановить запись?
+Recovered	Восстановлено
+Rectangle	Прямоугольник
+Rectangular Region	Прямоугольная область
+Remove the selected section	Удалить выбранный фрагмент
+Removed section	Удалённый фрагмент
+Rendering annotations…	Отрисовка аннотаций…
+Repeat Last	Повторить последнюю
+Reset trim	Сбросить обрезку
+Resolution	Разрешение
+Restore defaults	Восстановить значения по умолчанию
+Right click:	Правый щелчок:
+Same as Windows	Как в Windows
+Same as system	Как в системе
+Save to	Сохранять в
+Saved {}	Сохранено: {}
+Saved: {}	Сохранено: {}
+Saving failed: {}	Ошибка сохранения: {}
+Scale %	Масштаб, %
+Scheduled Recording	Запись по расписанию
+Softromeda Screen Recorder border	Рамка Softromeda Screen Recorder
+Select an item on the video or the timeline.	Выберите элемент на видео или на временной шкале.
+Show a border around the recording area	Показывать рамку вокруг области записи
+Show in folder	Показать в папке
+Show keystrokes in the video	Показывать нажатия клавиш в видео
+Show mouse clicks	Показывать щелчки мыши
+Show mouse clicks as ripples	Показывать щелчки мыши кругами
+Play a click sound in the video	Добавлять звук щелчка в видео
+Adds a short click sound to the audio at each left click in the recorded area, when the recording is saved.	При сохранении записи добавляет в звук короткий щелчок при каждом нажатии левой кнопки мыши в записываемой области.
+Show mouse cursor	Показывать указатель мыши
+Show pressed keys in the video	Показывать нажатые клавиши в видео
+Show recording settings	Показать параметры записи
+Show your webcam in a corner (right-click for options)	Показывать веб-камеру в углу (правый щелчок — параметры)
+Size	Размер
+Size %	Размер, %
+Size (% of video width)	Размер (% от ширины видео)
+Space	Пробел
+Speaker volume	Громкость динамиков
+Speakers	Динамики
+Speakers are recorded with WASAPI loopback (whatever you hear).	Динамики записываются через WASAPI loopback (всё, что вы слышите).
+Speed ×	Скорость ×
+Start (Home)	Начало (Home)
+Start / Pause / Resume	Старт / Пауза / Продолжить
+Start = playhead	Начало = курсор
+Start at (HH:MM)	Начать в (HH:MM)
+Step number	Номер шага
+Stop and save	Остановить и сохранить
+Stop at (HH:MM)	Остановить в (HH:MM)
+Subtitle:	Подзаголовок:
+Switch to dark mode	Включить тёмную тему
+Switch to light mode	Включить светлую тему
+System default	По умолчанию в системе
+Text	Текст
+Text font	Шрифт текста
+Text:	Текст:
+Theme:	Тема:
+Timer	Таймер
+Timer skipped: another recording was in progress.	Таймер пропущен: уже шла другая запись.
+Title page	Титульный кадр
+Title:	Заголовок:
+Titles	Титры
+Top	Сверху
+Top left	Вверху слева
+Top right	Вверху справа
+Troubleshooting	Устранение неполадок
+Video	Видео
+Video Editor	Видеоредактор
+Volume	Громкость
+WHAT TO RECORD	ЧТО ЗАПИСЫВАТЬ
+Webcam	Веб-камера
+What was recorded was saved to {}	Записанное сохранено в {}
+Width	Ширина
+Window / Object	Окно / объект
+Zoom	Масштаб
+Zoom area	Область масштабирования
+Zoom effect	Эффект масштабирования
+Zoom into the centre during the selection	Увеличивать центр в выбранном интервале
+[ Mark in	[ Точка входа
+invalid end time	недопустимое время окончания
+invalid start time	недопустимое время начала
+none yet	пока нет
+to 	до 
+{} has no video stream.	В {} нет видеопотока.
+• Pick a drawing tool and drag on the video.	• Выберите инструмент рисования и проведите по видео.
+↩ Restore section	↩ Восстановить фрагмент
+↺ Undo	↺ Отменить
+↻ Redo	↻ Повторить
+⏰ Arm timer	⏰ Запустить таймер
+⏰ Timer	⏰ Таймер
+⏰ Timer (armed)	⏰ Таймер (запущен)
+⏸ Pause	⏸ Пауза
+⏹ Save	⏹ Сохранить
+▶ Convert…	▶ Преобразовать…
+▶ Play	▶ Воспроизвести
+▶ Play last	▶ Воспроизвести последнюю
+▶ Resume	▶ Продолжить
+⚙ Options	⚙ Параметры
+✂ Cut selection	✂ Вырезать выделенное
+✖ Clear selection	✖ Снять выделение
+➕ Add videos…	➕ Добавить видео…
+⟳ Refresh cameras	⟳ Обновить список камер
+⟳ Refresh devices	⟳ Обновить список устройств
+⬉ Select	⬉ Выбор
+⬌ Trim to selection	⬌ Обрезать по выделению
+🎬 Title page	🎬 Титульный кадр
+🎬 Video Editor	🎬 Видеоредактор
+💾 Export video…	💾 Экспорт видео…
+📁 Output folder	📁 Папка вывода
+📂 Choose file…	📂 Выбрать файл…
+📂 Open…	📂 Открыть…
+🔍 Zoom	🔍 Масштаб
+🔍 Zoom selection	🔍 Увеличить выделенное
+🗑 Delete annotation	🗑 Удалить аннотацию
+🗑 Delete title page	🗑 Удалить титульный кадр
+🗑 Delete zoom	🗑 Удалить масштабирование
+🛠 Tools	🛠 Инструменты
+A recording from {} was interrupted (unexpected shutdown or crash).	Запись от {} была прервана (неожиданное завершение работы или сбой).
+Armed: {} – {}	Включён: {} – {}
+Drag on the video (Select tool) to change the zoom area.	Перетащите на видео (инструмент «Выбор»), чтобы изменить область увеличения.
+Selection: {} – {}	Выделение: {} – {}
+Starts in {}	Начнётся через {}
+Trim: {} – {}	Обрезка: {} – {}
+Video Editor — {}	Видеоредактор — {}
+{} start / pause   •   {} stop & save   •   {} discard	{} запуск / пауза   •   {} стоп и сохранить   •   {} отменить
+• Drag on the ruler to select a range, then Cut or Zoom it.	• Перетащите по линейке, чтобы выделить диапазон, затем вырежьте или увеличьте его.
+• Drag on the timeline to scrub; drag the yellow handles to trim.	• Перетаскивайте по шкале времени для перемотки; жёлтые маркеры — для обрезки.
+About	О программе
+Developer:	Разработчик:
+License:	Лицензия:
+Source code:	Исходный код:
+This program comes with ABSOLUTELY NO WARRANTY. It is free software: you may redistribute and change it under the terms of the GNU General Public License.	Эта программа поставляется БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ. Это свободное программное обеспечение: вы можете распространять и изменять его на условиях GNU General Public License.
+Screen recorder and video editor for Windows.	Запись экрана и видеоредактор для Windows.
+Version {}	Версия {}
+Website:	Сайт:
+A file with that name already exists.	Файл с таким именем уже существует.
+Browse, play, edit, rename and delete your recordings	Просмотр, воспроизведение, редактирование, переименование и удаление записей
+Cancel	Отмена
+Could not delete the file.	Не удалось удалить файл.
+Delete	Удалить
+Draw on screen	Рисование на экране
+Draw on the screen ({}); right-click or Esc to stop	Рисовать на экране ({}); правый щелчок или Esc — закончить
+Highlighter	Маркер
+Move to the Recycle Bin?	Переместить в корзину?
+No recordings yet in {}	В папке {} пока нет записей
+Nothing matches the search.	Ничего не найдено.
+Open in the video editor	Открыть в видеоредакторе
+Pen	Перо
+Play	Воспроизвести
+Recordings	Записи
+Rename	Переименовать
+That file name is not allowed.	Такое имя файла недопустимо.
+{} recordings · {}	Записей: {} · {}
+✏ Draw	✏ Рисовать
+⟳ Refresh	⟳ Обновить
+🎬 Edit	🎬 Изменить
+📚 Recordings	📚 Записи
+🔍 Search	🔍 Поиск
+🗑 Clear	🗑 Очистить
+Replace the zooms with zooms on the {} recorded clicks	Заменить увеличения увеличениями по {} записанным щелчкам
+When a new recording opens in the video editor, it zooms in around your mouse clicks. Adjust or delete the zooms before exporting.	Когда новая запись открывается в видеоредакторе, места щелчков мыши автоматически увеличиваются. Перед экспортом их можно изменить или удалить.
+Zoom in on clicks automatically	Автоматически увеличивать места щелчков
+✨ Auto zoom	✨ Автоувеличение
+Even out the voice volume	Выравнивать громкость голоса
+Raises quiet speech, lowers loud speech and prevents clipping when the recording is saved.	При сохранении записи усиливает тихую речь, приглушает громкую и предотвращает искажения.
+Reduce background noise	Подавлять фоновый шум
+Removes steady noise such as fans, hum and hiss from the microphone when the recording is saved.	При сохранении записи убирает из микрофона постоянный шум: вентиляторы, гул и шипение.
+Closing the window keeps Softromeda Screen Recorder running there	При закрытии окна Softromeda Screen Recorder продолжает работать там
+Cut them; they show on the timeline and can be undone	Вырезать их; они видны на шкале времени, и это можно отменить
+Exit	Выход
+Find quiet parts in the audio that can be cut	Найти в звуке тихие места, которые можно вырезать
+Found {} pauses ({} in total)	Найдено пауз: {} (всего {})
+Keep next to speech (s)	Оставлять рядом с речью (с)
+Looking for pauses…	Поиск пауз…
+No pauses found.	Паузы не найдены.
+Notification area	Область уведомлений
+Pause	Пауза
+Pauses	Паузы
+Resume	Продолжить
+Shortest pause (s)	Самая короткая пауза (с)
+Show an icon in the notification area	Показывать значок в области уведомлений
+Show window	Показать окно
+Start recording	Начать запись
+Start with Windows (in the notification area)	Запускать вместе с Windows (в области уведомлений)
+✂ Cut pauses	✂ Вырезать паузы
+🔍 Find pauses	🔍 Найти паузы
+GIFs have no sound.	В GIF нет звука.
+Loading the music…	Загрузка музыки…
+Lower the music while someone speaks	Приглушать музыку, когда кто-то говорит
+Music	Музыка
+Music volume	Громкость музыки
+Original	Исходная
+Play music under the whole video	Музыка под всем видео
+Remove music	Убрать музыку
+Shape	Форма
+Square 1:1	Квадрат 1:1
+The frame follows the mouse pointer, as shown on the video.	Кадр следует за указателем мыши, как показано на видео.
+Vertical 9:16 (Shorts, TikTok, Reels)	Вертикальное 9:16 (Shorts, TikTok, Reels)
+🎵 Add music…	🎵 Добавить музыку…
+Darken the rest	Затемнять остальное
+Dim everything except the area around the mouse	Затемнять всё, кроме области вокруг мыши
+Gentle	Мягкое
+Medium	Среднее
+Spotlight	Прожектор
+Spotlight around the mouse	Прожектор вокруг мыши
+Spotlight size	Размер прожектора
+Strong	Сильное
+All programs	Все программы
+Drop a marker	Поставить метку
+Drop a marker ({}); markers show on the editor timeline	Поставить метку ({}); метки видны на шкале времени редактора
+Fast-forward through a slow part (it is muted in the export)	Перемотать медленный фрагмент (в экспорте без звука)
+Faster section	Ускоренный фрагмент
+Markers	Метки
+Play the selection faster:	Воспроизвести выделение быстрее:
+Plays faster and muted in the export, with a fast-forward badge.	В экспорте воспроизводится быстрее и без звука, со значком перемотки.
+Record only one program's sound (Windows 10 version 2004 or newer), so notification sounds and other programs stay out of the recording.	Записывать звук только одной программы (Windows 10 версии 2004 или новее), чтобы звуки уведомлений и других программ не попадали в запись.
+Record sound from:	Записывать звук из:
+Speed:	Скорость:
+{} (not running)	{} (не запущена)
+⏩ Speed up	⏩ Ускорить
+🗑 Normal speed	🗑 Обычная скорость
+Select a range on the ruler first.	Сначала выделите диапазон на линейке.
+Corner	Угол
+Hide desktop icons while recording	Скрывать значки рабочего стола во время записи
+Image	Изображение
+Logo	Логотип
+Logo size (% of width)	Размер логотипа (% ширины)
+Opacity (%)	Непрозрачность (%)
+Remove logo	Убрать логотип
+Show your logo in a corner of the exported video	Показывать ваш логотип в углу экспортированного видео
+Smooth mouse movement	Сглаживать движение мыши
+The pointer glides instead of shaking. Clicks are still shown where they happened.	Указатель движется плавно, без дрожания. Щелчки показываются там, где они были.
+They come back when the recording ends.	Они вернутся, когда запись закончится.
+🏷 Add logo…	🏷 Добавить логотип…
+Check for updates	Проверить обновления
+Check for updates automatically	Проверять обновления автоматически
+Could not check for updates: {}	Не удалось проверить обновления: {}
+Download	Скачать
+Not now	Не сейчас
+Skip this version	Пропустить эту версию
+Version {} is available.	Доступна версия {}.
+You have the latest version ({}).	У вас последняя версия ({}).

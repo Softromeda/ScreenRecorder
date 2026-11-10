@@ -1,0 +1,50 @@
+# Softromeda Screen Recorder
+# Copyright (C) 2026 Softromeda <https://softromeda.com>
+# Originally created by Softromeda - https://softromeda.com/screen-recorder
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# This program is free software: you can redistribute it and/or modify it under the terms of
+# the GNU General Public License as published by the Free Software Foundation, either version 3
+# of the License, or (at your option) any later version, with the additional terms listed in
+# the NOTICE file. It is distributed WITHOUT ANY WARRANTY; see the LICENSE and NOTICE files.
+
+name: CI
+
+on:
+  push:
+  pull_request:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+      - name: Format
+        run: cargo fmt --all -- --check
+      - name: Clippy
+        run: cargo clippy --all-targets -- -D warnings
+      - name: Test
+        run: cargo test
+      - name: Build release
+        run: cargo build --release
+      - name: Self-test (capture may be unavailable on CI runners)
+        shell: bash
+        run: ./target/release/softromeda-screen-recorder.exe --selftest || true
+      - name: Installer
+        shell: pwsh
+        run: |
+          # Inno Setup 6 or 7; build.ps1 finds either and reads the version from Cargo.toml.
+          $iscc = Get-ChildItem "${env:ProgramFiles(x86)}\Inno Setup *\ISCC.exe", "$env:ProgramFiles\Inno Setup *\ISCC.exe" -ErrorAction SilentlyContinue
+          if (-not $iscc) { choco install innosetup -y --no-progress }
+          ./installer/build.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SoftromedaScreenRecorder-Setup
+          path: installer/output/*.exe

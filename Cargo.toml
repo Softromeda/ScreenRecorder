@@ -1,0 +1,83 @@
+[package]
+name = "softromeda-screen-recorder"
+version = "1.0.0"
+edition = "2024"
+description = "Screen recorder with video editor for Windows"
+license = "GPL-3.0-or-later"
+authors = ["Softromeda"]
+rust-version = "1.99"
+
+[dependencies]
+eframe = "0.37"
+egui = { version = "0.37", features = ["monochrome_emoji_fonts"] }
+xcap = "0.9"
+cpal = "0.18"
+hound = "3.5"
+global-hotkey = "0.9"
+device_query = "4.0"
+rfd = "0.18"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+directories = "6"
+chrono = "0.4"
+anyhow = "1"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+crossbeam-channel = "0.5"
+log = "0.4"
+raw-window-handle = "0.6"
+env_logger = "0.11"
+ab_glyph = "0.2"
+epaint_default_fonts = "0.37"
+tiny-skia = "0.12"
+gif = "0.14"
+rayon = "1"
+rustfft = "6"
+
+[build-dependencies]
+winresource = "0.1"
+
+# Windows-native media stack: DXGI desktop duplication for capture and
+# Media Foundation for H.264 / AAC / MP3 encoding and decoding.
+[target.'cfg(windows)'.dependencies]
+windows-core = "0.62"
+windows = { version = "0.62", features = [
+    "Win32_Media_Audio",
+    "Win32_System_Threading",
+    "Foundation",
+    "Graphics",
+    "Graphics_Capture",
+    "Graphics_DirectX",
+    "Graphics_DirectX_Direct3D11",
+    "Win32_Graphics_Dwm",
+    "Win32_System_WinRT",
+    "Win32_System_WinRT_Direct3D11",
+    "Win32_System_WinRT_Graphics_Capture",
+    "Win32_Foundation",
+    "Win32_Graphics_Direct3D",
+    "Win32_Graphics_Direct3D11",
+    "Win32_Graphics_Dxgi",
+    "Win32_Graphics_Dxgi_Common",
+    "Win32_Globalization",
+    "Win32_Graphics_Gdi",
+    "Win32_Media_MediaFoundation",
+    "Win32_System_Com",
+    "Win32_System_Com_StructuredStorage",
+    "Win32_System_Console",
+    "Win32_System_Variant",
+    "Win32_UI_HiDpi",
+    "Win32_Networking_WinHttp",
+    "Win32_System_Registry",
+    "Win32_UI_Shell",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_System_LibraryLoader",
+    "Win32_UI_WindowsAndMessaging",
+] }
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = true
+
+[profile.dev.package."*"]
+opt-level = 2

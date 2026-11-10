@@ -1,0 +1,401 @@
+# fr translations: English	translation
+ fps	 fps
+ min (0 = never)	 min (0 = jamais)
+'{}' is not a valid HH:MM time	« {} » n’est pas une heure HH:MM valide
+After recording	Après l’enregistrement
+After recording:	Après l’enregistrement :
+Analysing video…	Analyse de la vidéo…
+Animated GIF	GIF animé
+Annotations	Annotations
+Appearance	Apparence
+Arrow	Flèche
+Audio	Audio
+Audio-only recording (MP3)	Enregistrement audio seul (MP3)
+Auto stop after	Arrêt automatique après
+Auto-boost volume when recording speakers	Amplifier automatiquement le volume des haut-parleurs
+Background:	Arrière-plan :
+Blur	Flou
+Bottom left	En bas à gauche
+Bottom right	En bas à droite
+Browse…	Parcourir…
+Callout	Bulle
+Change…	Modifier…
+Clear	Effacer
+Click a window (or drag a region) to record it  •  Esc to cancel	Cliquez sur une fenêtre (ou tracez une zone) pour l’enregistrer  •  Échap pour annuler
+Click to place the fixed-size region  •  Esc to cancel	Cliquez pour placer la zone de taille fixe  •  Échap pour annuler
+Clicks	Clics
+Clip	Clip
+Close	Fermer
+Colour:	Couleur :
+Control bar	Barre de contrôle
+Convert to GIF	Convertir en GIF
+Convert to MP4	Convertir en MP4
+Convert to MP4…	Convertir en MP4…
+Convert to animated GIF…	Convertir en GIF animé…
+Could not open {}: {}	Impossible d’ouvrir {} : {}
+Could not start recording: {}	Impossible de démarrer l’enregistrement : {}
+Countdown	Compte à rebours
+Dark	Sombre
+Decoding audio…	Décodage de l’audio…
+Disarm	Désarmer
+Discard	Abandonner
+Discard recording	Abandonner l’enregistrement
+Discard this recording?	Abandonner cet enregistrement ?
+Do nothing	Ne rien faire
+Done	Terminé
+Drag a rectangle on the video to zoom into it during the selected time range	Tracez un rectangle sur la vidéo pour zoomer dessus pendant la plage sélectionnée
+Drag on the video to place it at the current time	Faites glisser sur la vidéo pour le placer à la position actuelle
+Drag to select the area to record	Tracez la zone à enregistrer
+Drag to select the area to record  •  Esc / right-click to cancel	Tracez la zone à enregistrer  •  Échap / clic droit pour annuler
+Drag: scrub • Drag yellow handles: trim • Drag on ruler / Shift+drag: select range	Glisser : parcourir • Poignées jaunes : découper • Glisser sur la règle / Maj+glisser : sélectionner une plage
+Draw:	Dessiner :
+Duration: 	Durée : 
+Ellipse	Ellipse
+Encoding audio…	Encodage de l’audio…
+End	Fin
+End = playhead	Fin = tête de lecture
+Example: {}	Exemple : {}
+Examples: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Applied when Options is closed.	Exemples : Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Appliqué à la fermeture des Options.
+Export	Exporter
+Export finished	Exportation terminée
+Exporting…	Exportation…
+Extract Audio	Extraire l’audio
+Extract audio (M4A / MP3)…	Extraire l’audio (M4A / MP3)…
+Fade in (s)	Fondu entrant (s)
+Fade out (s)	Fondu sortant (s)
+File name template:	Modèle de nom de fichier :
+Finishing capture…	Finalisation de la capture…
+Finishing…	Finalisation…
+Fixed Region	Zone fixe
+Fixed region size	Taille de la zone fixe
+Folder:	Dossier :
+Format	Format
+Frame rate	Fréquence d’images
+Frames per second	Images par seconde
+From 	De 
+Full Screen	Plein écran
+Full screen	Plein écran
+GIF fps	fps du GIF
+GIF max width	Largeur max. du GIF
+General	Général
+Height	Hauteur
+Hide recording settings	Masquer les paramètres d’enregistrement
+Hide the control bar while recording (use hotkeys)	Masquer la barre de contrôle pendant l’enregistrement (utiliser les raccourcis)
+Highlight	Surbrillance
+Highlight colour:	Couleur de surbrillance :
+Highlight mouse cursor	Mettre en évidence le curseur
+Highlight the mouse cursor	Mettre en évidence le curseur de la souris
+Hotkeys	Raccourcis clavier
+INCLUDE	INCLURE
+Include webcam (picture-in-picture)	Inclure la webcam (incrustation)
+Insert a title page at the playhead	Insérer une page de titre à la tête de lecture
+Insert at: 	Insérer à : 
+Join Videos	Assembler des vidéos
+Join videos…	Assembler des vidéos…
+Jump to start	Aller au début
+Keep Softromeda Screen Recorder running for the timer to work.	Laissez Softromeda Screen Recorder ouvert pour que la minuterie fonctionne.
+Keep recording	Continuer l’enregistrement
+Keystrokes	Frappes clavier
+Language	Langue
+Language:	Langue :
+Last region	Dernière zone
+Left	Gauche
+Left click:	Clic gauche :
+Light	Clair
+Line width %	Épaisseur du trait %
+Loading…	Chargement…
+M4A (AAC)	M4A (AAC)
+MP3	MP3
+MP3 (audio only)	MP3 (audio seul)
+MP4 (H.264 + AAC)	MP4 (H.264 + AAC)
+Mark out ]	Point de sortie ]
+Match video aspect ratio	Adapter au format de la vidéo
+Max width	Largeur max.
+Mic volume	Volume du micro
+Microphone	Microphone
+Microphone volume	Volume du microphone
+Mouse & Keyboard	Souris et clavier
+Mute audio	Couper le son
+Next frame (→)	Image suivante (→)
+No devices found	Aucun périphérique trouvé
+No monitor found.	Aucun écran trouvé.
+Number: 	Numéro : 
+On Windows the control bar is never captured in the video.	Sous Windows, la barre de contrôle n’est jamais capturée dans la vidéo.
+Open	Ouvrir
+Open a video to start editing.	Ouvrez une vidéo pour commencer le montage.
+Open in video editor	Ouvrir dans l’éditeur vidéo
+Open log file	Ouvrir le fichier journal
+Optional TTF/OTF font for keystrokes, captions and title pages (e.g. for Korean or other scripts).	Police TTF/OTF facultative pour les frappes, les légendes et les pages de titre (p. ex. pour le coréen ou d’autres écritures).
+Options	Options
+Original size	Taille d’origine
+Output	Sortie
+Output length: {}	Durée de sortie : {}
+Output must differ from the input file.	La sortie doit être différente du fichier source.
+Output size	Taille de sortie
+Please choose a different file name than the source video.	Veuillez choisir un nom de fichier différent de celui de la vidéo source.
+Position:	Position :
+Previous frame (←)	Image précédente (←)
+Properties	Propriétés
+Put the computer to sleep when the recording is complete	Mettre l’ordinateur en veille à la fin de l’enregistrement
+Quality	Qualité
+RECORDING SETTINGS	PARAMÈTRES D’ENREGISTREMENT
+Radius	Rayon
+Record	Enregistrer
+Record a fixed {}×{} area	Enregistrer une zone fixe de {}×{}
+Record a window — click it to select. The recording follows the window when you move it, even behind other windows.	Enregistrer une fenêtre — cliquez dessus. L’enregistrement la suit quand vous la déplacez, même derrière d’autres fenêtres.
+Record audio	Enregistrer l’audio
+Record microphone	Enregistrer le microphone
+Record speakers (system audio)	Enregistrer les haut-parleurs (son système)
+Record the last area again ({})	Enregistrer à nouveau la dernière zone ({})
+Record the sound playing on this PC (right-click for devices)	Enregistrer le son joué sur ce PC (clic droit pour les périphériques)
+Record the whole screen	Enregistrer tout l’écran
+Record the whole screen under the mouse (right-click to choose a monitor)	Enregistrer tout l’écran sous la souris (clic droit pour choisir un écran)
+Record your voice (right-click to choose the microphone)	Enregistrer votre voix (clic droit pour choisir le microphone)
+Recording discarded.	Enregistrement abandonné.
+Recording failed: {}	Échec de l’enregistrement : {}
+Recording saved	Enregistrement sauvegardé
+Recording starts…	L’enregistrement commence…
+Recording stopped early: {}	Enregistrement arrêté prématurément : {}
+Recording…	Enregistrement…
+Recover	Récupérer
+Recover recording?	Récupérer l’enregistrement ?
+Recovered	Récupéré
+Rectangle	Rectangle
+Rectangular Region	Zone rectangulaire
+Remove the selected section	Supprimer la section sélectionnée
+Removed section	Section supprimée
+Rendering annotations…	Rendu des annotations…
+Repeat Last	Répéter la dernière
+Reset trim	Réinitialiser le découpage
+Resolution	Résolution
+Restore defaults	Rétablir les valeurs par défaut
+Right click:	Clic droit :
+Same as Windows	Comme Windows
+Same as system	Comme le système
+Save to	Enregistrer dans
+Saved {}	{} enregistré
+Saved: {}	Enregistré : {}
+Saving failed: {}	Échec de l’enregistrement du fichier : {}
+Scale %	Échelle %
+Scheduled Recording	Enregistrement programmé
+Softromeda Screen Recorder border	Bordure Softromeda Screen Recorder
+Select an item on the video or the timeline.	Sélectionnez un élément sur la vidéo ou la timeline.
+Show a border around the recording area	Afficher une bordure autour de la zone d’enregistrement
+Show in folder	Afficher dans le dossier
+Show keystrokes in the video	Afficher les frappes dans la vidéo
+Show mouse clicks	Afficher les clics de souris
+Show mouse clicks as ripples	Afficher les clics de souris sous forme d’ondes
+Play a click sound in the video	Ajouter un son de clic dans la vidéo
+Adds a short click sound to the audio at each left click in the recorded area, when the recording is saved.	À l’enregistrement du fichier, ajoute un bref son de clic à l’audio à chaque clic gauche dans la zone enregistrée.
+Show mouse cursor	Afficher le curseur de la souris
+Show pressed keys in the video	Afficher les touches pressées dans la vidéo
+Show recording settings	Afficher les paramètres d’enregistrement
+Show your webcam in a corner (right-click for options)	Afficher votre webcam dans un coin (clic droit pour les options)
+Size	Taille
+Size %	Taille %
+Size (% of video width)	Taille (% de la largeur de la vidéo)
+Space	Espace
+Speaker volume	Volume des haut-parleurs
+Speakers	Haut-parleurs
+Speakers are recorded with WASAPI loopback (whatever you hear).	Les haut-parleurs sont enregistrés via le bouclage WASAPI (tout ce que vous entendez).
+Speed ×	Vitesse ×
+Start (Home)	Début (Home)
+Start / Pause / Resume	Démarrer / Pause / Reprendre
+Start = playhead	Début = tête de lecture
+Start at (HH:MM)	Démarrer à (HH:MM)
+Step number	Numéro d’étape
+Stop and save	Arrêter et enregistrer
+Stop at (HH:MM)	Arrêter à (HH:MM)
+Subtitle:	Sous-titre :
+Switch to dark mode	Passer en mode sombre
+Switch to light mode	Passer en mode clair
+System default	Par défaut du système
+Text	Texte
+Text font	Police du texte
+Text:	Texte :
+Theme:	Thème :
+Timer	Minuterie
+Timer skipped: another recording was in progress.	Minuterie ignorée : un autre enregistrement était en cours.
+Title page	Page de titre
+Title:	Titre :
+Titles	Titres
+Top	Haut
+Top left	En haut à gauche
+Top right	En haut à droite
+Troubleshooting	Dépannage
+Video	Vidéo
+Video Editor	Éditeur vidéo
+Volume	Volume
+WHAT TO RECORD	QUE FAUT-IL ENREGISTRER
+Webcam	Webcam
+What was recorded was saved to {}	Ce qui a été enregistré a été sauvegardé dans {}
+Width	Largeur
+Window / Object	Fenêtre / Objet
+Zoom	Zoom
+Zoom area	Zone de zoom
+Zoom effect	Effet de zoom
+Zoom into the centre during the selection	Zoomer sur le centre pendant la sélection
+[ Mark in	[ Point d’entrée
+invalid end time	heure de fin non valide
+invalid start time	heure de début non valide
+none yet	aucun pour l’instant
+to 	à 
+{} has no video stream.	{} ne contient pas de flux vidéo.
+• Pick a drawing tool and drag on the video.	• Choisissez un outil de dessin et faites glisser sur la vidéo.
+↩ Restore section	↩ Restaurer la section
+↺ Undo	↺ Annuler
+↻ Redo	↻ Rétablir
+⏰ Arm timer	⏰ Armer la minuterie
+⏰ Timer	⏰ Minuterie
+⏰ Timer (armed)	⏰ Minuterie (armée)
+⏸ Pause	⏸ Pause
+⏹ Save	⏹ Enregistrer
+▶ Convert…	▶ Convertir…
+▶ Play	▶ Lire
+▶ Play last	▶ Lire le dernier
+▶ Resume	▶ Reprendre
+⚙ Options	⚙ Options
+✂ Cut selection	✂ Couper la sélection
+✖ Clear selection	✖ Effacer la sélection
+➕ Add videos…	➕ Ajouter des vidéos…
+⟳ Refresh cameras	⟳ Actualiser les caméras
+⟳ Refresh devices	⟳ Actualiser les périphériques
+⬉ Select	⬉ Sélection
+⬌ Trim to selection	⬌ Découper à la sélection
+🎬 Title page	🎬 Page de titre
+🎬 Video Editor	🎬 Éditeur vidéo
+💾 Export video…	💾 Exporter la vidéo…
+📁 Output folder	📁 Dossier de sortie
+📂 Choose file…	📂 Choisir un fichier…
+📂 Open…	📂 Ouvrir…
+🔍 Zoom	🔍 Zoom
+🔍 Zoom selection	🔍 Zoomer sur la sélection
+🗑 Delete annotation	🗑 Supprimer l’annotation
+🗑 Delete title page	🗑 Supprimer la page de titre
+🗑 Delete zoom	🗑 Supprimer le zoom
+🛠 Tools	🛠 Outils
+A recording from {} was interrupted (unexpected shutdown or crash).	Un enregistrement du {} a été interrompu (arrêt inattendu ou plantage).
+Armed: {} – {}	Programmé : {} – {}
+Drag on the video (Select tool) to change the zoom area.	Faites glisser sur la vidéo (outil Sélection) pour modifier la zone de zoom.
+Selection: {} – {}	Sélection : {} – {}
+Starts in {}	Démarre dans {}
+Trim: {} – {}	Découpe : {} – {}
+Video Editor — {}	Éditeur vidéo — {}
+{} start / pause   •   {} stop & save   •   {} discard	{} démarrer / pause   •   {} arrêter et enregistrer   •   {} abandonner
+• Drag on the ruler to select a range, then Cut or Zoom it.	• Faites glisser sur la règle pour sélectionner une plage, puis coupez-la ou zoomez.
+• Drag on the timeline to scrub; drag the yellow handles to trim.	• Faites glisser sur la timeline pour naviguer ; faites glisser les poignées jaunes pour découper.
+About	À propos
+Developer:	Développeur :
+License:	Licence :
+Source code:	Code source :
+This program comes with ABSOLUTELY NO WARRANTY. It is free software: you may redistribute and change it under the terms of the GNU General Public License.	Ce programme est fourni SANS AUCUNE GARANTIE. C’est un logiciel libre : vous pouvez le redistribuer et le modifier selon les termes de la GNU General Public License.
+Screen recorder and video editor for Windows.	Enregistreur d’écran et éditeur vidéo pour Windows.
+Version {}	Version {}
+Website:	Site web :
+A file with that name already exists.	Un fichier portant ce nom existe déjà.
+Browse, play, edit, rename and delete your recordings	Parcourir, lire, modifier, renommer et supprimer vos enregistrements
+Cancel	Annuler
+Could not delete the file.	Impossible de supprimer le fichier.
+Delete	Supprimer
+Draw on screen	Dessiner à l’écran
+Draw on the screen ({}); right-click or Esc to stop	Dessiner à l’écran ({}) ; clic droit ou Échap pour arrêter
+Highlighter	Surligneur
+Move to the Recycle Bin?	Déplacer vers la Corbeille ?
+No recordings yet in {}	Aucun enregistrement dans {} pour l’instant
+Nothing matches the search.	Aucun résultat.
+Open in the video editor	Ouvrir dans l’éditeur vidéo
+Pen	Stylo
+Play	Lire
+Recordings	Enregistrements
+Rename	Renommer
+That file name is not allowed.	Ce nom de fichier n’est pas autorisé.
+{} recordings · {}	{} enregistrements · {}
+✏ Draw	✏ Dessiner
+⟳ Refresh	⟳ Actualiser
+🎬 Edit	🎬 Modifier
+📚 Recordings	📚 Enregistrements
+🔍 Search	🔍 Rechercher
+🗑 Clear	🗑 Effacer
+Replace the zooms with zooms on the {} recorded clicks	Remplacer les zooms par des zooms sur les {} clics enregistrés
+When a new recording opens in the video editor, it zooms in around your mouse clicks. Adjust or delete the zooms before exporting.	Quand un nouvel enregistrement s’ouvre dans l’éditeur vidéo, il zoome autour de vos clics. Ajustez ou supprimez les zooms avant d’exporter.
+Zoom in on clicks automatically	Zoomer automatiquement sur les clics
+✨ Auto zoom	✨ Zoom auto
+Even out the voice volume	Égaliser le volume de la voix
+Raises quiet speech, lowers loud speech and prevents clipping when the recording is saved.	À l’enregistrement du fichier, renforce la voix faible, atténue la voix forte et évite la saturation.
+Reduce background noise	Réduire le bruit de fond
+Removes steady noise such as fans, hum and hiss from the microphone when the recording is saved.	À l’enregistrement du fichier, supprime du micro les bruits constants comme ventilateurs, ronflements et souffle.
+Closing the window keeps Softromeda Screen Recorder running there	Fermer la fenêtre laisse Softromeda Screen Recorder fonctionner là
+Cut them; they show on the timeline and can be undone	Les couper ; elles apparaissent sur la timeline et peuvent être annulées
+Exit	Quitter
+Find quiet parts in the audio that can be cut	Trouver les passages silencieux de l’audio qui peuvent être coupés
+Found {} pauses ({} in total)	{} pauses trouvées ({} au total)
+Keep next to speech (s)	Garder près de la voix (s)
+Looking for pauses…	Recherche des pauses…
+No pauses found.	Aucune pause trouvée.
+Notification area	Zone de notification
+Pause	Pause
+Pauses	Pauses
+Resume	Reprendre
+Shortest pause (s)	Pause la plus courte (s)
+Show an icon in the notification area	Afficher une icône dans la zone de notification
+Show window	Afficher la fenêtre
+Start recording	Démarrer l’enregistrement
+Start with Windows (in the notification area)	Démarrer avec Windows (dans la zone de notification)
+✂ Cut pauses	✂ Couper les pauses
+🔍 Find pauses	🔍 Trouver les pauses
+GIFs have no sound.	Les GIF n’ont pas de son.
+Loading the music…	Chargement de la musique…
+Lower the music while someone speaks	Baisser la musique quand quelqu’un parle
+Music	Musique
+Music volume	Volume de la musique
+Original	Original
+Play music under the whole video	Mettre de la musique sous toute la vidéo
+Remove music	Retirer la musique
+Shape	Format
+Square 1:1	Carré 1:1
+The frame follows the mouse pointer, as shown on the video.	Le cadre suit le pointeur de la souris, comme montré sur la vidéo.
+Vertical 9:16 (Shorts, TikTok, Reels)	Vertical 9:16 (Shorts, TikTok, Reels)
+🎵 Add music…	🎵 Ajouter de la musique…
+Darken the rest	Assombrir le reste
+Dim everything except the area around the mouse	Assombrir tout sauf la zone autour de la souris
+Gentle	Léger
+Medium	Moyen
+Spotlight	Projecteur
+Spotlight around the mouse	Projecteur autour de la souris
+Spotlight size	Taille du projecteur
+Strong	Fort
+All programs	Tous les programmes
+Drop a marker	Placer un repère
+Drop a marker ({}); markers show on the editor timeline	Placer un repère ({}) ; les repères apparaissent sur la timeline de l’éditeur
+Fast-forward through a slow part (it is muted in the export)	Avance rapide sur un passage lent (muet à l’export)
+Faster section	Passage accéléré
+Markers	Repères
+Play the selection faster:	Lire la sélection plus vite :
+Plays faster and muted in the export, with a fast-forward badge.	Lu plus vite et sans son à l’export, avec un badge d’avance rapide.
+Record only one program's sound (Windows 10 version 2004 or newer), so notification sounds and other programs stay out of the recording.	N’enregistrer que le son d’un programme (Windows 10 version 2004 ou plus récent), pour que les sons de notification et les autres programmes restent hors de l’enregistrement.
+Record sound from:	Enregistrer le son de :
+Speed:	Vitesse :
+{} (not running)	{} (pas lancé)
+⏩ Speed up	⏩ Accélérer
+🗑 Normal speed	🗑 Vitesse normale
+Select a range on the ruler first.	Sélectionnez d’abord une plage sur la règle.
+Corner	Coin
+Hide desktop icons while recording	Masquer les icônes du bureau pendant l’enregistrement
+Image	Image
+Logo	Logo
+Logo size (% of width)	Taille du logo (% de la largeur)
+Opacity (%)	Opacité (%)
+Remove logo	Retirer le logo
+Show your logo in a corner of the exported video	Afficher votre logo dans un coin de la vidéo exportée
+Smooth mouse movement	Lisser le mouvement de la souris
+The pointer glides instead of shaking. Clicks are still shown where they happened.	Le pointeur glisse au lieu de trembler. Les clics restent affichés là où ils ont eu lieu.
+They come back when the recording ends.	Elles reviennent à la fin de l’enregistrement.
+🏷 Add logo…	🏷 Ajouter un logo…
+Check for updates	Rechercher des mises à jour
+Check for updates automatically	Rechercher les mises à jour automatiquement
+Could not check for updates: {}	Impossible de rechercher les mises à jour : {}
+Download	Télécharger
+Not now	Pas maintenant
+Skip this version	Ignorer cette version
+Version {} is available.	La version {} est disponible.
+You have the latest version ({}).	Vous avez la dernière version ({}).

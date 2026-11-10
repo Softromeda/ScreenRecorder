@@ -1,0 +1,401 @@
+# zh translations: English	translation
+ fps	 fps
+ min (0 = never)	 分钟（0 = 从不）
+'{}' is not a valid HH:MM time	“{}”不是有效的 HH:MM 时间
+After recording	录制完成后
+After recording:	录制完成后：
+Analysing video…	正在分析视频…
+Animated GIF	动态 GIF
+Annotations	标注
+Appearance	外观
+Arrow	箭头
+Audio	音频
+Audio-only recording (MP3)	仅录制音频（MP3）
+Auto stop after	自动停止时长
+Auto-boost volume when recording speakers	录制扬声器时自动提升音量
+Background:	背景：
+Blur	模糊
+Bottom left	左下
+Bottom right	右下
+Browse…	浏览…
+Callout	标注框
+Change…	更改…
+Clear	清除
+Click a window (or drag a region) to record it  •  Esc to cancel	单击窗口（或拖动选择区域）进行录制  •  按 Esc 取消
+Click to place the fixed-size region  •  Esc to cancel	单击以放置固定大小的区域  •  按 Esc 取消
+Clicks	点击
+Clip	剪辑
+Close	关闭
+Colour:	颜色：
+Control bar	控制栏
+Convert to GIF	转换为 GIF
+Convert to MP4	转换为 MP4
+Convert to MP4…	转换为 MP4…
+Convert to animated GIF…	转换为动态 GIF…
+Could not open {}: {}	无法打开 {}：{}
+Could not start recording: {}	无法开始录制：{}
+Countdown	倒计时
+Dark	深色
+Decoding audio…	正在解码音频…
+Disarm	取消定时
+Discard	丢弃
+Discard recording	丢弃录制
+Discard this recording?	要丢弃此录制吗？
+Do nothing	不执行任何操作
+Done	完成
+Drag a rectangle on the video to zoom into it during the selected time range	在视频上拖出一个矩形，在所选时间范围内放大该区域
+Drag on the video to place it at the current time	在视频上拖动，将其放置在当前时间
+Drag to select the area to record	拖动选择要录制的区域
+Drag to select the area to record  •  Esc / right-click to cancel	拖动选择要录制的区域  •  按 Esc / 右键单击取消
+Drag: scrub • Drag yellow handles: trim • Drag on ruler / Shift+drag: select range	拖动：定位 • 拖动黄色手柄：修剪 • 在标尺上拖动 / Shift+拖动：选择范围
+Draw:	绘制：
+Duration: 	时长： 
+Ellipse	椭圆
+Encoding audio…	正在编码音频…
+End	结束
+End = playhead	结束 = 播放头
+Example: {}	示例：{}
+Examples: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Applied when Options is closed.	示例：Ctrl+F11、Ctrl+Shift+R、Alt+F9、Cmd+Shift+5。关闭“选项”后生效。
+Export	导出
+Export finished	导出完成
+Exporting…	正在导出…
+Extract Audio	提取音频
+Extract audio (M4A / MP3)…	提取音频（M4A / MP3）…
+Fade in (s)	淡入（秒）
+Fade out (s)	淡出（秒）
+File name template:	文件名模板：
+Finishing capture…	正在完成捕获…
+Finishing…	正在完成…
+Fixed Region	固定区域
+Fixed region size	固定区域大小
+Folder:	文件夹：
+Format	格式
+Frame rate	帧率
+Frames per second	每秒帧数
+From 	从 
+Full Screen	全屏
+Full screen	全屏
+GIF fps	GIF fps
+GIF max width	GIF 最大宽度
+General	常规
+Height	高度
+Hide recording settings	隐藏录制设置
+Hide the control bar while recording (use hotkeys)	录制时隐藏控制栏（使用快捷键）
+Highlight	高亮
+Highlight colour:	高亮颜色：
+Highlight mouse cursor	高亮鼠标指针
+Highlight the mouse cursor	高亮显示鼠标指针
+Hotkeys	快捷键
+INCLUDE	包含
+Include webcam (picture-in-picture)	包含摄像头（画中画）
+Insert a title page at the playhead	在播放头处插入标题页
+Insert at: 	插入位置： 
+Join Videos	合并视频
+Join videos…	合并视频…
+Jump to start	跳到开头
+Keep Softromeda Screen Recorder running for the timer to work.	请保持 Softromeda Screen Recorder 运行，定时器才能生效。
+Keep recording	继续录制
+Keystrokes	按键
+Language	语言
+Language:	语言：
+Last region	上次区域
+Left	左
+Left click:	左键单击：
+Light	浅色
+Line width %	线宽 %
+Loading…	正在加载…
+M4A (AAC)	M4A (AAC)
+MP3	MP3
+MP3 (audio only)	MP3（仅音频）
+MP4 (H.264 + AAC)	MP4 (H.264 + AAC)
+Mark out ]	设置出点 ]
+Match video aspect ratio	匹配视频宽高比
+Max width	最大宽度
+Mic volume	麦克风音量
+Microphone	麦克风
+Microphone volume	麦克风音量
+Mouse & Keyboard	鼠标和键盘
+Mute audio	静音
+Next frame (→)	下一帧 (→)
+No devices found	未找到设备
+No monitor found.	未找到显示器。
+Number: 	编号： 
+On Windows the control bar is never captured in the video.	在 Windows 上，控制栏不会被录入视频。
+Open	打开
+Open a video to start editing.	打开一个视频以开始编辑。
+Open in video editor	在视频编辑器中打开
+Open log file	打开日志文件
+Optional TTF/OTF font for keystrokes, captions and title pages (e.g. for Korean or other scripts).	用于按键、字幕和标题页的可选 TTF/OTF 字体（例如用于韩文或其他文字）。
+Options	选项
+Original size	原始大小
+Output	输出
+Output length: {}	输出时长：{}
+Output must differ from the input file.	输出文件必须与输入文件不同。
+Output size	输出大小
+Please choose a different file name than the source video.	请选择与源视频不同的文件名。
+Position:	位置：
+Previous frame (←)	上一帧 (←)
+Properties	属性
+Put the computer to sleep when the recording is complete	录制完成后使计算机进入睡眠状态
+Quality	质量
+RECORDING SETTINGS	录制设置
+Radius	半径
+Record	录制
+Record a fixed {}×{} area	录制固定的 {}×{} 区域
+Record a window — click it to select. The recording follows the window when you move it, even behind other windows.	录制窗口——单击以选择。移动窗口时录制会跟随它，即使它被其他窗口遮挡。
+Record audio	录制音频
+Record microphone	录制麦克风
+Record speakers (system audio)	录制扬声器（系统声音）
+Record the last area again ({})	再次录制上次的区域（{}）
+Record the sound playing on this PC (right-click for devices)	录制此电脑播放的声音（右键单击选择设备）
+Record the whole screen	录制整个屏幕
+Record the whole screen under the mouse (right-click to choose a monitor)	录制鼠标所在的整个屏幕（右键单击选择显示器）
+Record your voice (right-click to choose the microphone)	录制您的声音（右键单击选择麦克风）
+Recording discarded.	已丢弃录制。
+Recording failed: {}	录制失败：{}
+Recording saved	录制已保存
+Recording starts…	即将开始录制…
+Recording stopped early: {}	录制提前停止：{}
+Recording…	正在录制…
+Recover	恢复
+Recover recording?	要恢复录制吗？
+Recovered	已恢复
+Rectangle	矩形
+Rectangular Region	矩形区域
+Remove the selected section	删除所选片段
+Removed section	已删除的片段
+Rendering annotations…	正在渲染标注…
+Repeat Last	重录上次区域
+Reset trim	重置修剪
+Resolution	分辨率
+Restore defaults	恢复默认设置
+Right click:	右键单击：
+Same as Windows	与 Windows 相同
+Same as system	与系统相同
+Save to	保存到
+Saved {}	已保存 {}
+Saved: {}	已保存：{}
+Saving failed: {}	保存失败：{}
+Scale %	缩放 %
+Scheduled Recording	定时录制
+Softromeda Screen Recorder border	Softromeda Screen Recorder 边框
+Select an item on the video or the timeline.	在视频或时间轴上选择一个项目。
+Show a border around the recording area	在录制区域周围显示边框
+Show in folder	在文件夹中显示
+Show keystrokes in the video	在视频中显示按键
+Show mouse clicks	显示鼠标点击
+Show mouse clicks as ripples	以波纹显示鼠标点击
+Play a click sound in the video	在视频中播放点击声
+Adds a short click sound to the audio at each left click in the recorded area, when the recording is saved.	保存录制时，在录制区域内每次左键点击处向音频添加一个短促的点击声。
+Show mouse cursor	显示鼠标指针
+Show pressed keys in the video	在视频中显示按下的键
+Show recording settings	显示录制设置
+Show your webcam in a corner (right-click for options)	在角落显示摄像头画面（右键单击查看选项）
+Size	大小
+Size %	大小 %
+Size (% of video width)	大小（占视频宽度的 %）
+Space	空格
+Speaker volume	扬声器音量
+Speakers	扬声器
+Speakers are recorded with WASAPI loopback (whatever you hear).	扬声器通过 WASAPI 环回录制（即您听到的所有声音）。
+Speed ×	速度 ×
+Start (Home)	开头 (Home)
+Start / Pause / Resume	开始 / 暂停 / 继续
+Start = playhead	开始 = 播放头
+Start at (HH:MM)	开始时间 (HH:MM)
+Step number	步骤编号
+Stop and save	停止并保存
+Stop at (HH:MM)	停止时间 (HH:MM)
+Subtitle:	副标题：
+Switch to dark mode	切换到深色模式
+Switch to light mode	切换到浅色模式
+System default	系统默认
+Text	文本
+Text font	文本字体
+Text:	文本：
+Theme:	主题：
+Timer	定时器
+Timer skipped: another recording was in progress.	已跳过定时器：另一个录制正在进行。
+Title page	标题页
+Title:	标题：
+Titles	标题
+Top	上
+Top left	左上
+Top right	右上
+Troubleshooting	疑难解答
+Video	视频
+Video Editor	视频编辑器
+Volume	音量
+WHAT TO RECORD	录制内容
+Webcam	摄像头
+What was recorded was saved to {}	已录制的内容已保存到 {}
+Width	宽度
+Window / Object	窗口 / 对象
+Zoom	缩放
+Zoom area	缩放区域
+Zoom effect	缩放效果
+Zoom into the centre during the selection	在所选范围内放大中心
+[ Mark in	[ 设置入点
+invalid end time	结束时间无效
+invalid start time	开始时间无效
+none yet	暂无
+to 	到 
+{} has no video stream.	{} 没有视频流。
+• Pick a drawing tool and drag on the video.	• 选择一个绘图工具，然后在视频上拖动。
+↩ Restore section	↩ 恢复片段
+↺ Undo	↺ 撤销
+↻ Redo	↻ 重做
+⏰ Arm timer	⏰ 启用定时器
+⏰ Timer	⏰ 定时器
+⏰ Timer (armed)	⏰ 定时器（已启用）
+⏸ Pause	⏸ 暂停
+⏹ Save	⏹ 保存
+▶ Convert…	▶ 转换…
+▶ Play	▶ 播放
+▶ Play last	▶ 播放上一个
+▶ Resume	▶ 继续
+⚙ Options	⚙ 选项
+✂ Cut selection	✂ 剪切所选内容
+✖ Clear selection	✖ 清除选择
+➕ Add videos…	➕ 添加视频…
+⟳ Refresh cameras	⟳ 刷新摄像头
+⟳ Refresh devices	⟳ 刷新设备
+⬉ Select	⬉ 选择
+⬌ Trim to selection	⬌ 修剪到所选内容
+🎬 Title page	🎬 标题页
+🎬 Video Editor	🎬 视频编辑器
+💾 Export video…	💾 导出视频…
+📁 Output folder	📁 输出文件夹
+📂 Choose file…	📂 选择文件…
+📂 Open…	📂 打开…
+🔍 Zoom	🔍 缩放
+🔍 Zoom selection	🔍 缩放所选区域
+🗑 Delete annotation	🗑 删除标注
+🗑 Delete title page	🗑 删除标题页
+🗑 Delete zoom	🗑 删除缩放
+🛠 Tools	🛠 工具
+A recording from {} was interrupted (unexpected shutdown or crash).	{} 的录制被中断（意外关机或崩溃）。
+Armed: {} – {}	已启用：{} – {}
+Drag on the video (Select tool) to change the zoom area.	在视频上拖动（使用“选择”工具）以更改缩放区域。
+Selection: {} – {}	选区：{} – {}
+Starts in {}	{} 后开始
+Trim: {} – {}	修剪：{} – {}
+Video Editor — {}	视频编辑器 — {}
+{} start / pause   •   {} stop & save   •   {} discard	{} 开始 / 暂停   •   {} 停止并保存   •   {} 丢弃
+• Drag on the timeline to scrub; drag the yellow handles to trim.	• 在时间轴上拖动以定位；拖动黄色手柄以修剪。
+• Drag on the ruler to select a range, then Cut or Zoom it.	• 在标尺上拖动以选择范围，然后剪切或缩放。
+About	关于
+Developer:	开发者：
+License:	许可证：
+Source code:	源代码：
+This program comes with ABSOLUTELY NO WARRANTY. It is free software: you may redistribute and change it under the terms of the GNU General Public License.	本程序不提供任何担保。这是自由软件：你可以按照 GNU General Public License 的条款重新分发和修改它。
+Screen recorder and video editor for Windows.	适用于 Windows 的屏幕录制和视频编辑工具。
+Version {}	版本 {}
+Website:	网站：
+A file with that name already exists.	已存在同名文件。
+Browse, play, edit, rename and delete your recordings	浏览、播放、编辑、重命名和删除录制内容
+Cancel	取消
+Could not delete the file.	无法删除文件。
+Delete	删除
+Draw on screen	屏幕绘图
+Draw on the screen ({}); right-click or Esc to stop	在屏幕上绘图（{}）；右键或按 Esc 结束
+Highlighter	荧光笔
+Move to the Recycle Bin?	移到回收站？
+No recordings yet in {}	{} 中还没有录制内容
+Nothing matches the search.	没有匹配的结果。
+Open in the video editor	在视频编辑器中打开
+Pen	画笔
+Play	播放
+Recordings	录制内容
+Rename	重命名
+That file name is not allowed.	不允许使用此文件名。
+{} recordings · {}	{} 个录制 · {}
+✏ Draw	✏ 绘图
+⟳ Refresh	⟳ 刷新
+🎬 Edit	🎬 编辑
+📚 Recordings	📚 录制内容
+🔍 Search	🔍 搜索
+🗑 Clear	🗑 清除
+Replace the zooms with zooms on the {} recorded clicks	用 {} 次记录的点击生成的缩放替换现有缩放
+When a new recording opens in the video editor, it zooms in around your mouse clicks. Adjust or delete the zooms before exporting.	新录制在视频编辑器中打开时，会自动放大鼠标点击的位置。导出前可调整或删除这些缩放。
+Zoom in on clicks automatically	自动放大点击位置
+✨ Auto zoom	✨ 自动缩放
+Even out the voice volume	均衡人声音量
+Raises quiet speech, lowers loud speech and prevents clipping when the recording is saved.	保存录制时提高轻声、降低大声并防止削波失真。
+Reduce background noise	降低背景噪音
+Removes steady noise such as fans, hum and hiss from the microphone when the recording is saved.	保存录制时去除麦克风中的风扇声、嗡嗡声和嘶嘶声等持续噪音。
+Closing the window keeps Softromeda Screen Recorder running there	关闭窗口后 Softromeda Screen Recorder 继续在此运行
+Cut them; they show on the timeline and can be undone	剪掉它们；它们会显示在时间轴上，并且可以撤销
+Exit	退出
+Find quiet parts in the audio that can be cut	查找音频中可以剪掉的安静部分
+Found {} pauses ({} in total)	找到 {} 处停顿（共 {}）
+Keep next to speech (s)	在语音旁保留（秒）
+Looking for pauses…	正在查找停顿…
+No pauses found.	未找到停顿。
+Notification area	通知区域
+Pause	暂停
+Pauses	停顿
+Resume	继续
+Shortest pause (s)	最短停顿（秒）
+Show an icon in the notification area	在通知区域显示图标
+Show window	显示窗口
+Start recording	开始录制
+Start with Windows (in the notification area)	随 Windows 启动（在通知区域）
+✂ Cut pauses	✂ 剪掉停顿
+🔍 Find pauses	🔍 查找停顿
+GIFs have no sound.	GIF 没有声音。
+Loading the music…	正在加载音乐…
+Lower the music while someone speaks	有人说话时降低音乐音量
+Music	音乐
+Music volume	音乐音量
+Original	原始
+Play music under the whole video	在整个视频下播放音乐
+Remove music	移除音乐
+Shape	画面形状
+Square 1:1	方形 1:1
+The frame follows the mouse pointer, as shown on the video.	画面会跟随鼠标指针，如视频上所示。
+Vertical 9:16 (Shorts, TikTok, Reels)	竖屏 9:16（Shorts、TikTok、Reels）
+🎵 Add music…	🎵 添加音乐…
+Darken the rest	调暗其余部分
+Dim everything except the area around the mouse	调暗鼠标周围以外的所有区域
+Gentle	轻度
+Medium	中等
+Spotlight	聚光灯
+Spotlight around the mouse	鼠标聚光灯
+Spotlight size	聚光灯大小
+Strong	强
+All programs	所有程序
+Drop a marker	添加标记
+Drop a marker ({}); markers show on the editor timeline	添加标记（{}）；标记会显示在编辑器时间轴上
+Fast-forward through a slow part (it is muted in the export)	快进较慢的部分（导出时静音）
+Faster section	加速部分
+Markers	标记
+Play the selection faster:	以更快速度播放所选部分：
+Plays faster and muted in the export, with a fast-forward badge.	导出时加速并静音播放，并显示快进标识。
+Record only one program's sound (Windows 10 version 2004 or newer), so notification sounds and other programs stay out of the recording.	只录制一个程序的声音（需要 Windows 10 2004 或更高版本），通知音和其他程序的声音不会进入录制。
+Record sound from:	录制以下来源的声音：
+Speed:	速度：
+{} (not running)	{}（未运行）
+⏩ Speed up	⏩ 加速
+🗑 Normal speed	🗑 正常速度
+Select a range on the ruler first.	请先在标尺上选择一个范围。
+Corner	角落
+Hide desktop icons while recording	录制时隐藏桌面图标
+Image	图片
+Logo	标志
+Logo size (% of width)	标志大小（宽度的 %）
+Opacity (%)	不透明度（%）
+Remove logo	移除标志
+Show your logo in a corner of the exported video	在导出视频的角落显示您的标志
+Smooth mouse movement	平滑鼠标移动
+The pointer glides instead of shaking. Clicks are still shown where they happened.	指针平滑移动而不抖动。点击仍显示在实际位置。
+They come back when the recording ends.	录制结束后会恢复显示。
+🏷 Add logo…	🏷 添加标志…
+Check for updates	检查更新
+Check for updates automatically	自动检查更新
+Could not check for updates: {}	无法检查更新：{}
+Download	下载
+Not now	以后再说
+Skip this version	跳过此版本
+Version {} is available.	{} 版本已发布。
+You have the latest version ({}).	您使用的是最新版本（{}）。

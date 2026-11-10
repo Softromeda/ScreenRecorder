@@ -1,0 +1,401 @@
+# bn translations: English	translation
+ fps	 fps
+ min (0 = never)	 মিনিট (0 = কখনো না)
+'{}' is not a valid HH:MM time	'{}' সঠিক HH:MM সময় নয়
+After recording	রেকর্ডিংয়ের পরে
+After recording:	রেকর্ডিংয়ের পরে:
+Analysing video…	ভিডিও বিশ্লেষণ করা হচ্ছে…
+Animated GIF	অ্যানিমেটেড GIF
+Annotations	টীকা
+Appearance	চেহারা
+Arrow	তীর
+Audio	অডিও
+Audio-only recording (MP3)	শুধু অডিও রেকর্ডিং (MP3)
+Auto stop after	স্বয়ংক্রিয়ভাবে থামার সময়
+Auto-boost volume when recording speakers	স্পিকার রেকর্ড করার সময় ভলিউম স্বয়ংক্রিয়ভাবে বাড়ান
+Background:	পটভূমি:
+Blur	ঝাপসা
+Bottom left	নিচে বামে
+Bottom right	নিচে ডানে
+Browse…	ব্রাউজ করুন…
+Callout	কলআউট
+Change…	পরিবর্তন করুন…
+Clear	মুছুন
+Click a window (or drag a region) to record it  •  Esc to cancel	রেকর্ড করতে একটি উইন্ডোতে ক্লিক করুন (বা একটি এলাকা টেনে আনুন)  •  বাতিল করতে Esc
+Click to place the fixed-size region  •  Esc to cancel	নির্দিষ্ট আকারের এলাকা বসাতে ক্লিক করুন  •  বাতিল করতে Esc
+Clicks	ক্লিক
+Clip	ক্লিপ
+Close	বন্ধ করুন
+Colour:	রং:
+Control bar	নিয়ন্ত্রণ বার
+Convert to GIF	GIF-এ রূপান্তর করুন
+Convert to MP4	MP4-এ রূপান্তর করুন
+Convert to MP4…	MP4-এ রূপান্তর করুন…
+Convert to animated GIF…	অ্যানিমেটেড GIF-এ রূপান্তর করুন…
+Could not open {}: {}	{} খোলা যায়নি: {}
+Could not start recording: {}	রেকর্ডিং শুরু করা যায়নি: {}
+Countdown	কাউন্টডাউন
+Dark	গাঢ়
+Decoding audio…	অডিও ডিকোড করা হচ্ছে…
+Disarm	টাইমার বাতিল করুন
+Discard	বাদ দিন
+Discard recording	রেকর্ডিং বাদ দিন
+Discard this recording?	এই রেকর্ডিং বাদ দেবেন?
+Do nothing	কিছু করবেন না
+Done	সম্পন্ন
+Drag a rectangle on the video to zoom into it during the selected time range	নির্বাচিত সময়সীমায় জুম করতে ভিডিওর উপর একটি আয়তক্ষেত্র টানুন
+Drag on the video to place it at the current time	বর্তমান সময়ে বসাতে ভিডিওর উপর টানুন
+Drag to select the area to record	রেকর্ড করার এলাকা বেছে নিতে টানুন
+Drag to select the area to record  •  Esc / right-click to cancel	রেকর্ড করার এলাকা বেছে নিতে টানুন  •  বাতিল করতে Esc / রাইট-ক্লিক
+Drag: scrub • Drag yellow handles: trim • Drag on ruler / Shift+drag: select range	টানুন: স্ক্রাব • হলুদ হ্যান্ডেল টানুন: ট্রিম • রুলারে টানুন / Shift+টানুন: পরিসর নির্বাচন
+Draw:	আঁকুন:
+Duration: 	সময়কাল: 
+Ellipse	উপবৃত্ত
+Encoding audio…	অডিও এনকোড করা হচ্ছে…
+End	শেষ
+End = playhead	শেষ = প্লেহেড
+Example: {}	উদাহরণ: {}
+Examples: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Applied when Options is closed.	উদাহরণ: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5। বিকল্প বন্ধ করলে প্রয়োগ হয়।
+Export	এক্সপোর্ট
+Export finished	এক্সপোর্ট সম্পন্ন
+Exporting…	এক্সপোর্ট হচ্ছে…
+Extract Audio	অডিও বের করুন
+Extract audio (M4A / MP3)…	অডিও বের করুন (M4A / MP3)…
+Fade in (s)	ফেড ইন (সে.)
+Fade out (s)	ফেড আউট (সে.)
+File name template:	ফাইলের নামের টেমপ্লেট:
+Finishing capture…	ক্যাপচার শেষ হচ্ছে…
+Finishing…	শেষ হচ্ছে…
+Fixed Region	নির্দিষ্ট এলাকা
+Fixed region size	নির্দিষ্ট এলাকার আকার
+Folder:	ফোল্ডার:
+Format	ফরম্যাট
+Frame rate	ফ্রেম রেট
+Frames per second	প্রতি সেকেন্ডে ফ্রেম
+From 	শুরু 
+Full Screen	পূর্ণ স্ক্রিন
+Full screen	পূর্ণ স্ক্রিন
+GIF fps	GIF fps
+GIF max width	GIF সর্বোচ্চ প্রস্থ
+General	সাধারণ
+Height	উচ্চতা
+Hide recording settings	রেকর্ডিং সেটিংস লুকান
+Hide the control bar while recording (use hotkeys)	রেকর্ডিংয়ের সময় নিয়ন্ত্রণ বার লুকান (হটকি ব্যবহার করুন)
+Highlight	হাইলাইট
+Highlight colour:	হাইলাইটের রং:
+Highlight mouse cursor	মাউস কার্সার হাইলাইট করুন
+Highlight the mouse cursor	মাউস কার্সারটি হাইলাইট করুন
+Hotkeys	হটকি
+INCLUDE	অন্তর্ভুক্ত করুন
+Include webcam (picture-in-picture)	ওয়েবক্যাম অন্তর্ভুক্ত করুন (পিকচার-ইন-পিকচার)
+Insert a title page at the playhead	প্লেহেডে একটি শিরোনাম পৃষ্ঠা যোগ করুন
+Insert at: 	এখানে যোগ করুন: 
+Join Videos	ভিডিও জোড়া দিন
+Join videos…	ভিডিও জোড়া দিন…
+Jump to start	শুরুতে যান
+Keep Softromeda Screen Recorder running for the timer to work.	টাইমার কাজ করার জন্য Softromeda Screen Recorder চালু রাখুন।
+Keep recording	রেকর্ডিং চালিয়ে যান
+Keystrokes	কীস্ট্রোক
+Language	ভাষা
+Language:	ভাষা:
+Last region	শেষ এলাকা
+Left	বাম
+Left click:	বাম ক্লিক:
+Light	হালকা
+Line width %	রেখার প্রস্থ %
+Loading…	লোড হচ্ছে…
+M4A (AAC)	M4A (AAC)
+MP3	MP3
+MP3 (audio only)	MP3 (শুধু অডিও)
+MP4 (H.264 + AAC)	MP4 (H.264 + AAC)
+Mark out ]	আউট পয়েন্ট ]
+Match video aspect ratio	ভিডিওর আকৃতি-অনুপাত মেলান
+Max width	সর্বোচ্চ প্রস্থ
+Mic volume	মাইক ভলিউম
+Microphone	মাইক্রোফোন
+Microphone volume	মাইক্রোফোন ভলিউম
+Mouse & Keyboard	মাউস ও কীবোর্ড
+Mute audio	অডিও মিউট করুন
+Next frame (→)	পরের ফ্রেম (→)
+No devices found	কোনো ডিভাইস পাওয়া যায়নি
+No monitor found.	কোনো মনিটর পাওয়া যায়নি।
+Number: 	সংখ্যা: 
+On Windows the control bar is never captured in the video.	Windows-এ নিয়ন্ত্রণ বার কখনো ভিডিওতে ধরা পড়ে না।
+Open	খুলুন
+Open a video to start editing.	সম্পাদনা শুরু করতে একটি ভিডিও খুলুন।
+Open in video editor	ভিডিও এডিটরে খুলুন
+Open log file	লগ ফাইল খুলুন
+Optional TTF/OTF font for keystrokes, captions and title pages (e.g. for Korean or other scripts).	কীস্ট্রোক, ক্যাপশন ও শিরোনাম পৃষ্ঠার জন্য ঐচ্ছিক TTF/OTF ফন্ট (যেমন কোরীয় বা অন্য লিপির জন্য)।
+Options	বিকল্প
+Original size	মূল আকার
+Output	আউটপুট
+Output length: {}	আউটপুটের দৈর্ঘ্য: {}
+Output must differ from the input file.	আউটপুট ইনপুট ফাইল থেকে আলাদা হতে হবে।
+Output size	আউটপুটের আকার
+Please choose a different file name than the source video.	অনুগ্রহ করে উৎস ভিডিও থেকে আলাদা একটি ফাইলের নাম বেছে নিন।
+Position:	অবস্থান:
+Previous frame (←)	আগের ফ্রেম (←)
+Properties	বৈশিষ্ট্য
+Put the computer to sleep when the recording is complete	রেকর্ডিং শেষ হলে কম্পিউটার স্লিপ মোডে পাঠান
+Quality	মান
+RECORDING SETTINGS	রেকর্ডিং সেটিংস
+Radius	ব্যাসার্ধ
+Record	রেকর্ড করুন
+Record a fixed {}×{} area	নির্দিষ্ট {}×{} এলাকা রেকর্ড করুন
+Record a window — click it to select. The recording follows the window when you move it, even behind other windows.	উইন্ডো রেকর্ড করুন — নির্বাচন করতে ক্লিক করুন। উইন্ডো সরালেও রেকর্ডিং তার সাথে চলে, অন্য উইন্ডোর পেছনে থাকলেও।
+Record audio	অডিও রেকর্ড করুন
+Record microphone	মাইক্রোফোন রেকর্ড করুন
+Record speakers (system audio)	স্পিকার রেকর্ড করুন (সিস্টেম অডিও)
+Record the last area again ({})	শেষ এলাকাটি আবার রেকর্ড করুন ({})
+Record the sound playing on this PC (right-click for devices)	এই PC-তে বাজতে থাকা শব্দ রেকর্ড করুন (ডিভাইসের জন্য রাইট-ক্লিক করুন)
+Record the whole screen	পুরো স্ক্রিন রেকর্ড করুন
+Record the whole screen under the mouse (right-click to choose a monitor)	মাউসের নিচের পুরো স্ক্রিন রেকর্ড করুন (মনিটর বেছে নিতে রাইট-ক্লিক করুন)
+Record your voice (right-click to choose the microphone)	আপনার কণ্ঠ রেকর্ড করুন (মাইক্রোফোন বেছে নিতে রাইট-ক্লিক করুন)
+Recording discarded.	রেকর্ডিং বাদ দেওয়া হয়েছে।
+Recording failed: {}	রেকর্ডিং ব্যর্থ: {}
+Recording saved	রেকর্ডিং সংরক্ষিত হয়েছে
+Recording starts…	রেকর্ডিং শুরু হচ্ছে…
+Recording stopped early: {}	রেকর্ডিং আগেই থেমে গেছে: {}
+Recording…	রেকর্ডিং হচ্ছে…
+Recover	পুনরুদ্ধার করুন
+Recover recording?	রেকর্ডিং পুনরুদ্ধার করবেন?
+Recovered	পুনরুদ্ধার হয়েছে
+Rectangle	আয়তক্ষেত্র
+Rectangular Region	আয়তাকার এলাকা
+Remove the selected section	নির্বাচিত অংশ সরান
+Removed section	সরানো অংশ
+Rendering annotations…	টীকা রেন্ডার করা হচ্ছে…
+Repeat Last	শেষটি আবার
+Reset trim	ট্রিম রিসেট করুন
+Resolution	রেজোলিউশন
+Restore defaults	ডিফল্ট পুনরুদ্ধার করুন
+Right click:	ডান ক্লিক:
+Same as Windows	Windows-এর মতো
+Same as system	সিস্টেমের মতো
+Save to	এখানে সংরক্ষণ করুন
+Saved {}	{} সংরক্ষিত হয়েছে
+Saved: {}	সংরক্ষিত: {}
+Saving failed: {}	সংরক্ষণ ব্যর্থ: {}
+Scale %	স্কেল %
+Scheduled Recording	নির্ধারিত রেকর্ডিং
+Softromeda Screen Recorder border	Softromeda Screen Recorder সীমানা
+Select an item on the video or the timeline.	ভিডিও বা টাইমলাইনে একটি আইটেম নির্বাচন করুন।
+Show a border around the recording area	রেকর্ডিং এলাকার চারপাশে সীমানা দেখান
+Show in folder	ফোল্ডারে দেখান
+Show keystrokes in the video	ভিডিওতে কীস্ট্রোক দেখান
+Show mouse clicks	মাউস ক্লিক দেখান
+Show mouse clicks as ripples	মাউস ক্লিক ঢেউ হিসেবে দেখান
+Play a click sound in the video	ভিডিওতে ক্লিকের শব্দ যোগ করুন
+Adds a short click sound to the audio at each left click in the recorded area, when the recording is saved.	রেকর্ডিং সংরক্ষণের সময়, রেকর্ড করা এলাকায় প্রতিটি বাম ক্লিকে অডিওতে একটি ছোট ক্লিকের শব্দ যোগ করে।
+Show mouse cursor	মাউস কার্সার দেখান
+Show pressed keys in the video	ভিডিওতে চাপা কী দেখান
+Show recording settings	রেকর্ডিং সেটিংস দেখান
+Show your webcam in a corner (right-click for options)	কোণে আপনার ওয়েবক্যাম দেখান (বিকল্পের জন্য রাইট-ক্লিক করুন)
+Size	আকার
+Size %	আকার %
+Size (% of video width)	আকার (ভিডিওর প্রস্থের %)
+Space	স্পেস
+Speaker volume	স্পিকার ভলিউম
+Speakers	স্পিকার
+Speakers are recorded with WASAPI loopback (whatever you hear).	স্পিকার WASAPI লুপব্যাক দিয়ে রেকর্ড হয় (আপনি যা শোনেন সবই)।
+Speed ×	গতি ×
+Start (Home)	শুরু (Home)
+Start / Pause / Resume	শুরু / বিরতি / আবার শুরু
+Start = playhead	শুরু = প্লেহেড
+Start at (HH:MM)	শুরুর সময় (HH:MM)
+Step number	ধাপ নম্বর
+Stop and save	থামান ও সংরক্ষণ করুন
+Stop at (HH:MM)	থামার সময় (HH:MM)
+Subtitle:	উপশিরোনাম:
+Switch to dark mode	ডার্ক মোডে যান
+Switch to light mode	লাইট মোডে যান
+System default	সিস্টেম ডিফল্ট
+Text	টেক্সট
+Text font	টেক্সট ফন্ট
+Text:	টেক্সট:
+Theme:	থিম:
+Timer	টাইমার
+Timer skipped: another recording was in progress.	টাইমার বাদ পড়েছে: অন্য একটি রেকর্ডিং চলছিল।
+Title page	শিরোনাম পৃষ্ঠা
+Title:	শিরোনাম:
+Titles	শিরোনাম
+Top	উপরে
+Top left	উপরে বামে
+Top right	উপরে ডানে
+Troubleshooting	সমস্যা সমাধান
+Video	ভিডিও
+Video Editor	ভিডিও এডিটর
+Volume	ভলিউম
+WHAT TO RECORD	কী রেকর্ড করবেন
+Webcam	ওয়েবক্যাম
+What was recorded was saved to {}	যা রেকর্ড হয়েছিল তা {}-এ সংরক্ষিত হয়েছে
+Width	প্রস্থ
+Window / Object	উইন্ডো / অবজেক্ট
+Zoom	জুম
+Zoom area	জুম এলাকা
+Zoom effect	জুম ইফেক্ট
+Zoom into the centre during the selection	নির্বাচনের সময় কেন্দ্রে জুম করুন
+[ Mark in	[ ইন পয়েন্ট
+invalid end time	অবৈধ শেষ সময়
+invalid start time	অবৈধ শুরুর সময়
+none yet	এখনো নেই
+to 	শেষ 
+{} has no video stream.	{}-এ কোনো ভিডিও স্ট্রিম নেই।
+• Pick a drawing tool and drag on the video.	• একটি আঁকার টুল বেছে নিন এবং ভিডিওর উপর টানুন।
+↩ Restore section	↩ অংশ পুনরুদ্ধার করুন
+↺ Undo	↺ পূর্বাবস্থায় ফেরান
+↻ Redo	↻ আবার করুন
+⏰ Arm timer	⏰ টাইমার চালু করুন
+⏰ Timer	⏰ টাইমার
+⏰ Timer (armed)	⏰ টাইমার (চালু)
+⏸ Pause	⏸ বিরতি
+⏹ Save	⏹ সংরক্ষণ করুন
+▶ Convert…	▶ রূপান্তর করুন…
+▶ Play	▶ চালান
+▶ Play last	▶ শেষটি চালান
+▶ Resume	▶ আবার শুরু করুন
+⚙ Options	⚙ বিকল্প
+✂ Cut selection	✂ নির্বাচন কাটুন
+✖ Clear selection	✖ নির্বাচন মুছুন
+➕ Add videos…	➕ ভিডিও যোগ করুন…
+⟳ Refresh cameras	⟳ ক্যামেরা রিফ্রেশ করুন
+⟳ Refresh devices	⟳ ডিভাইস রিফ্রেশ করুন
+⬉ Select	⬉ নির্বাচন
+⬌ Trim to selection	⬌ নির্বাচন পর্যন্ত ট্রিম করুন
+🎬 Title page	🎬 শিরোনাম পৃষ্ঠা
+🎬 Video Editor	🎬 ভিডিও এডিটর
+💾 Export video…	💾 ভিডিও এক্সপোর্ট করুন…
+📁 Output folder	📁 আউটপুট ফোল্ডার
+📂 Choose file…	📂 ফাইল বেছে নিন…
+📂 Open…	📂 খুলুন…
+🔍 Zoom	🔍 জুম
+🔍 Zoom selection	🔍 নির্বাচন জুম করুন
+🗑 Delete annotation	🗑 টীকা মুছুন
+🗑 Delete title page	🗑 শিরোনাম পৃষ্ঠা মুছুন
+🗑 Delete zoom	🗑 জুম মুছুন
+🛠 Tools	🛠 টুল
+A recording from {} was interrupted (unexpected shutdown or crash).	{}-এর রেকর্ডিং বাধাগ্রস্ত হয়েছিল (অপ্রত্যাশিত বন্ধ বা ক্র্যাশ)।
+Armed: {} – {}	চালু: {} – {}
+Drag on the video (Select tool) to change the zoom area.	জুম এলাকা বদলাতে ভিডিওর উপর টানুন (নির্বাচন টুল)।
+Selection: {} – {}	নির্বাচন: {} – {}
+Starts in {}	{} পরে শুরু হবে
+Trim: {} – {}	ট্রিম: {} – {}
+Video Editor — {}	ভিডিও এডিটর — {}
+{} start / pause   •   {} stop & save   •   {} discard	{} শুরু / বিরতি   •   {} থামান ও সংরক্ষণ   •   {} বাদ দিন
+• Drag on the timeline to scrub; drag the yellow handles to trim.	• স্ক্রাব করতে টাইমলাইনে টানুন; ট্রিম করতে হলুদ হ্যান্ডেল টানুন।
+• Drag on the ruler to select a range, then Cut or Zoom it.	• পরিসর বেছে নিতে রুলারে টানুন, তারপর কাটুন বা জুম করুন।
+About	সম্পর্কে
+Developer:	ডেভেলপার:
+License:	লাইসেন্স:
+Source code:	সোর্স কোড:
+This program comes with ABSOLUTELY NO WARRANTY. It is free software: you may redistribute and change it under the terms of the GNU General Public License.	এই প্রোগ্রামটি কোনো ধরনের ওয়ারেন্টি ছাড়াই দেওয়া হয়। এটি মুক্ত সফটওয়্যার: আপনি GNU General Public License-এর শর্ত অনুযায়ী এটি পুনরায় বিতরণ ও পরিবর্তন করতে পারেন।
+Screen recorder and video editor for Windows.	Windows-এর জন্য স্ক্রিন রেকর্ডার ও ভিডিও এডিটর।
+Version {}	সংস্করণ {}
+Website:	ওয়েবসাইট:
+A file with that name already exists.	এই নামে একটি ফাইল আগে থেকেই আছে।
+Browse, play, edit, rename and delete your recordings	আপনার রেকর্ডিং দেখুন, চালান, সম্পাদনা, নাম পরিবর্তন ও মুছুন
+Cancel	বাতিল
+Could not delete the file.	ফাইলটি মোছা যায়নি।
+Delete	মুছুন
+Draw on screen	স্ক্রিনে আঁকুন
+Draw on the screen ({}); right-click or Esc to stop	স্ক্রিনে আঁকুন ({}); থামাতে ডান-ক্লিক বা Esc
+Highlighter	হাইলাইটার
+Move to the Recycle Bin?	রিসাইকেল বিনে সরাবেন?
+No recordings yet in {}	{} এ এখনো কোনো রেকর্ডিং নেই
+Nothing matches the search.	অনুসন্ধানের সাথে কিছু মেলেনি।
+Open in the video editor	ভিডিও এডিটরে খুলুন
+Pen	কলম
+Play	চালান
+Recordings	রেকর্ডিং
+Rename	নাম পরিবর্তন
+That file name is not allowed.	এই ফাইলের নাম অনুমোদিত নয়।
+{} recordings · {}	{}টি রেকর্ডিং · {}
+✏ Draw	✏ আঁকুন
+⟳ Refresh	⟳ রিফ্রেশ
+🎬 Edit	🎬 সম্পাদনা
+📚 Recordings	📚 রেকর্ডিং
+🔍 Search	🔍 অনুসন্ধান
+🗑 Clear	🗑 মুছে ফেলুন
+Replace the zooms with zooms on the {} recorded clicks	জুমগুলো {}টি রেকর্ড করা ক্লিকের জুম দিয়ে বদলান
+When a new recording opens in the video editor, it zooms in around your mouse clicks. Adjust or delete the zooms before exporting.	নতুন রেকর্ডিং ভিডিও এডিটরে খুললে মাউস ক্লিকের চারপাশে জুম হয়। এক্সপোর্টের আগে জুম বদলান বা মুছুন।
+Zoom in on clicks automatically	ক্লিকে স্বয়ংক্রিয়ভাবে জুম করুন
+✨ Auto zoom	✨ অটো জুম
+Even out the voice volume	কণ্ঠের ভলিউম সমান করুন
+Raises quiet speech, lowers loud speech and prevents clipping when the recording is saved.	রেকর্ডিং সংরক্ষণের সময় মৃদু কথা বাড়ায়, জোরালো কথা কমায় এবং ক্লিপিং রোধ করে।
+Reduce background noise	পটভূমির শব্দ কমান
+Removes steady noise such as fans, hum and hiss from the microphone when the recording is saved.	রেকর্ডিং সংরক্ষণের সময় মাইক্রোফোন থেকে ফ্যান, গুঞ্জন ও হিসহিস শব্দের মতো একটানা শব্দ সরায়।
+Closing the window keeps Softromeda Screen Recorder running there	উইন্ডো বন্ধ করলে Softromeda Screen Recorder সেখানে চলতে থাকে
+Cut them; they show on the timeline and can be undone	এগুলো কাটুন; টাইমলাইনে দেখা যায় এবং পূর্বাবস্থায় ফেরানো যায়
+Exit	প্রস্থান
+Find quiet parts in the audio that can be cut	অডিওতে কাটা যায় এমন নীরব অংশ খুঁজুন
+Found {} pauses ({} in total)	{}টি বিরতি পাওয়া গেছে (মোট {})
+Keep next to speech (s)	কথার পাশে রাখুন (সে.)
+Looking for pauses…	বিরতি খোঁজা হচ্ছে…
+No pauses found.	কোনো বিরতি পাওয়া যায়নি।
+Notification area	বিজ্ঞপ্তি এলাকা
+Pause	বিরতি
+Pauses	বিরতি
+Resume	চালিয়ে যান
+Shortest pause (s)	সবচেয়ে ছোট বিরতি (সে.)
+Show an icon in the notification area	বিজ্ঞপ্তি এলাকায় আইকন দেখান
+Show window	উইন্ডো দেখান
+Start recording	রেকর্ডিং শুরু করুন
+Start with Windows (in the notification area)	Windows-এর সাথে চালু করুন (বিজ্ঞপ্তি এলাকায়)
+✂ Cut pauses	✂ বিরতি কাটুন
+🔍 Find pauses	🔍 বিরতি খুঁজুন
+GIFs have no sound.	GIF-এ শব্দ থাকে না।
+Loading the music…	সংগীত লোড হচ্ছে…
+Lower the music while someone speaks	কেউ কথা বললে সংগীত কমান
+Music	সংগীত
+Music volume	সংগীতের ভলিউম
+Original	মূল
+Play music under the whole video	পুরো ভিডিওতে সংগীত বাজান
+Remove music	সংগীত সরান
+Shape	আকৃতি
+Square 1:1	বর্গাকার 1:1
+The frame follows the mouse pointer, as shown on the video.	ফ্রেমটি মাউস পয়েন্টার অনুসরণ করে, ভিডিওতে যেমন দেখানো হয়েছে।
+Vertical 9:16 (Shorts, TikTok, Reels)	উল্লম্ব 9:16 (Shorts, TikTok, Reels)
+🎵 Add music…	🎵 সংগীত যোগ করুন…
+Darken the rest	বাকি অংশ অন্ধকার করুন
+Dim everything except the area around the mouse	মাউসের চারপাশ ছাড়া সব কিছু ম্লান করুন
+Gentle	মৃদু
+Medium	মাঝারি
+Spotlight	স্পটলাইট
+Spotlight around the mouse	মাউসের চারপাশে স্পটলাইট
+Spotlight size	স্পটলাইটের আকার
+Strong	জোরালো
+All programs	সব প্রোগ্রাম
+Drop a marker	মার্কার যোগ করুন
+Drop a marker ({}); markers show on the editor timeline	মার্কার যোগ করুন ({}); মার্কার এডিটরের টাইমলাইনে দেখা যায়
+Fast-forward through a slow part (it is muted in the export)	ধীর অংশ দ্রুত এগিয়ে নিন (এক্সপোর্টে শব্দ বন্ধ)
+Faster section	দ্রুত করা অংশ
+Markers	মার্কার
+Play the selection faster:	নির্বাচন দ্রুত চালান:
+Plays faster and muted in the export, with a fast-forward badge.	এক্সপোর্টে দ্রুত ও শব্দহীনভাবে, ফাস্ট-ফরওয়ার্ড ব্যাজসহ চলে।
+Record only one program's sound (Windows 10 version 2004 or newer), so notification sounds and other programs stay out of the recording.	শুধু একটি প্রোগ্রামের শব্দ রেকর্ড করুন (Windows 10 সংস্করণ 2004 বা নতুন), যাতে বিজ্ঞপ্তির শব্দ ও অন্য প্রোগ্রাম রেকর্ডিংয়ে না আসে।
+Record sound from:	এখান থেকে শব্দ রেকর্ড করুন:
+Speed:	গতি:
+{} (not running)	{} (চলছে না)
+⏩ Speed up	⏩ দ্রুত করুন
+🗑 Normal speed	🗑 স্বাভাবিক গতি
+Select a range on the ruler first.	আগে রুলারে একটি পরিসর নির্বাচন করুন।
+Corner	কোণ
+Hide desktop icons while recording	রেকর্ডিংয়ের সময় ডেস্কটপ আইকন লুকান
+Image	ছবি
+Logo	লোগো
+Logo size (% of width)	লোগোর আকার (প্রস্থের %)
+Opacity (%)	অস্বচ্ছতা (%)
+Remove logo	লোগো সরান
+Show your logo in a corner of the exported video	এক্সপোর্ট করা ভিডিওর কোণে আপনার লোগো দেখান
+Smooth mouse movement	মাউসের চলাচল মসৃণ করুন
+The pointer glides instead of shaking. Clicks are still shown where they happened.	পয়েন্টার কাঁপার বদলে মসৃণভাবে চলে। ক্লিক যেখানে হয়েছে সেখানেই দেখানো হয়।
+They come back when the recording ends.	রেকর্ডিং শেষ হলে সেগুলো ফিরে আসে।
+🏷 Add logo…	🏷 লোগো যোগ করুন…
+Check for updates	আপডেট দেখুন
+Check for updates automatically	স্বয়ংক্রিয়ভাবে আপডেট দেখুন
+Could not check for updates: {}	আপডেট দেখা যায়নি: {}
+Download	ডাউনলোড
+Not now	এখন নয়
+Skip this version	এই সংস্করণ বাদ দিন
+Version {} is available.	সংস্করণ {} পাওয়া যাচ্ছে।
+You have the latest version ({}).	আপনার কাছে সর্বশেষ সংস্করণ ({}) আছে।

@@ -1,0 +1,401 @@
+# ar translations: English	translation
+ fps	 fps
+ min (0 = never)	 دقيقة (0 = أبدًا)
+'{}' is not a valid HH:MM time	'{}' ليس وقتًا صالحًا بتنسيق HH:MM
+After recording	بعد التسجيل
+After recording:	بعد التسجيل:
+Analysing video…	جارٍ تحليل الفيديو…
+Animated GIF	GIF متحرك
+Annotations	التعليقات التوضيحية
+Appearance	المظهر
+Arrow	سهم
+Audio	الصوت
+Audio-only recording (MP3)	تسجيل صوت فقط (MP3)
+Auto stop after	إيقاف تلقائي بعد
+Auto-boost volume when recording speakers	رفع مستوى الصوت تلقائيًا عند تسجيل السماعات
+Background:	الخلفية:
+Blur	تمويه
+Bottom left	أسفل اليسار
+Bottom right	أسفل اليمين
+Browse…	استعراض…
+Callout	فقاعة نصية
+Change…	تغيير…
+Clear	مسح
+Click a window (or drag a region) to record it  •  Esc to cancel	انقر على نافذة (أو اسحب منطقة) لتسجيلها  •  Esc للإلغاء
+Click to place the fixed-size region  •  Esc to cancel	انقر لوضع المنطقة ذات الحجم الثابت  •  Esc للإلغاء
+Clicks	النقرات
+Clip	المقطع
+Close	إغلاق
+Colour:	اللون:
+Control bar	شريط التحكم
+Convert to GIF	تحويل إلى GIF
+Convert to MP4	تحويل إلى MP4
+Convert to MP4…	تحويل إلى MP4…
+Convert to animated GIF…	تحويل إلى GIF متحرك…
+Could not open {}: {}	تعذّر فتح {}: {}
+Could not start recording: {}	تعذّر بدء التسجيل: {}
+Countdown	العد التنازلي
+Dark	داكن
+Decoding audio…	جارٍ فك ترميز الصوت…
+Disarm	إلغاء التفعيل
+Discard	تجاهل
+Discard recording	تجاهل التسجيل
+Discard this recording?	هل تريد تجاهل هذا التسجيل؟
+Do nothing	لا تفعل شيئًا
+Done	تم
+Drag a rectangle on the video to zoom into it during the selected time range	اسحب مستطيلًا على الفيديو لتكبيره خلال النطاق الزمني المحدد
+Drag on the video to place it at the current time	اسحب على الفيديو لوضعه عند الوقت الحالي
+Drag to select the area to record	اسحب لتحديد المنطقة المراد تسجيلها
+Drag to select the area to record  •  Esc / right-click to cancel	اسحب لتحديد المنطقة المراد تسجيلها  •  Esc / نقر بزر الماوس الأيمن للإلغاء
+Drag: scrub • Drag yellow handles: trim • Drag on ruler / Shift+drag: select range	سحب: تنقّل • سحب المقابض الصفراء: قص • سحب على المسطرة / Shift+سحب: تحديد نطاق
+Draw:	رسم:
+Duration: 	المدة: 
+Ellipse	شكل بيضاوي
+Encoding audio…	جارٍ ترميز الصوت…
+End	النهاية
+End = playhead	النهاية = موضع التشغيل
+Example: {}	مثال: {}
+Examples: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Applied when Options is closed.	أمثلة: Ctrl+F11، Ctrl+Shift+R، Alt+F9، Cmd+Shift+5. تُطبَّق عند إغلاق الخيارات.
+Export	تصدير
+Export finished	اكتمل التصدير
+Exporting…	جارٍ التصدير…
+Extract Audio	استخراج الصوت
+Extract audio (M4A / MP3)…	استخراج الصوت (M4A / MP3)…
+Fade in (s)	ظهور تدريجي (ث)
+Fade out (s)	اختفاء تدريجي (ث)
+File name template:	قالب اسم الملف:
+Finishing capture…	جارٍ إنهاء الالتقاط…
+Finishing…	جارٍ الإنهاء…
+Fixed Region	منطقة ثابتة
+Fixed region size	حجم المنطقة الثابتة
+Folder:	المجلد:
+Format	التنسيق
+Frame rate	معدل الإطارات
+Frames per second	إطارات في الثانية
+From 	من 
+Full Screen	ملء الشاشة
+Full screen	ملء الشاشة
+GIF fps	GIF fps
+GIF max width	أقصى عرض لـ GIF
+General	عام
+Height	الارتفاع
+Hide recording settings	إخفاء إعدادات التسجيل
+Hide the control bar while recording (use hotkeys)	إخفاء شريط التحكم أثناء التسجيل (استخدم مفاتيح الاختصار)
+Highlight	تمييز
+Highlight colour:	لون التمييز:
+Highlight mouse cursor	تمييز مؤشر الماوس
+Highlight the mouse cursor	تمييز مؤشر الماوس
+Hotkeys	مفاتيح الاختصار
+INCLUDE	تضمين
+Include webcam (picture-in-picture)	تضمين كاميرا الويب (صورة داخل صورة)
+Insert a title page at the playhead	إدراج صفحة عنوان عند موضع التشغيل
+Insert at: 	إدراج عند: 
+Join Videos	دمج مقاطع الفيديو
+Join videos…	دمج مقاطع الفيديو…
+Jump to start	الانتقال إلى البداية
+Keep Softromeda Screen Recorder running for the timer to work.	أبقِ Softromeda Screen Recorder قيد التشغيل لكي يعمل المؤقت.
+Keep recording	متابعة التسجيل
+Keystrokes	ضغطات المفاتيح
+Language	اللغة
+Language:	اللغة:
+Last region	المنطقة الأخيرة
+Left	يسار
+Left click:	النقر الأيسر:
+Light	فاتح
+Line width %	عرض الخط %
+Loading…	جارٍ التحميل…
+M4A (AAC)	M4A (AAC)
+MP3	MP3
+MP3 (audio only)	MP3 (صوت فقط)
+MP4 (H.264 + AAC)	MP4 (H.264 + AAC)
+Mark out ]	نقطة الخروج ]
+Match video aspect ratio	مطابقة نسبة أبعاد الفيديو
+Max width	أقصى عرض
+Mic volume	مستوى صوت الميكروفون
+Microphone	الميكروفون
+Microphone volume	مستوى صوت الميكروفون
+Mouse & Keyboard	الماوس ولوحة المفاتيح
+Mute audio	كتم الصوت
+Next frame (→)	الإطار التالي (→)
+No devices found	لم يتم العثور على أجهزة
+No monitor found.	لم يتم العثور على شاشة.
+Number: 	الرقم: 
+On Windows the control bar is never captured in the video.	في Windows، لا يظهر شريط التحكم في الفيديو أبدًا.
+Open	فتح
+Open a video to start editing.	افتح فيديو لبدء التحرير.
+Open in video editor	فتح في محرر الفيديو
+Open log file	فتح ملف السجل
+Optional TTF/OTF font for keystrokes, captions and title pages (e.g. for Korean or other scripts).	خط TTF/OTF اختياري لضغطات المفاتيح والتسميات التوضيحية وصفحات العنوان (مثلًا للكورية أو أنظمة كتابة أخرى).
+Options	الخيارات
+Original size	الحجم الأصلي
+Output	الإخراج
+Output length: {}	طول الناتج: {}
+Output must differ from the input file.	يجب أن يختلف ملف الإخراج عن ملف الإدخال.
+Output size	حجم الإخراج
+Please choose a different file name than the source video.	يُرجى اختيار اسم ملف مختلف عن الفيديو المصدر.
+Position:	الموضع:
+Previous frame (←)	الإطار السابق (←)
+Properties	الخصائص
+Put the computer to sleep when the recording is complete	وضع الكمبيوتر في وضع السكون عند اكتمال التسجيل
+Quality	الجودة
+RECORDING SETTINGS	إعدادات التسجيل
+Radius	نصف القطر
+Record	تسجيل
+Record a fixed {}×{} area	تسجيل منطقة ثابتة بحجم {}×{}
+Record a window — click it to select. The recording follows the window when you move it, even behind other windows.	تسجيل نافذة — انقر عليها لتحديدها. يتبع التسجيل النافذة عند تحريكها، حتى خلف النوافذ الأخرى.
+Record audio	تسجيل الصوت
+Record microphone	تسجيل الميكروفون
+Record speakers (system audio)	تسجيل السماعات (صوت النظام)
+Record the last area again ({})	تسجيل المنطقة الأخيرة مجددًا ({})
+Record the sound playing on this PC (right-click for devices)	تسجيل الصوت الذي يُشغَّل على هذا الكمبيوتر (انقر بزر الماوس الأيمن لاختيار الجهاز)
+Record the whole screen	تسجيل الشاشة بالكامل
+Record the whole screen under the mouse (right-click to choose a monitor)	تسجيل الشاشة الكاملة الموجودة تحت الماوس (انقر بزر الماوس الأيمن لاختيار شاشة)
+Record your voice (right-click to choose the microphone)	تسجيل صوتك (انقر بزر الماوس الأيمن لاختيار الميكروفون)
+Recording discarded.	تم تجاهل التسجيل.
+Recording failed: {}	فشل التسجيل: {}
+Recording saved	تم حفظ التسجيل
+Recording starts…	سيبدأ التسجيل…
+Recording stopped early: {}	توقف التسجيل مبكرًا: {}
+Recording…	جارٍ التسجيل…
+Recover	استرداد
+Recover recording?	هل تريد استرداد التسجيل؟
+Recovered	مُسترَد
+Rectangle	مستطيل
+Rectangular Region	منطقة مستطيلة
+Remove the selected section	إزالة المقطع المحدد
+Removed section	مقطع محذوف
+Rendering annotations…	جارٍ عرض التعليقات التوضيحية…
+Repeat Last	تكرار الأخير
+Reset trim	إعادة تعيين القص
+Resolution	الدقة
+Restore defaults	استعادة الإعدادات الافتراضية
+Right click:	النقر الأيمن:
+Same as Windows	مثل Windows
+Same as system	مثل النظام
+Save to	الحفظ في
+Saved {}	تم حفظ {}
+Saved: {}	تم الحفظ: {}
+Saving failed: {}	فشل الحفظ: {}
+Scale %	المقياس %
+Scheduled Recording	تسجيل مجدول
+Softromeda Screen Recorder border	حدود Softromeda Screen Recorder
+Select an item on the video or the timeline.	حدد عنصرًا على الفيديو أو المخطط الزمني.
+Show a border around the recording area	إظهار حد حول منطقة التسجيل
+Show in folder	إظهار في المجلد
+Show keystrokes in the video	إظهار ضغطات المفاتيح في الفيديو
+Show mouse clicks	إظهار نقرات الماوس
+Show mouse clicks as ripples	إظهار نقرات الماوس كتموجات
+Play a click sound in the video	تشغيل صوت نقرة في الفيديو
+Adds a short click sound to the audio at each left click in the recorded area, when the recording is saved.	عند حفظ التسجيل، يضيف صوت نقرة قصيرًا إلى الصوت عند كل نقرة يسرى داخل المنطقة المسجلة.
+Show mouse cursor	إظهار مؤشر الماوس
+Show pressed keys in the video	إظهار المفاتيح المضغوطة في الفيديو
+Show recording settings	إظهار إعدادات التسجيل
+Show your webcam in a corner (right-click for options)	إظهار كاميرا الويب في زاوية (انقر بزر الماوس الأيمن للخيارات)
+Size	الحجم
+Size %	الحجم %
+Size (% of video width)	الحجم (% من عرض الفيديو)
+Space	مسافة
+Speaker volume	مستوى صوت السماعات
+Speakers	السماعات
+Speakers are recorded with WASAPI loopback (whatever you hear).	يتم تسجيل السماعات عبر WASAPI loopback (كل ما تسمعه).
+Speed ×	السرعة ×
+Start (Home)	البداية (Home)
+Start / Pause / Resume	بدء / إيقاف مؤقت / استئناف
+Start = playhead	البداية = موضع التشغيل
+Start at (HH:MM)	البدء عند (HH:MM)
+Step number	رقم الخطوة
+Stop and save	إيقاف وحفظ
+Stop at (HH:MM)	الإيقاف عند (HH:MM)
+Subtitle:	العنوان الفرعي:
+Switch to dark mode	التبديل إلى الوضع الداكن
+Switch to light mode	التبديل إلى الوضع الفاتح
+System default	افتراضي النظام
+Text	نص
+Text font	خط النص
+Text:	النص:
+Theme:	السمة:
+Timer	المؤقت
+Timer skipped: another recording was in progress.	تم تخطي المؤقت: كان هناك تسجيل آخر قيد التقدم.
+Title page	صفحة العنوان
+Title:	العنوان:
+Titles	العناوين
+Top	أعلى
+Top left	أعلى اليسار
+Top right	أعلى اليمين
+Troubleshooting	استكشاف الأخطاء وإصلاحها
+Video	الفيديو
+Video Editor	محرر الفيديو
+Volume	مستوى الصوت
+WHAT TO RECORD	ما الذي تريد تسجيله
+Webcam	كاميرا الويب
+What was recorded was saved to {}	تم حفظ ما سُجِّل في {}
+Width	العرض
+Window / Object	نافذة / كائن
+Zoom	تكبير
+Zoom area	منطقة التكبير
+Zoom effect	تأثير التكبير
+Zoom into the centre during the selection	التكبير نحو المركز أثناء التحديد
+[ Mark in	[ نقطة الدخول
+invalid end time	وقت انتهاء غير صالح
+invalid start time	وقت بدء غير صالح
+none yet	لا شيء بعد
+to 	إلى 
+{} has no video stream.	{} لا يحتوي على مسار فيديو.
+• Pick a drawing tool and drag on the video.	• اختر أداة رسم واسحب على الفيديو.
+↩ Restore section	↩ استعادة المقطع
+↺ Undo	↺ تراجع
+↻ Redo	↻ إعادة
+⏰ Arm timer	⏰ تفعيل المؤقت
+⏰ Timer	⏰ المؤقت
+⏰ Timer (armed)	⏰ المؤقت (مُفعَّل)
+⏸ Pause	⏸ إيقاف مؤقت
+⏹ Save	⏹ حفظ
+▶ Convert…	▶ تحويل…
+▶ Play	▶ تشغيل
+▶ Play last	▶ تشغيل الأخير
+▶ Resume	▶ استئناف
+⚙ Options	⚙ الخيارات
+✂ Cut selection	✂ قص التحديد
+✖ Clear selection	✖ مسح التحديد
+➕ Add videos…	➕ إضافة مقاطع فيديو…
+⟳ Refresh cameras	⟳ تحديث الكاميرات
+⟳ Refresh devices	⟳ تحديث الأجهزة
+⬉ Select	⬉ تحديد
+⬌ Trim to selection	⬌ قص إلى التحديد
+🎬 Title page	🎬 صفحة العنوان
+🎬 Video Editor	🎬 محرر الفيديو
+💾 Export video…	💾 تصدير الفيديو…
+📁 Output folder	📁 مجلد الإخراج
+📂 Choose file…	📂 اختيار ملف…
+📂 Open…	📂 فتح…
+🔍 Zoom	🔍 تكبير
+🔍 Zoom selection	🔍 تكبير التحديد
+🗑 Delete annotation	🗑 حذف التعليق التوضيحي
+🗑 Delete title page	🗑 حذف صفحة العنوان
+🗑 Delete zoom	🗑 حذف التكبير
+🛠 Tools	🛠 الأدوات
+A recording from {} was interrupted (unexpected shutdown or crash).	تمت مقاطعة تسجيل من {} (إيقاف تشغيل مفاجئ أو تعطل).
+Armed: {} – {}	مُفعَّل: {} – {}
+Drag on the video (Select tool) to change the zoom area.	اسحب على الفيديو (أداة التحديد) لتغيير منطقة التكبير.
+Selection: {} – {}	التحديد: {} – {}
+Starts in {}	يبدأ خلال {}
+Trim: {} – {}	القص: {} – {}
+Video Editor — {}	محرر الفيديو — {}
+{} start / pause   •   {} stop & save   •   {} discard	{} بدء / إيقاف مؤقت   •   {} إيقاف وحفظ   •   {} تجاهل
+• Drag on the ruler to select a range, then Cut or Zoom it.	• اسحب على المسطرة لتحديد نطاق، ثم قصّه أو كبّره.
+• Drag on the timeline to scrub; drag the yellow handles to trim.	• اسحب على المخطط الزمني للتنقل؛ واسحب المقابض الصفراء للقص.
+About	حول البرنامج
+Developer:	المطوّر:
+License:	الترخيص:
+Source code:	الشيفرة المصدرية:
+This program comes with ABSOLUTELY NO WARRANTY. It is free software: you may redistribute and change it under the terms of the GNU General Public License.	يأتي هذا البرنامج دون أي ضمان على الإطلاق. إنه برنامج حر: يمكنك إعادة توزيعه وتعديله وفق شروط رخصة GNU General Public License.
+Screen recorder and video editor for Windows.	مسجّل شاشة ومحرر فيديو لنظام Windows.
+Version {}	الإصدار {}
+Website:	الموقع:
+A file with that name already exists.	يوجد ملف بهذا الاسم بالفعل.
+Browse, play, edit, rename and delete your recordings	تصفح تسجيلاتك وشغّلها وحرّرها وأعد تسميتها واحذفها
+Cancel	إلغاء
+Could not delete the file.	تعذّر حذف الملف.
+Delete	حذف
+Draw on screen	الرسم على الشاشة
+Draw on the screen ({}); right-click or Esc to stop	الرسم على الشاشة ({})؛ نقرة يمنى أو Esc للإيقاف
+Highlighter	قلم تمييز
+Move to the Recycle Bin?	نقل إلى سلة المحذوفات؟
+No recordings yet in {}	لا توجد تسجيلات بعد في {}
+Nothing matches the search.	لا توجد نتائج مطابقة.
+Open in the video editor	فتح في محرر الفيديو
+Pen	قلم
+Play	تشغيل
+Recordings	التسجيلات
+Rename	إعادة تسمية
+That file name is not allowed.	اسم الملف هذا غير مسموح.
+{} recordings · {}	{} تسجيلات · {}
+✏ Draw	✏ رسم
+⟳ Refresh	⟳ تحديث
+🎬 Edit	🎬 تحرير
+📚 Recordings	📚 التسجيلات
+🔍 Search	🔍 بحث
+🗑 Clear	🗑 مسح
+Replace the zooms with zooms on the {} recorded clicks	استبدال التكبيرات بتكبيرات على {} نقرة مسجلة
+When a new recording opens in the video editor, it zooms in around your mouse clicks. Adjust or delete the zooms before exporting.	عند فتح تسجيل جديد في محرر الفيديو، يتم التكبير حول نقرات الفأرة. عدّل التكبيرات أو احذفها قبل التصدير.
+Zoom in on clicks automatically	التكبير تلقائيًا عند النقرات
+✨ Auto zoom	✨ تكبير تلقائي
+Even out the voice volume	موازنة مستوى الصوت
+Raises quiet speech, lowers loud speech and prevents clipping when the recording is saved.	عند حفظ التسجيل يرفع الكلام الخافت ويخفض المرتفع ويمنع التشويه.
+Reduce background noise	تقليل ضوضاء الخلفية
+Removes steady noise such as fans, hum and hiss from the microphone when the recording is saved.	عند حفظ التسجيل يزيل من الميكروفون الضوضاء الثابتة مثل المراوح والطنين والهسهسة.
+Closing the window keeps Softromeda Screen Recorder running there	عند إغلاق النافذة يستمر Softromeda Screen Recorder في العمل هناك
+Cut them; they show on the timeline and can be undone	قصّها؛ تظهر على المخطط الزمني ويمكن التراجع عنها
+Exit	خروج
+Find quiet parts in the audio that can be cut	البحث عن أجزاء هادئة في الصوت يمكن قصّها
+Found {} pauses ({} in total)	تم العثور على {} توقفات (المجموع {})
+Keep next to speech (s)	الإبقاء بجوار الكلام (ث)
+Looking for pauses…	جارٍ البحث عن التوقفات…
+No pauses found.	لم يتم العثور على توقفات.
+Notification area	منطقة الإعلامات
+Pause	إيقاف مؤقت
+Pauses	التوقفات
+Resume	استئناف
+Shortest pause (s)	أقصر توقف (ث)
+Show an icon in the notification area	إظهار أيقونة في منطقة الإعلامات
+Show window	إظهار النافذة
+Start recording	بدء التسجيل
+Start with Windows (in the notification area)	التشغيل مع Windows (في منطقة الإعلامات)
+✂ Cut pauses	✂ قص التوقفات
+🔍 Find pauses	🔍 البحث عن التوقفات
+GIFs have no sound.	ملفات GIF بلا صوت.
+Loading the music…	جارٍ تحميل الموسيقى…
+Lower the music while someone speaks	خفض الموسيقى عندما يتحدث أحد
+Music	موسيقى
+Music volume	مستوى صوت الموسيقى
+Original	الأصلي
+Play music under the whole video	تشغيل موسيقى طوال الفيديو
+Remove music	إزالة الموسيقى
+Shape	الشكل
+Square 1:1	مربع 1:1
+The frame follows the mouse pointer, as shown on the video.	يتبع الإطار مؤشر الفأرة، كما يظهر على الفيديو.
+Vertical 9:16 (Shorts, TikTok, Reels)	عمودي 9:16 (Shorts وTikTok وReels)
+🎵 Add music…	🎵 إضافة موسيقى…
+Darken the rest	تعتيم الباقي
+Dim everything except the area around the mouse	تعتيم كل شيء ما عدا المنطقة حول الفأرة
+Gentle	خفيف
+Medium	متوسط
+Spotlight	بقعة ضوء
+Spotlight around the mouse	بقعة ضوء حول الفأرة
+Spotlight size	حجم بقعة الضوء
+Strong	قوي
+All programs	كل البرامج
+Drop a marker	وضع علامة
+Drop a marker ({}); markers show on the editor timeline	وضع علامة ({})؛ تظهر العلامات على المخطط الزمني للمحرر
+Fast-forward through a slow part (it is muted in the export)	تسريع جزء بطيء (يُكتم صوته في التصدير)
+Faster section	جزء مُسرَّع
+Markers	العلامات
+Play the selection faster:	تشغيل التحديد بشكل أسرع:
+Plays faster and muted in the export, with a fast-forward badge.	يُشغَّل أسرع ومن دون صوت في التصدير، مع شارة تقديم سريع.
+Record only one program's sound (Windows 10 version 2004 or newer), so notification sounds and other programs stay out of the recording.	تسجيل صوت برنامج واحد فقط (Windows 10 الإصدار 2004 أو أحدث)، فلا تدخل أصوات الإشعارات والبرامج الأخرى في التسجيل.
+Record sound from:	تسجيل الصوت من:
+Speed:	السرعة:
+{} (not running)	{} (غير قيد التشغيل)
+⏩ Speed up	⏩ تسريع
+🗑 Normal speed	🗑 السرعة العادية
+Select a range on the ruler first.	حدد نطاقًا على المسطرة أولًا.
+Corner	الزاوية
+Hide desktop icons while recording	إخفاء أيقونات سطح المكتب أثناء التسجيل
+Image	صورة
+Logo	الشعار
+Logo size (% of width)	حجم الشعار (% من العرض)
+Opacity (%)	العتامة (%)
+Remove logo	إزالة الشعار
+Show your logo in a corner of the exported video	إظهار شعارك في زاوية الفيديو المُصدَّر
+Smooth mouse movement	تنعيم حركة الفأرة
+The pointer glides instead of shaking. Clicks are still shown where they happened.	يتحرك المؤشر بسلاسة بدل الاهتزاز. تظهر النقرات في أماكنها الحقيقية.
+They come back when the recording ends.	تعود عند انتهاء التسجيل.
+🏷 Add logo…	🏷 إضافة شعار…
+Check for updates	التحقق من التحديثات
+Check for updates automatically	التحقق من التحديثات تلقائيًا
+Could not check for updates: {}	تعذّر التحقق من التحديثات: {}
+Download	تنزيل
+Not now	ليس الآن
+Skip this version	تخطي هذا الإصدار
+Version {} is available.	الإصدار {} متاح.
+You have the latest version ({}).	لديك أحدث إصدار ({}).

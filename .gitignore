@@ -1,0 +1,4 @@
+/installer/output
+/target
+*.srproj.json
+.DS_Store

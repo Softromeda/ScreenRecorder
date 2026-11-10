@@ -1,0 +1,401 @@
+# uz translations: English<TAB>translation
+ fps	 fps
+ min (0 = never)	 daq (0 = hech qachon)
+'{}' is not a valid HH:MM time	'{}' — notoʻgʻri HH:MM vaqt
+After recording	Yozib olgandan keyin
+After recording:	Yozib olgandan keyin:
+Analysing video…	Video tahlil qilinmoqda…
+Animated GIF	Animatsiyali GIF
+Annotations	Izohlar
+Appearance	Koʻrinish
+Arrow	Strelka
+Audio	Ovoz
+Audio-only recording (MP3)	Faqat ovoz yozish (MP3)
+Auto stop after	Avtomatik toʻxtatish
+Auto-boost volume when recording speakers	Karnaylarni yozishda ovozni avtomatik kuchaytirish
+Background:	Fon:
+Blur	Xiralashtirish
+Bottom left	Pastda chapda
+Bottom right	Pastda oʻngda
+Browse…	Koʻrib chiqish…
+Callout	Izoh bulutchasi
+Change…	Oʻzgartirish…
+Clear	Tozalash
+Click a window (or drag a region) to record it  •  Esc to cancel	Yozib olish uchun oynani bosing (yoki hududni belgilang)  •  Esc — bekor qilish
+Click to place the fixed-size region  •  Esc to cancel	Qatʼiy oʻlchamli hududni joylashtirish uchun bosing  •  Esc — bekor qilish
+Clicks	Bosishlar
+Clip	Klip
+Close	Yopish
+Colour:	Rang:
+Control bar	Boshqaruv paneli
+Convert to GIF	GIF formatiga oʻgirish
+Convert to MP4	MP4 formatiga oʻgirish
+Convert to MP4…	MP4 formatiga oʻgirish…
+Convert to animated GIF…	Animatsiyali GIF formatiga oʻgirish…
+Could not open {}: {}	{} ochilmadi: {}
+Could not start recording: {}	Yozib olishni boshlab boʻlmadi: {}
+Countdown	Teskari sanoq
+Dark	Qorongʻi
+Decoding audio…	Ovoz dekodlanmoqda…
+Disarm	Bekor qilish
+Discard	Oʻchirish
+Discard recording	Yozuvni oʻchirish
+Discard this recording?	Bu yozuv oʻchirilsinmi?
+Do nothing	Hech narsa qilmaslik
+Done	Tayyor
+Drag a rectangle on the video to zoom into it during the selected time range	Tanlangan vaqt oraligʻida kattalashtirish uchun videoda toʻrtburchak chizing
+Drag on the video to place it at the current time	Joriy vaqtga joylashtirish uchun videoda sudrang
+Drag to select the area to record	Yoziladigan hududni sudrab belgilang
+Drag to select the area to record  •  Esc / right-click to cancel	Yoziladigan hududni sudrab belgilang  •  Esc / oʻng tugma — bekor qilish
+Drag: scrub • Drag yellow handles: trim • Drag on ruler / Shift+drag: select range	Sudrash: aylantirish • Sariq tutqichlar: qirqish • Chizgʻichda sudrash / Shift+sudrash: oraliqni tanlash
+Draw:	Chizish:
+Duration: 	Davomiylik: 
+Ellipse	Ellips
+Encoding audio…	Ovoz kodlanmoqda…
+End	Oxiri
+End = playhead	Oxiri = kursor
+Example: {}	Misol: {}
+Examples: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Applied when Options is closed.	Misollar: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Sozlamalar oynasi yopilganda qoʻllaniladi.
+Export	Eksport
+Export finished	Eksport tugadi
+Exporting…	Eksport qilinmoqda…
+Extract Audio	Ovozni ajratish
+Extract audio (M4A / MP3)…	Ovozni ajratish (M4A / MP3)…
+Fade in (s)	Paydo boʻlish (s)
+Fade out (s)	Soʻnish (s)
+File name template:	Fayl nomi shabloni:
+Finishing capture…	Yozib olish yakunlanmoqda…
+Finishing…	Yakunlanmoqda…
+Fixed Region	Qatʼiy hudud
+Fixed region size	Qatʼiy hudud oʻlchami
+Folder:	Jild:
+Format	Format
+Frame rate	Kadrlar chastotasi
+Frames per second	Soniyadagi kadrlar
+From 	Boshi: 
+Full Screen	Butun ekran
+Full screen	Butun ekran
+GIF fps	GIF fps
+GIF max width	GIF maks. kengligi
+General	Umumiy
+Height	Balandlik
+Hide recording settings	Yozib olish sozlamalarini yashirish
+Hide the control bar while recording (use hotkeys)	Yozib olish paytida boshqaruv panelini yashirish (tezkor tugmalardan foydalaning)
+Highlight	Ajratib koʻrsatish
+Highlight colour:	Ajratish rangi:
+Highlight mouse cursor	Sichqoncha kursorini ajratib koʻrsatish
+Highlight the mouse cursor	Sichqoncha kursorini ajratib koʻrsatish
+Hotkeys	Tezkor tugmalar
+INCLUDE	QOʻSHISH
+Include webcam (picture-in-picture)	Veb-kamerani qoʻshish (rasm ichida rasm)
+Insert a title page at the playhead	Kursor joyiga titul sahifasini qoʻyish
+Insert at: 	Qoʻyish joyi: 
+Join Videos	Videolarni birlashtirish
+Join videos…	Videolarni birlashtirish…
+Jump to start	Boshiga oʻtish
+Keep Softromeda Screen Recorder running for the timer to work.	Taymer ishlashi uchun Softromeda Screen Recorder yopilmasin.
+Keep recording	Yozishni davom ettirish
+Keystrokes	Tugma bosishlari
+Language	Til
+Language:	Til:
+Last region	Oxirgi hudud
+Left	Chapda
+Left click:	Chap tugma:
+Light	Yorugʻ
+Line width %	Chiziq qalinligi %
+Loading…	Yuklanmoqda…
+M4A (AAC)	M4A (AAC)
+MP3	MP3
+MP3 (audio only)	MP3 (faqat ovoz)
+MP4 (H.264 + AAC)	MP4 (H.264 + AAC)
+Mark out ]	Chiqish nuqtasi ]
+Match video aspect ratio	Video tomonlar nisbatiga moslash
+Max width	Maks. kenglik
+Mic volume	Mikrofon ovozi
+Microphone	Mikrofon
+Microphone volume	Mikrofon ovozi balandligi
+Mouse & Keyboard	Sichqoncha va klaviatura
+Mute audio	Ovozni oʻchirish
+Next frame (→)	Keyingi kadr (→)
+No devices found	Qurilmalar topilmadi
+No monitor found.	Monitor topilmadi.
+Number: 	Raqam: 
+On Windows the control bar is never captured in the video.	Windowsda boshqaruv paneli hech qachon videoga tushmaydi.
+Open	Ochish
+Open a video to start editing.	Tahrirlashni boshlash uchun videoni oching.
+Open in video editor	Videomuharrirda ochish
+Open log file	Jurnal faylini ochish
+Optional TTF/OTF font for keystrokes, captions and title pages (e.g. for Korean or other scripts).	Tugma bosishlari, yozuvlar va titul sahifalari uchun ixtiyoriy TTF/OTF shrift (masalan, koreys yoki boshqa yozuvlar uchun).
+Options	Sozlamalar
+Original size	Asl oʻlcham
+Output	Natija
+Output length: {}	Natija davomiyligi: {}
+Output must differ from the input file.	Natija fayli kirish faylidan farq qilishi kerak.
+Output size	Natija oʻlchami
+Please choose a different file name than the source video.	Manba videodan farqli fayl nomini tanlang.
+Position:	Joylashuv:
+Previous frame (←)	Oldingi kadr (←)
+Properties	Xususiyatlar
+Put the computer to sleep when the recording is complete	Yozib olish tugagach kompyuterni uyqu rejimiga oʻtkazish
+Quality	Sifat
+RECORDING SETTINGS	YOZIB OLISH SOZLAMALARI
+Radius	Radius
+Record	Yozish
+Record a fixed {}×{} area	Qatʼiy {}×{} hududni yozish
+Record a window — click it to select. The recording follows the window when you move it, even behind other windows.	Oynani yozish — tanlash uchun ustiga bosing. Oyna koʻchirilsa ham, boshqa oynalar ortida qolsa ham yozuv uni kuzatib boradi.
+Record audio	Ovoz yozish
+Record microphone	Mikrofonni yozish
+Record speakers (system audio)	Karnaylarni yozish (tizim ovozi)
+Record the last area again ({})	Oxirgi hududni qayta yozish ({})
+Record the sound playing on this PC (right-click for devices)	Shu kompyuterda ijro etilayotgan ovozni yozish (qurilmalar uchun oʻng tugma)
+Record the whole screen	Butun ekranni yozish
+Record the whole screen under the mouse (right-click to choose a monitor)	Sichqoncha ostidagi butun ekranni yozish (monitor tanlash uchun oʻng tugma)
+Record your voice (right-click to choose the microphone)	Ovozingizni yozish (mikrofon tanlash uchun oʻng tugma)
+Recording discarded.	Yozuv oʻchirildi.
+Recording failed: {}	Yozib olishda xatolik: {}
+Recording saved	Yozuv saqlandi
+Recording starts…	Yozib olish boshlanmoqda…
+Recording stopped early: {}	Yozib olish erta toʻxtadi: {}
+Recording…	Yozilmoqda…
+Recover	Tiklash
+Recover recording?	Yozuv tiklansinmi?
+Recovered	Tiklandi
+Rectangle	Toʻrtburchak
+Rectangular Region	Toʻrtburchak hudud
+Remove the selected section	Tanlangan qismni olib tashlash
+Removed section	Olib tashlangan qism
+Rendering annotations…	Izohlar chizilmoqda…
+Repeat Last	Oxirgisini takrorlash
+Reset trim	Qirqishni bekor qilish
+Resolution	Ruxsat
+Restore defaults	Standart sozlamalarni tiklash
+Right click:	Oʻng tugma:
+Same as Windows	Windows bilan bir xil
+Same as system	Tizim bilan bir xil
+Save to	Saqlash joyi
+Saved {}	{} saqlandi
+Saved: {}	Saqlandi: {}
+Saving failed: {}	Saqlab boʻlmadi: {}
+Scale %	Masshtab %
+Scheduled Recording	Rejalashtirilgan yozuv
+Softromeda Screen Recorder border	Softromeda Screen Recorder chegarasi
+Select an item on the video or the timeline.	Videoda yoki vaqt shkalasida elementni tanlang.
+Show a border around the recording area	Yozib olinayotgan hudud atrofida chegara koʻrsatish
+Show in folder	Jildda koʻrsatish
+Show keystrokes in the video	Tugma bosishlarini videoda koʻrsatish
+Show mouse clicks	Sichqoncha bosishlarini koʻrsatish
+Show mouse clicks as ripples	Sichqoncha bosishlarini toʻlqin sifatida koʻrsatish
+Play a click sound in the video	Videoda bosish ovozini qoʻshish
+Adds a short click sound to the audio at each left click in the recorded area, when the recording is saved.	Yozuv saqlanganda, yozilayotgan sohadagi har bir chap bosishda audioga qisqa bosish ovozi qoʻshiladi.
+Show mouse cursor	Sichqoncha kursorini koʻrsatish
+Show pressed keys in the video	Bosilgan tugmalarni videoda koʻrsatish
+Show recording settings	Yozib olish sozlamalarini koʻrsatish
+Show your webcam in a corner (right-click for options)	Veb-kamerani burchakda koʻrsatish (sozlamalar uchun oʻng tugma)
+Size	Oʻlcham
+Size %	Oʻlcham %
+Size (% of video width)	Oʻlcham (video kengligidan %)
+Space	Probel
+Speaker volume	Karnaylar ovozi
+Speakers	Karnaylar
+Speakers are recorded with WASAPI loopback (whatever you hear).	Karnaylar WASAPI loopback orqali yoziladi (nimani eshitsangiz, oʻsha).
+Speed ×	Tezlik ×
+Start (Home)	Boshi (Home)
+Start / Pause / Resume	Boshlash / Pauza / Davom ettirish
+Start = playhead	Boshi = kursor
+Start at (HH:MM)	Boshlanish vaqti (HH:MM)
+Step number	Qadam raqami
+Stop and save	Toʻxtatish va saqlash
+Stop at (HH:MM)	Tugash vaqti (HH:MM)
+Subtitle:	Sarlavha osti:
+Switch to dark mode	Qorongʻi rejimga oʻtish
+Switch to light mode	Yorugʻ rejimga oʻtish
+System default	Tizim standarti
+Text	Matn
+Text font	Matn shrifti
+Text:	Matn:
+Theme:	Mavzu:
+Timer	Taymer
+Timer skipped: another recording was in progress.	Taymer oʻtkazib yuborildi: boshqa yozib olish davom etayotgan edi.
+Title page	Titul sahifasi
+Title:	Sarlavha:
+Titles	Sarlavhalar
+Top	Tepada
+Top left	Tepada chapda
+Top right	Tepada oʻngda
+Troubleshooting	Muammolarni bartaraf etish
+Video	Video
+Video Editor	Videomuharrir
+Volume	Ovoz balandligi
+WHAT TO RECORD	NIMANI YOZISH
+Webcam	Veb-kamera
+What was recorded was saved to {}	Yozib olingan qism {} ga saqlandi
+Width	Kenglik
+Window / Object	Oyna / Obyekt
+Zoom	Kattalashtirish
+Zoom area	Kattalashtirish hududi
+Zoom effect	Kattalashtirish effekti
+Zoom into the centre during the selection	Tanlangan oraliqda markazni kattalashtirish
+[ Mark in	[ Kirish nuqtasi
+invalid end time	notoʻgʻri tugash vaqti
+invalid start time	notoʻgʻri boshlanish vaqti
+none yet	hali yoʻq
+to 	oxiri: 
+{} has no video stream.	{} faylida video oqimi yoʻq.
+• Pick a drawing tool and drag on the video.	• Chizish asbobini tanlang va videoda sudrang.
+↩ Restore section	↩ Qismni tiklash
+↺ Undo	↺ Bekor qilish
+↻ Redo	↻ Qaytarish
+⏰ Arm timer	⏰ Taymerni yoqish
+⏰ Timer	⏰ Taymer
+⏰ Timer (armed)	⏰ Taymer (yoqilgan)
+⏸ Pause	⏸ Pauza
+⏹ Save	⏹ Saqlash
+▶ Convert…	▶ Oʻgirish…
+▶ Play	▶ Ijro etish
+▶ Play last	▶ Oxirgisini ijro etish
+▶ Resume	▶ Davom ettirish
+⚙ Options	⚙ Sozlamalar
+✂ Cut selection	✂ Tanlanganni kesish
+✖ Clear selection	✖ Tanlovni bekor qilish
+➕ Add videos…	➕ Video qoʻshish…
+⟳ Refresh cameras	⟳ Kameralarni yangilash
+⟳ Refresh devices	⟳ Qurilmalarni yangilash
+⬉ Select	⬉ Tanlash
+⬌ Trim to selection	⬌ Tanlangan qismgacha qirqish
+🎬 Title page	🎬 Titul sahifasi
+🎬 Video Editor	🎬 Videomuharrir
+💾 Export video…	💾 Videoni eksport qilish…
+📁 Output folder	📁 Saqlash jildi
+📂 Choose file…	📂 Faylni tanlash…
+📂 Open…	📂 Ochish…
+🔍 Zoom	🔍 Kattalashtirish
+🔍 Zoom selection	🔍 Tanlanganni kattalashtirish
+🗑 Delete annotation	🗑 Izohni oʻchirish
+🗑 Delete title page	🗑 Titul sahifasini oʻchirish
+🗑 Delete zoom	🗑 Kattalashtirishni oʻchirish
+🛠 Tools	🛠 Vositalar
+A recording from {} was interrupted (unexpected shutdown or crash).	{} dagi yozuv kutilmaganda toʻxtab qolgan (tizim oʻchishi yoki xatolik).
+Armed: {} – {}	Yoqilgan: {} – {}
+Drag on the video (Select tool) to change the zoom area.	Kattalashtirish maydonini oʻzgartirish uchun videoda torting (Tanlash vositasi).
+Selection: {} – {}	Tanlov: {} – {}
+Starts in {}	{} dan keyin boshlanadi
+Trim: {} – {}	Kesish: {} – {}
+Video Editor — {}	Video muharriri — {}
+{} start / pause   •   {} stop & save   •   {} discard	{} boshlash / pauza   •   {} toʻxtatish va saqlash   •   {} bekor qilish
+• Drag on the ruler to select a range, then Cut or Zoom it.	• Oraliqni tanlash uchun shkalada torting, soʻng uni Kesing yoki Kattalashtiring.
+• Drag on the timeline to scrub; drag the yellow handles to trim.	• Koʻrib chiqish uchun vaqt chizigʻida torting; kesish uchun sariq tutqichlarni torting.
+About	Dastur haqida
+Developer:	Ishlab chiquvchi:
+License:	Litsenziya:
+Source code:	Manba kodi:
+This program comes with ABSOLUTELY NO WARRANTY. It is free software: you may redistribute and change it under the terms of the GNU General Public License.	Bu dastur HECH QANDAY KAFOLATSIZ taqdim etiladi. Bu erkin dasturiy taʼminot: uni GNU General Public License shartlari asosida tarqatishingiz va oʻzgartirishingiz mumkin.
+Screen recorder and video editor for Windows.	Windows uchun ekran yozuvchi va video muharriri.
+Version {}	Versiya {}
+Website:	Veb-sayt:
+A file with that name already exists.	Bunday nomli fayl allaqachon mavjud.
+Browse, play, edit, rename and delete your recordings	Yozuvlaringizni koʻrish, ijro etish, tahrirlash, nomini oʻzgartirish va oʻchirish
+Cancel	Bekor qilish
+Could not delete the file.	Faylni oʻchirib boʻlmadi.
+Delete	Oʻchirish
+Draw on screen	Ekranda chizish
+Draw on the screen ({}); right-click or Esc to stop	Ekranda chizish ({}); toʻxtatish uchun oʻng tugma yoki Esc
+Highlighter	Marker
+Move to the Recycle Bin?	Savatga oʻtkazilsinmi?
+No recordings yet in {}	{} da hali yozuvlar yoʻq
+Nothing matches the search.	Qidiruvga mos narsa topilmadi.
+Open in the video editor	Video muharririda ochish
+Pen	Qalam
+Play	Ijro etish
+Recordings	Yozuvlar
+Rename	Nomini oʻzgartirish
+That file name is not allowed.	Bunday fayl nomiga ruxsat yoʻq.
+{} recordings · {}	{} ta yozuv · {}
+✏ Draw	✏ Chizish
+⟳ Refresh	⟳ Yangilash
+🎬 Edit	🎬 Tahrirlash
+📚 Recordings	📚 Yozuvlar
+🔍 Search	🔍 Qidirish
+🗑 Clear	🗑 Tozalash
+Replace the zooms with zooms on the {} recorded clicks	Kattalashtirishlarni {} ta yozib olingan bosish atrofidagi kattalashtirishlar bilan almashtirish
+When a new recording opens in the video editor, it zooms in around your mouse clicks. Adjust or delete the zooms before exporting.	Yangi yozuv video muharririda ochilganda, sichqoncha bosilgan joylar kattalashtiriladi. Eksportdan oldin ularni oʻzgartiring yoki oʻchiring.
+Zoom in on clicks automatically	Bosishlarda avtomatik kattalashtirish
+✨ Auto zoom	✨ Avto kattalashtirish
+Even out the voice volume	Ovoz balandligini tekislash
+Raises quiet speech, lowers loud speech and prevents clipping when the recording is saved.	Yozuv saqlanganda past nutqni balandlatadi, baland nutqni pasaytiradi va buzilishning oldini oladi.
+Reduce background noise	Fon shovqinini kamaytirish
+Removes steady noise such as fans, hum and hiss from the microphone when the recording is saved.	Yozuv saqlanganda mikrofondagi ventilyator, gʻuvillash va shitirlash kabi doimiy shovqinni olib tashlaydi.
+Closing the window keeps Softromeda Screen Recorder running there	Oyna yopilganda Softromeda Screen Recorder u yerda ishlashda davom etadi
+Cut them; they show on the timeline and can be undone	Ularni kesish; ular vaqt chizigʻida koʻrinadi va bekor qilish mumkin
+Exit	Chiqish
+Find quiet parts in the audio that can be cut	Audioda kesish mumkin boʻlgan jim joylarni topish
+Found {} pauses ({} in total)	{} ta pauza topildi (jami {})
+Keep next to speech (s)	Nutq yonida qoldirish (s)
+Looking for pauses…	Pauzalar qidirilmoqda…
+No pauses found.	Pauza topilmadi.
+Notification area	Bildirishnomalar maydoni
+Pause	Pauza
+Pauses	Pauzalar
+Resume	Davom ettirish
+Shortest pause (s)	Eng qisqa pauza (s)
+Show an icon in the notification area	Bildirishnomalar maydonida belgini koʻrsatish
+Show window	Oynani koʻrsatish
+Start recording	Yozishni boshlash
+Start with Windows (in the notification area)	Windows bilan birga ishga tushirish (bildirishnomalar maydonida)
+✂ Cut pauses	✂ Pauzalarni kesish
+🔍 Find pauses	🔍 Pauzalarni topish
+GIFs have no sound.	GIF faylda ovoz boʻlmaydi.
+Loading the music…	Musiqa yuklanmoqda…
+Lower the music while someone speaks	Kimdir gapirganda musiqani pasaytirish
+Music	Musiqa
+Music volume	Musiqa balandligi
+Original	Asl
+Play music under the whole video	Butun video davomida musiqa qoʻyish
+Remove music	Musiqani olib tashlash
+Shape	Shakl
+Square 1:1	Kvadrat 1:1
+The frame follows the mouse pointer, as shown on the video.	Kadr sichqoncha koʻrsatkichini kuzatadi, videoda koʻrsatilganidek.
+Vertical 9:16 (Shorts, TikTok, Reels)	Vertikal 9:16 (Shorts, TikTok, Reels)
+🎵 Add music…	🎵 Musiqa qoʻshish…
+Darken the rest	Qolgan qismini qoraytirish
+Dim everything except the area around the mouse	Sichqoncha atrofidan tashqari hammasini xiralashtirish
+Gentle	Yumshoq
+Medium	Oʻrtacha
+Spotlight	Projektor
+Spotlight around the mouse	Sichqoncha atrofida projektor
+Spotlight size	Projektor oʻlchami
+Strong	Kuchli
+All programs	Barcha dasturlar
+Drop a marker	Belgi qoʻyish
+Drop a marker ({}); markers show on the editor timeline	Belgi qoʻyish ({}); belgilar muharrir vaqt chizigʻida koʻrinadi
+Fast-forward through a slow part (it is muted in the export)	Sekin qismni tezlashtirib oʻtkazish (eksportda ovozsiz boʻladi)
+Faster section	Tezlashtirilgan qism
+Markers	Belgilar
+Play the selection faster:	Tanlovni tezroq ijro etish:
+Plays faster and muted in the export, with a fast-forward badge.	Eksportda tezroq va ovozsiz, tezlashtirish belgisi bilan ijro etiladi.
+Record only one program's sound (Windows 10 version 2004 or newer), so notification sounds and other programs stay out of the recording.	Faqat bitta dastur ovozini yozish (Windows 10 2004 yoki yangiroq), shunda bildirishnoma ovozlari va boshqa dasturlar yozuvga tushmaydi.
+Record sound from:	Ovoz manbai:
+Speed:	Tezlik:
+{} (not running)	{} (ishlamayapti)
+⏩ Speed up	⏩ Tezlashtirish
+🗑 Normal speed	🗑 Oddiy tezlik
+Select a range on the ruler first.	Avval shkalada oraliqni tanlang.
+Corner	Burchak
+Hide desktop icons while recording	Yozish paytida ish stoli belgilarini yashirish
+Image	Rasm
+Logo	Logotip
+Logo size (% of width)	Logotip oʻlchami (kenglikning %)
+Opacity (%)	Shaffof emaslik (%)
+Remove logo	Logotipni olib tashlash
+Show your logo in a corner of the exported video	Eksport qilingan video burchagida logotipingizni koʻrsatish
+Smooth mouse movement	Sichqoncha harakatini silliqlash
+The pointer glides instead of shaking. Clicks are still shown where they happened.	Koʻrsatkich titramasdan silliq harakatlanadi. Bosishlar baribir aniq joyida koʻrsatiladi.
+They come back when the recording ends.	Yozuv tugagach ular qaytadi.
+🏷 Add logo…	🏷 Logotip qoʻshish…
+Check for updates	Yangilanishlarni tekshirish
+Check for updates automatically	Yangilanishlarni avtomatik tekshirish
+Could not check for updates: {}	Yangilanishlarni tekshirib boʻlmadi: {}
+Download	Yuklab olish
+Not now	Hozir emas
+Skip this version	Bu versiyani oʻtkazib yuborish
+Version {} is available.	{} versiyasi mavjud.
+You have the latest version ({}).	Sizda eng soʻnggi versiya ({}).

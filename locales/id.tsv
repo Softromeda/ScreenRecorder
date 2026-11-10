@@ -1,0 +1,401 @@
+# id translations: English	translation
+ fps	 fps
+ min (0 = never)	 mnt (0 = tidak pernah)
+'{}' is not a valid HH:MM time	'{}' bukan waktu HH:MM yang valid
+After recording	Setelah merekam
+After recording:	Setelah merekam:
+Analysing video…	Menganalisis video…
+Animated GIF	GIF animasi
+Annotations	Anotasi
+Appearance	Tampilan
+Arrow	Panah
+Audio	Audio
+Audio-only recording (MP3)	Rekam audio saja (MP3)
+Auto stop after	Berhenti otomatis setelah
+Auto-boost volume when recording speakers	Naikkan volume otomatis saat merekam speaker
+Background:	Latar belakang:
+Blur	Buram
+Bottom left	Kiri bawah
+Bottom right	Kanan bawah
+Browse…	Telusuri…
+Callout	Balon teks
+Change…	Ubah…
+Clear	Hapus
+Click a window (or drag a region) to record it  •  Esc to cancel	Klik jendela (atau seret area) untuk merekamnya  •  Esc untuk batal
+Click to place the fixed-size region  •  Esc to cancel	Klik untuk menempatkan area berukuran tetap  •  Esc untuk batal
+Clicks	Klik
+Clip	Klip
+Close	Tutup
+Colour:	Warna:
+Control bar	Bilah kontrol
+Convert to GIF	Konversi ke GIF
+Convert to MP4	Konversi ke MP4
+Convert to MP4…	Konversi ke MP4…
+Convert to animated GIF…	Konversi ke GIF animasi…
+Could not open {}: {}	Tidak dapat membuka {}: {}
+Could not start recording: {}	Tidak dapat mulai merekam: {}
+Countdown	Hitung mundur
+Dark	Gelap
+Decoding audio…	Mendekode audio…
+Disarm	Batalkan timer
+Discard	Buang
+Discard recording	Buang rekaman
+Discard this recording?	Buang rekaman ini?
+Do nothing	Tidak melakukan apa-apa
+Done	Selesai
+Drag a rectangle on the video to zoom into it during the selected time range	Seret persegi panjang pada video untuk memperbesarnya selama rentang waktu yang dipilih
+Drag on the video to place it at the current time	Seret pada video untuk menempatkannya pada waktu saat ini
+Drag to select the area to record	Seret untuk memilih area yang direkam
+Drag to select the area to record  •  Esc / right-click to cancel	Seret untuk memilih area yang direkam  •  Esc / klik kanan untuk batal
+Drag: scrub • Drag yellow handles: trim • Drag on ruler / Shift+drag: select range	Seret: geser waktu • Seret pegangan kuning: pangkas • Seret di penggaris / Shift+seret: pilih rentang
+Draw:	Gambar:
+Duration: 	Durasi: 
+Ellipse	Elips
+Encoding audio…	Mengodekan audio…
+End	Akhir
+End = playhead	Akhir = posisi putar
+Example: {}	Contoh: {}
+Examples: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Applied when Options is closed.	Contoh: Ctrl+F11, Ctrl+Shift+R, Alt+F9, Cmd+Shift+5. Diterapkan saat Opsi ditutup.
+Export	Ekspor
+Export finished	Ekspor selesai
+Exporting…	Mengekspor…
+Extract Audio	Ekstrak Audio
+Extract audio (M4A / MP3)…	Ekstrak audio (M4A / MP3)…
+Fade in (s)	Muncul perlahan (dtk)
+Fade out (s)	Hilang perlahan (dtk)
+File name template:	Templat nama file:
+Finishing capture…	Menyelesaikan perekaman…
+Finishing…	Menyelesaikan…
+Fixed Region	Area Tetap
+Fixed region size	Ukuran area tetap
+Folder:	Folder:
+Format	Format
+Frame rate	Frame rate
+Frames per second	Frame per detik
+From 	Dari 
+Full Screen	Layar Penuh
+Full screen	Layar penuh
+GIF fps	fps GIF
+GIF max width	Lebar maks. GIF
+General	Umum
+Height	Tinggi
+Hide recording settings	Sembunyikan pengaturan rekaman
+Hide the control bar while recording (use hotkeys)	Sembunyikan bilah kontrol saat merekam (gunakan pintasan)
+Highlight	Sorotan
+Highlight colour:	Warna sorotan:
+Highlight mouse cursor	Sorot kursor mouse
+Highlight the mouse cursor	Sorot kursor mouse
+Hotkeys	Tombol pintasan
+INCLUDE	SERTAKAN
+Include webcam (picture-in-picture)	Sertakan webcam (picture-in-picture)
+Insert a title page at the playhead	Sisipkan halaman judul di posisi putar
+Insert at: 	Sisipkan di: 
+Join Videos	Gabungkan Video
+Join videos…	Gabungkan video…
+Jump to start	Lompat ke awal
+Keep Softromeda Screen Recorder running for the timer to work.	Biarkan Softromeda Screen Recorder tetap berjalan agar timer berfungsi.
+Keep recording	Lanjutkan merekam
+Keystrokes	Ketukan tombol
+Language	Bahasa
+Language:	Bahasa:
+Last region	Area terakhir
+Left	Kiri
+Left click:	Klik kiri:
+Light	Terang
+Line width %	Tebal garis %
+Loading…	Memuat…
+M4A (AAC)	M4A (AAC)
+MP3	MP3
+MP3 (audio only)	MP3 (audio saja)
+MP4 (H.264 + AAC)	MP4 (H.264 + AAC)
+Mark out ]	Tandai akhir ]
+Match video aspect ratio	Sesuaikan rasio aspek video
+Max width	Lebar maks.
+Mic volume	Volume mik
+Microphone	Mikrofon
+Microphone volume	Volume mikrofon
+Mouse & Keyboard	Mouse & Keyboard
+Mute audio	Bisukan audio
+Next frame (→)	Frame berikutnya (→)
+No devices found	Tidak ada perangkat ditemukan
+No monitor found.	Tidak ada monitor ditemukan.
+Number: 	Nomor: 
+On Windows the control bar is never captured in the video.	Di Windows, bilah kontrol tidak pernah ikut terekam dalam video.
+Open	Buka
+Open a video to start editing.	Buka video untuk mulai mengedit.
+Open in video editor	Buka di editor video
+Open log file	Buka file log
+Optional TTF/OTF font for keystrokes, captions and title pages (e.g. for Korean or other scripts).	Font TTF/OTF opsional untuk ketukan tombol, keterangan, dan halaman judul (mis. untuk aksara Korea atau lainnya).
+Options	Opsi
+Original size	Ukuran asli
+Output	Keluaran
+Output length: {}	Durasi keluaran: {}
+Output must differ from the input file.	Keluaran harus berbeda dari file masukan.
+Output size	Ukuran keluaran
+Please choose a different file name than the source video.	Pilih nama file yang berbeda dari video sumber.
+Position:	Posisi:
+Previous frame (←)	Frame sebelumnya (←)
+Properties	Properti
+Put the computer to sleep when the recording is complete	Tidurkan komputer setelah perekaman selesai
+Quality	Kualitas
+RECORDING SETTINGS	PENGATURAN REKAMAN
+Radius	Radius
+Record	Rekam
+Record a fixed {}×{} area	Rekam area tetap {}×{}
+Record a window — click it to select. The recording follows the window when you move it, even behind other windows.	Rekam jendela — klik untuk memilih. Rekaman mengikuti jendela saat dipindahkan, bahkan di balik jendela lain.
+Record audio	Rekam audio
+Record microphone	Rekam mikrofon
+Record speakers (system audio)	Rekam speaker (audio sistem)
+Record the last area again ({})	Rekam area terakhir lagi ({})
+Record the sound playing on this PC (right-click for devices)	Rekam suara yang diputar di PC ini (klik kanan untuk perangkat)
+Record the whole screen	Rekam seluruh layar
+Record the whole screen under the mouse (right-click to choose a monitor)	Rekam seluruh layar di bawah mouse (klik kanan untuk memilih monitor)
+Record your voice (right-click to choose the microphone)	Rekam suara Anda (klik kanan untuk memilih mikrofon)
+Recording discarded.	Rekaman dibuang.
+Recording failed: {}	Perekaman gagal: {}
+Recording saved	Rekaman disimpan
+Recording starts…	Perekaman dimulai…
+Recording stopped early: {}	Perekaman berhenti lebih awal: {}
+Recording…	Merekam…
+Recover	Pulihkan
+Recover recording?	Pulihkan rekaman?
+Recovered	Dipulihkan
+Rectangle	Persegi panjang
+Rectangular Region	Area Persegi
+Remove the selected section	Hapus bagian yang dipilih
+Removed section	Bagian dihapus
+Rendering annotations…	Merender anotasi…
+Repeat Last	Ulangi Terakhir
+Reset trim	Atur ulang pangkasan
+Resolution	Resolusi
+Restore defaults	Kembalikan ke default
+Right click:	Klik kanan:
+Same as Windows	Sama seperti Windows
+Same as system	Sama seperti sistem
+Save to	Simpan ke
+Saved {}	{} disimpan
+Saved: {}	Disimpan: {}
+Saving failed: {}	Gagal menyimpan: {}
+Scale %	Skala %
+Scheduled Recording	Rekaman Terjadwal
+Softromeda Screen Recorder border	Bingkai Softromeda Screen Recorder
+Select an item on the video or the timeline.	Pilih item pada video atau linimasa.
+Show a border around the recording area	Tampilkan bingkai di sekitar area rekaman
+Show in folder	Tampilkan di folder
+Show keystrokes in the video	Tampilkan ketukan tombol di video
+Show mouse clicks	Tampilkan klik mouse
+Show mouse clicks as ripples	Tampilkan klik mouse sebagai riak
+Play a click sound in the video	Putar suara klik di video
+Adds a short click sound to the audio at each left click in the recorded area, when the recording is saved.	Saat rekaman disimpan, menambahkan suara klik singkat ke audio pada setiap klik kiri di area yang direkam.
+Show mouse cursor	Tampilkan kursor mouse
+Show pressed keys in the video	Tampilkan tombol yang ditekan di video
+Show recording settings	Tampilkan pengaturan rekaman
+Show your webcam in a corner (right-click for options)	Tampilkan webcam Anda di sudut (klik kanan untuk opsi)
+Size	Ukuran
+Size %	Ukuran %
+Size (% of video width)	Ukuran (% dari lebar video)
+Space	Spasi
+Speaker volume	Volume speaker
+Speakers	Speaker
+Speakers are recorded with WASAPI loopback (whatever you hear).	Speaker direkam dengan loopback WASAPI (apa pun yang Anda dengar).
+Speed ×	Kecepatan ×
+Start (Home)	Awal (Home)
+Start / Pause / Resume	Mulai / Jeda / Lanjutkan
+Start = playhead	Awal = posisi putar
+Start at (HH:MM)	Mulai pada (HH:MM)
+Step number	Nomor langkah
+Stop and save	Hentikan dan simpan
+Stop at (HH:MM)	Berhenti pada (HH:MM)
+Subtitle:	Subjudul:
+Switch to dark mode	Beralih ke mode gelap
+Switch to light mode	Beralih ke mode terang
+System default	Default sistem
+Text	Teks
+Text font	Font teks
+Text:	Teks:
+Theme:	Tema:
+Timer	Timer
+Timer skipped: another recording was in progress.	Timer dilewati: perekaman lain sedang berlangsung.
+Title page	Halaman judul
+Title:	Judul:
+Titles	Judul
+Top	Atas
+Top left	Kiri atas
+Top right	Kanan atas
+Troubleshooting	Pemecahan masalah
+Video	Video
+Video Editor	Editor Video
+Volume	Volume
+WHAT TO RECORD	APA YANG DIREKAM
+Webcam	Webcam
+What was recorded was saved to {}	Bagian yang sudah terekam disimpan ke {}
+Width	Lebar
+Window / Object	Jendela / Objek
+Zoom	Zoom
+Zoom area	Area zoom
+Zoom effect	Efek zoom
+Zoom into the centre during the selection	Perbesar bagian tengah selama pilihan
+[ Mark in	[ Tandai awal
+invalid end time	waktu berhenti tidak valid
+invalid start time	waktu mulai tidak valid
+none yet	belum ada
+to 	sampai 
+{} has no video stream.	{} tidak memiliki stream video.
+• Pick a drawing tool and drag on the video.	• Pilih alat gambar lalu seret pada video.
+↩ Restore section	↩ Pulihkan bagian
+↺ Undo	↺ Urungkan
+↻ Redo	↻ Ulangi
+⏰ Arm timer	⏰ Aktifkan timer
+⏰ Timer	⏰ Timer
+⏰ Timer (armed)	⏰ Timer (aktif)
+⏸ Pause	⏸ Jeda
+⏹ Save	⏹ Simpan
+▶ Convert…	▶ Konversi…
+▶ Play	▶ Putar
+▶ Play last	▶ Putar terakhir
+▶ Resume	▶ Lanjutkan
+⚙ Options	⚙ Opsi
+✂ Cut selection	✂ Potong pilihan
+✖ Clear selection	✖ Hapus pilihan
+➕ Add videos…	➕ Tambah video…
+⟳ Refresh cameras	⟳ Segarkan kamera
+⟳ Refresh devices	⟳ Segarkan perangkat
+⬉ Select	⬉ Pilih
+⬌ Trim to selection	⬌ Pangkas ke pilihan
+🎬 Title page	🎬 Halaman judul
+🎬 Video Editor	🎬 Editor Video
+💾 Export video…	💾 Ekspor video…
+📁 Output folder	📁 Folder keluaran
+📂 Choose file…	📂 Pilih file…
+📂 Open…	📂 Buka…
+🔍 Zoom	🔍 Zoom
+🔍 Zoom selection	🔍 Zoom pilihan
+🗑 Delete annotation	🗑 Hapus anotasi
+🗑 Delete title page	🗑 Hapus halaman judul
+🗑 Delete zoom	🗑 Hapus zoom
+🛠 Tools	🛠 Alat
+A recording from {} was interrupted (unexpected shutdown or crash).	Rekaman dari {} terputus (mati mendadak atau crash).
+Armed: {} – {}	Aktif: {} – {}
+Drag on the video (Select tool) to change the zoom area.	Seret pada video (alat Pilih) untuk mengubah area zoom.
+Selection: {} – {}	Pilihan: {} – {}
+Starts in {}	Dimulai dalam {}
+Trim: {} – {}	Pangkas: {} – {}
+Video Editor — {}	Editor Video — {}
+{} start / pause   •   {} stop & save   •   {} discard	{} mulai / jeda   •   {} berhenti & simpan   •   {} buang
+• Drag on the ruler to select a range, then Cut or Zoom it.	• Seret pada penggaris untuk memilih rentang, lalu Potong atau Zoom.
+• Drag on the timeline to scrub; drag the yellow handles to trim.	• Seret pada linimasa untuk menggulir; seret pegangan kuning untuk memangkas.
+About	Tentang
+Developer:	Pengembang:
+License:	Lisensi:
+Source code:	Kode sumber:
+This program comes with ABSOLUTELY NO WARRANTY. It is free software: you may redistribute and change it under the terms of the GNU General Public License.	Program ini disediakan TANPA JAMINAN APA PUN. Ini adalah perangkat lunak bebas: Anda boleh mendistribusikan ulang dan mengubahnya sesuai ketentuan GNU General Public License.
+Screen recorder and video editor for Windows.	Perekam layar dan editor video untuk Windows.
+Version {}	Versi {}
+Website:	Situs web:
+A file with that name already exists.	File dengan nama itu sudah ada.
+Browse, play, edit, rename and delete your recordings	Jelajahi, putar, edit, ganti nama, dan hapus rekaman Anda
+Cancel	Batal
+Could not delete the file.	File tidak dapat dihapus.
+Delete	Hapus
+Draw on screen	Gambar di layar
+Draw on the screen ({}); right-click or Esc to stop	Gambar di layar ({}); klik kanan atau Esc untuk berhenti
+Highlighter	Stabilo
+Move to the Recycle Bin?	Pindahkan ke Recycle Bin?
+No recordings yet in {}	Belum ada rekaman di {}
+Nothing matches the search.	Tidak ada yang cocok dengan pencarian.
+Open in the video editor	Buka di editor video
+Pen	Pena
+Play	Putar
+Recordings	Rekaman
+Rename	Ganti nama
+That file name is not allowed.	Nama file itu tidak diizinkan.
+{} recordings · {}	{} rekaman · {}
+✏ Draw	✏ Gambar
+⟳ Refresh	⟳ Segarkan
+🎬 Edit	🎬 Edit
+📚 Recordings	📚 Rekaman
+🔍 Search	🔍 Cari
+🗑 Clear	🗑 Bersihkan
+Replace the zooms with zooms on the {} recorded clicks	Ganti zoom dengan zoom pada {} klik yang direkam
+When a new recording opens in the video editor, it zooms in around your mouse clicks. Adjust or delete the zooms before exporting.	Saat rekaman baru dibuka di editor video, tampilan diperbesar di sekitar klik mouse Anda. Sesuaikan atau hapus zoom sebelum mengekspor.
+Zoom in on clicks automatically	Zoom otomatis pada klik
+✨ Auto zoom	✨ Zoom otomatis
+Even out the voice volume	Ratakan volume suara
+Raises quiet speech, lowers loud speech and prevents clipping when the recording is saved.	Saat rekaman disimpan, menaikkan suara pelan, menurunkan suara keras, dan mencegah distorsi.
+Reduce background noise	Kurangi kebisingan latar
+Removes steady noise such as fans, hum and hiss from the microphone when the recording is saved.	Saat rekaman disimpan, menghapus kebisingan tetap seperti kipas, dengung, dan desis dari mikrofon.
+Closing the window keeps Softromeda Screen Recorder running there	Menutup jendela membuat Softromeda Screen Recorder tetap berjalan di sana
+Cut them; they show on the timeline and can be undone	Potong; tampil di linimasa dan bisa dibatalkan
+Exit	Keluar
+Find quiet parts in the audio that can be cut	Cari bagian sunyi pada audio yang bisa dipotong
+Found {} pauses ({} in total)	Ditemukan {} jeda (total {})
+Keep next to speech (s)	Sisakan di dekat ucapan (dtk)
+Looking for pauses…	Mencari jeda…
+No pauses found.	Tidak ada jeda.
+Notification area	Area notifikasi
+Pause	Jeda
+Pauses	Jeda
+Resume	Lanjutkan
+Shortest pause (s)	Jeda terpendek (dtk)
+Show an icon in the notification area	Tampilkan ikon di area notifikasi
+Show window	Tampilkan jendela
+Start recording	Mulai merekam
+Start with Windows (in the notification area)	Mulai bersama Windows (di area notifikasi)
+✂ Cut pauses	✂ Potong jeda
+🔍 Find pauses	🔍 Cari jeda
+GIFs have no sound.	GIF tidak bersuara.
+Loading the music…	Memuat musik…
+Lower the music while someone speaks	Kecilkan musik saat ada yang berbicara
+Music	Musik
+Music volume	Volume musik
+Original	Asli
+Play music under the whole video	Putar musik di sepanjang video
+Remove music	Hapus musik
+Shape	Bentuk
+Square 1:1	Persegi 1:1
+The frame follows the mouse pointer, as shown on the video.	Bingkai mengikuti penunjuk mouse, seperti terlihat pada video.
+Vertical 9:16 (Shorts, TikTok, Reels)	Vertikal 9:16 (Shorts, TikTok, Reels)
+🎵 Add music…	🎵 Tambah musik…
+Darken the rest	Gelapkan sisanya
+Dim everything except the area around the mouse	Redupkan semua kecuali area di sekitar mouse
+Gentle	Ringan
+Medium	Sedang
+Spotlight	Sorotan
+Spotlight around the mouse	Sorotan di sekitar mouse
+Spotlight size	Ukuran sorotan
+Strong	Kuat
+All programs	Semua program
+Drop a marker	Pasang penanda
+Drop a marker ({}); markers show on the editor timeline	Pasang penanda ({}); penanda tampil di linimasa editor
+Fast-forward through a slow part (it is muted in the export)	Percepat bagian yang lambat (tanpa suara saat diekspor)
+Faster section	Bagian dipercepat
+Markers	Penanda
+Play the selection faster:	Putar pilihan lebih cepat:
+Plays faster and muted in the export, with a fast-forward badge.	Diputar lebih cepat dan tanpa suara saat diekspor, dengan lencana percepat.
+Record only one program's sound (Windows 10 version 2004 or newer), so notification sounds and other programs stay out of the recording.	Rekam hanya suara satu program (Windows 10 versi 2004 atau lebih baru), agar suara notifikasi dan program lain tidak ikut terekam.
+Record sound from:	Rekam suara dari:
+Speed:	Kecepatan:
+{} (not running)	{} (tidak berjalan)
+⏩ Speed up	⏩ Percepat
+🗑 Normal speed	🗑 Kecepatan normal
+Select a range on the ruler first.	Pilih rentang pada penggaris terlebih dahulu.
+Corner	Sudut
+Hide desktop icons while recording	Sembunyikan ikon desktop saat merekam
+Image	Gambar
+Logo	Logo
+Logo size (% of width)	Ukuran logo (% lebar)
+Opacity (%)	Opasitas (%)
+Remove logo	Hapus logo
+Show your logo in a corner of the exported video	Tampilkan logo Anda di sudut video yang diekspor
+Smooth mouse movement	Haluskan gerakan mouse
+The pointer glides instead of shaking. Clicks are still shown where they happened.	Penunjuk bergerak mulus tanpa bergetar. Klik tetap ditampilkan di tempat terjadinya.
+They come back when the recording ends.	Ikon kembali saat rekaman selesai.
+🏷 Add logo…	🏷 Tambah logo…
+Check for updates	Periksa pembaruan
+Check for updates automatically	Periksa pembaruan secara otomatis
+Could not check for updates: {}	Tidak dapat memeriksa pembaruan: {}
+Download	Unduh
+Not now	Nanti saja
+Skip this version	Lewati versi ini
+Version {} is available.	Versi {} tersedia.
+You have the latest version ({}).	Anda memakai versi terbaru ({}).
