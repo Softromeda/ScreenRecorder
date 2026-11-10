@@ -385,7 +385,7 @@ pub fn selftest() -> bool {
                 let t0 = Instant::now();
                 let n = 120;
                 for i in 0..n {
-                    for (k, px) in img.chunks_exact_mut(4).enumerate() {
+                    for (k, px) in img.as_chunks_mut::<4>().0.iter_mut().enumerate() {
                         px[0] = ((k + i * 7) % 255) as u8;
                     }
                     convert::bgra_to_nv12(&img, bw * 4, bw, bh, &mut nv12);

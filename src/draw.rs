@@ -240,14 +240,14 @@ pub fn stroke_ellipse(
     width: f32,
     rgba: [u8; 4],
 ) {
-    if let Some(rect) = Rect::from_xywh(x, y, w.max(1.0), h.max(1.0)) {
-        if let Some(path) = PathBuilder::from_oval(rect) {
-            let stroke = Stroke {
-                width,
-                ..Stroke::default()
-            };
-            pixmap.stroke_path(&path, &paint(rgba), &stroke, Transform::identity(), None);
-        }
+    if let Some(rect) = Rect::from_xywh(x, y, w.max(1.0), h.max(1.0))
+        && let Some(path) = PathBuilder::from_oval(rect)
+    {
+        let stroke = Stroke {
+            width,
+            ..Stroke::default()
+        };
+        pixmap.stroke_path(&path, &paint(rgba), &stroke, Transform::identity(), None);
     }
 }
 

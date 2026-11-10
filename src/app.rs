@@ -845,13 +845,12 @@ impl App {
 
         // Persist settings when they change. Wait until no mouse button is held, so dragging a
         // slider does not write the file on every frame.
-        if !ctx.input(|i| i.pointer.any_down()) {
-            if let Ok(json) = serde_json::to_string(&self.settings) {
-                if json != self.saved_json {
-                    self.settings.save();
-                    self.saved_json = json;
-                }
-            }
+        if !ctx.input(|i| i.pointer.any_down())
+            && let Ok(json) = serde_json::to_string(&self.settings)
+            && json != self.saved_json
+        {
+            self.settings.save();
+            self.saved_json = json;
         }
 
         // Keep ticking even without input: slowly when idle, faster while recording (timer and
@@ -1084,10 +1083,10 @@ impl App {
         }
         let previous = self.applied.map(|(l, _, _)| l);
         // Remember where the panel was, so it returns to the same place after a recording.
-        if matches!(previous, None | Some(Layout::Panel)) {
-            if let Some(r) = ctx.input(|i| i.viewport().outer_rect) {
-                self.panel_pos = Some(r.min);
-            }
+        if matches!(previous, None | Some(Layout::Panel))
+            && let Some(r) = ctx.input(|i| i.viewport().outer_rect)
+        {
+            self.panel_pos = Some(r.min);
         }
         // Turns the window into an undecorated, always-on-top window covering `rect`.
         let borderless = |ctx: &egui::Context, rect: Rect, focus: bool| {
@@ -1118,10 +1117,10 @@ impl App {
                     PANEL_SIZE
                 };
                 ctx.send_viewport_cmd(ViewportCommand::InnerSize(size.into()));
-                if !matches!(previous, None | Some(Layout::Panel)) {
-                    if let Some(p) = self.panel_pos {
-                        ctx.send_viewport_cmd(ViewportCommand::OuterPosition(p));
-                    }
+                if !matches!(previous, None | Some(Layout::Panel))
+                    && let Some(p) = self.panel_pos
+                {
+                    ctx.send_viewport_cmd(ViewportCommand::OuterPosition(p));
                 }
                 ctx.send_viewport_cmd(ViewportCommand::Visible(true));
                 ctx.send_viewport_cmd(ViewportCommand::Focus);
@@ -1387,32 +1386,31 @@ impl App {
                 let _ = std::fs::create_dir_all(&self.settings.output_dir);
                 crate::util::open_path(&self.settings.output_dir);
             }
-            if let Some(last) = self.last_output.clone() {
-                if ui
+            if let Some(last) = self.last_output.clone()
+                && ui
                     .button(tr("▶ Play last"))
                     .on_hover_text(last.display().to_string())
                     .clicked()
-                {
-                    crate::util::open_path(&last);
-                }
+            {
+                crate::util::open_path(&last);
             }
         });
 
         // Progress of saving (or recovering) a recording.
-        if let Phase::Finalizing { job, .. } = &self.phase {
-            if let JobStatus::Running { progress, message } = job.status() {
-                ui.add(
-                    egui::ProgressBar::new(progress)
-                        .text(message)
-                        .show_percentage()
-                        .corner_radius(6.0),
-                );
-            }
+        if let Phase::Finalizing { job, .. } = &self.phase
+            && let JobStatus::Running { progress, message } = job.status()
+        {
+            ui.add(
+                egui::ProgressBar::new(progress)
+                    .text(message)
+                    .show_percentage()
+                    .corner_radius(6.0),
+            );
         }
-        if let Some((is_err, msg)) = self.message.clone() {
-            if crate::theme::banner(ui, is_err, &msg) {
-                self.message = None;
-            }
+        if let Some((is_err, msg)) = self.message.clone()
+            && crate::theme::banner(ui, is_err, &msg)
+        {
+            self.message = None;
         }
         // A newer version: download it, skip it, or hide the offer for now.
         if let Some(rel) = self.update.clone() {
@@ -1585,13 +1583,12 @@ impl App {
                 egui::Label::new(RichText::new(s.output_dir.display().to_string()).monospace())
                     .truncate(),
             );
-            if ui.button(tr("Change…")).clicked() {
-                if let Some(d) = rfd::FileDialog::new()
+            if ui.button(tr("Change…")).clicked()
+                && let Some(d) = rfd::FileDialog::new()
                     .set_directory(&s.output_dir)
                     .pick_folder()
-                {
-                    s.output_dir = d;
-                }
+            {
+                s.output_dir = d;
             }
         });
     }
@@ -1760,10 +1757,8 @@ impl App {
                             }
                         }
                     });
-                    if draw_row {
-                        if let Some(o) = &self.overlay {
-                            draw_tools(ui, o, scale);
-                        }
+                    if draw_row && let Some(o) = &self.overlay {
+                        draw_tools(ui, o, scale);
                     }
                 });
                 Some(rows.response.rect.width())
@@ -1780,10 +1775,9 @@ impl App {
             Some(false) => {
                 if let (Some(was_paused), Phase::Recording { rec, .. }) =
                     (self.confirm_discard.take(), &mut self.phase)
+                    && !was_paused
                 {
-                    if !was_paused {
-                        rec.resume();
-                    }
+                    rec.resume();
                 }
             }
             None => {}
@@ -2089,10 +2083,10 @@ impl App {
                 ui.horizontal(|ui| {
                     ui.label(tr("Folder:"));
                     ui.monospace(s.output_dir.display().to_string());
-                    if ui.button(tr("Change…")).clicked() {
-                        if let Some(d) = rfd::FileDialog::new().pick_folder() {
-                            s.output_dir = d;
-                        }
+                    if ui.button(tr("Change…")).clicked()
+                        && let Some(d) = rfd::FileDialog::new().pick_folder()
+                    {
+                        s.output_dir = d;
                     }
                 });
                 ui.horizontal(|ui| {
@@ -2156,13 +2150,12 @@ impl App {
                 ui.label(tr("Optional TTF/OTF font for keystrokes, captions and title pages (e.g. for Korean or other scripts)."));
                 ui.horizontal(|ui| {
                     ui.text_edit_singleline(&mut s.custom_font_path);
-                    if ui.button(tr("Browse…")).clicked() {
-                        if let Some(f) = rfd::FileDialog::new()
+                    if ui.button(tr("Browse…")).clicked()
+                        && let Some(f) = rfd::FileDialog::new()
                             .add_filter("Font", &["ttf", "otf", "ttc"])
                             .pick_file()
-                        {
-                            s.custom_font_path = f.display().to_string();
-                        }
+                    {
+                        s.custom_font_path = f.display().to_string();
                     }
                 });
             }
@@ -2692,25 +2685,23 @@ impl App {
         if self.capture_excluded == Some(exclude) {
             return;
         }
-        if let Ok(h) = frame.window_handle() {
-            if let RawWindowHandle::Win32(w) = h.as_raw() {
-                use windows::Win32::Foundation::HWND;
-                use windows::Win32::UI::WindowsAndMessaging::{
-                    SetWindowDisplayAffinity, WDA_EXCLUDEFROMCAPTURE, WDA_NONE,
-                };
-                let affinity = if exclude {
-                    WDA_EXCLUDEFROMCAPTURE
-                } else {
-                    WDA_NONE
-                };
-                // SAFETY: hwnd is the live root window handle provided by eframe.
-                if let Err(e) =
-                    unsafe { SetWindowDisplayAffinity(HWND(w.hwnd.get() as _), affinity) }
-                {
-                    log::warn!("could not change the window's capture visibility: {e}");
-                }
-                self.capture_excluded = Some(exclude);
+        if let Ok(h) = frame.window_handle()
+            && let RawWindowHandle::Win32(w) = h.as_raw()
+        {
+            use windows::Win32::Foundation::HWND;
+            use windows::Win32::UI::WindowsAndMessaging::{
+                SetWindowDisplayAffinity, WDA_EXCLUDEFROMCAPTURE, WDA_NONE,
+            };
+            let affinity = if exclude {
+                WDA_EXCLUDEFROMCAPTURE
+            } else {
+                WDA_NONE
+            };
+            // SAFETY: hwnd is the live root window handle provided by eframe.
+            if let Err(e) = unsafe { SetWindowDisplayAffinity(HWND(w.hwnd.get() as _), affinity) } {
+                log::warn!("could not change the window's capture visibility: {e}");
             }
+            self.capture_excluded = Some(exclude);
         }
     }
 }
@@ -2785,12 +2776,11 @@ impl eframe::App for App {
     /// Saves a recording still in progress (synchronously, without progress reporting) and the
     /// settings when the application exits.
     fn on_exit(&mut self) {
-        if matches!(self.phase, Phase::Recording { .. }) {
-            if let Phase::Recording { rec, .. } = std::mem::replace(&mut self.phase, Phase::Idle) {
-                if let Ok(session) = rec.stop() {
-                    let _ = compose::finalize(&session, None);
-                }
-            }
+        if matches!(self.phase, Phase::Recording { .. })
+            && let Phase::Recording { rec, .. } = std::mem::replace(&mut self.phase, Phase::Idle)
+            && let Ok(session) = rec.stop()
+        {
+            let _ = compose::finalize(&session, None);
         }
         // Never leave the desktop icons hidden.
         if self.icons_hidden {

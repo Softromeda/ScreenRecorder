@@ -27,7 +27,7 @@ use rayon::prelude::*;
 /// Uses BT.709 limited-range coefficients in 8-bit fixed point; chroma is the average of each
 /// 2×2 block. `width` and `height` must be even.
 pub fn bgra_to_nv12(src: &[u8], stride: usize, width: usize, height: usize, dst: &mut Vec<u8>) {
-    debug_assert!(width % 2 == 0 && height % 2 == 0);
+    debug_assert!(width.is_multiple_of(2) && height.is_multiple_of(2));
     let y_size = width * height;
     dst.resize(y_size + y_size / 2, 0);
     let (y_plane, uv_plane) = dst.split_at_mut(y_size);
@@ -114,7 +114,7 @@ pub fn nv12_to_bgra(
 /// Swaps the red and blue channels (RGBA ↔ BGRA) of every pixel in place.
 pub fn swap_red_blue(pixels: &mut [u8]) {
     pixels.par_chunks_mut(4 * 1024).for_each(|chunk| {
-        for px in chunk.chunks_exact_mut(4) {
+        for px in chunk.as_chunks_mut::<4>().0 {
             px.swap(0, 2);
         }
     });
@@ -277,7 +277,7 @@ pub fn letterbox(src: &[u8], sw: usize, sh: usize, dw: usize, dh: usize) -> Vec<
     let scaled = resize(src, sw, sh, w, h);
     // Opaque black canvas.
     let mut out = vec![0u8; dw * dh * 4];
-    for px in out.chunks_exact_mut(4) {
+    for px in out.as_chunks_mut::<4>().0 {
         px[3] = 255;
     }
     blit(
@@ -370,7 +370,12 @@ pub fn blend_over(dst: &mut [u8], overlay: &[u8]) {
     dst.par_chunks_mut(4 * 1024)
         .zip(overlay.par_chunks(4 * 1024))
         .for_each(|(d, o)| {
-            for (dp, op) in d.chunks_exact_mut(4).zip(o.chunks_exact(4)) {
+            for (dp, op) in d
+                .as_chunks_mut::<4>()
+                .0
+                .iter_mut()
+                .zip(o.as_chunks::<4>().0)
+            {
                 let a = op[3] as u32;
                 if a == 0 {
                     continue;
@@ -394,7 +399,7 @@ pub fn fade(img: &mut [u8], level: f32) {
     }
     let k = (level.clamp(0.0, 1.0) * 256.0) as u32;
     img.par_chunks_mut(4 * 1024).for_each(|chunk| {
-        for px in chunk.chunks_exact_mut(4) {
+        for px in chunk.as_chunks_mut::<4>().0 {
             for c in px.iter_mut().take(3) {
                 *c = ((*c as u32 * k) >> 8) as u8;
             }
@@ -421,7 +426,7 @@ pub fn spotlight(img: &mut [u8], w: usize, h: usize, cx: f32, cy: f32, radius: f
         .enumerate()
         .for_each(|(y, row)| {
             let dy = y as f32 + 0.5 - cy;
-            for (x, px) in row.chunks_exact_mut(4).enumerate() {
+            for (x, px) in row.as_chunks_mut::<4>().0.iter_mut().enumerate() {
                 let dx = x as f32 + 0.5 - cx;
                 let d2 = dx * dx + dy * dy;
                 let k = if d2 <= inner {

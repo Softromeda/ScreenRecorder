@@ -576,14 +576,10 @@ impl VideoReader {
                 set(&MFVideoFormat_NV12).context("Windows cannot decode this video format")?;
                 nv12 = true;
             } else {
-                match set(&MFVideoFormat_RGB32) {
-                    Err(e) => {
-                        log::info!("RGB32 decoding unavailable ({e}); decoding to NV12");
-                        set(&MFVideoFormat_NV12)
-                            .context("Windows cannot decode this video format")?;
-                        nv12 = true;
-                    }
-                    _ => {}
+                if let Err(e) = set(&MFVideoFormat_RGB32) {
+                    log::info!("RGB32 decoding unavailable ({e}); decoding to NV12");
+                    set(&MFVideoFormat_NV12).context("Windows cannot decode this video format")?;
+                    nv12 = true;
                 }
             }
         }
@@ -607,10 +603,13 @@ impl VideoReader {
             nv12,
         };
         r.refresh_type()?;
-        if let Some((w, h)) = display {
-            if w > 0 && h > 0 && w <= r.buf_width && h <= r.buf_height {
-                (r.width, r.height) = (w, h);
-            }
+        if let Some((w, h)) = display
+            && w > 0
+            && h > 0
+            && w <= r.buf_width
+            && h <= r.buf_height
+        {
+            (r.width, r.height) = (w, h);
         }
         Ok(r)
     }
@@ -762,7 +761,7 @@ impl VideoReader {
                     let src = base.offset(pitch * y as isize);
                     std::ptr::copy_nonoverlapping(src, out.as_mut_ptr().add(y * row), row);
                 }
-                for px in out.chunks_exact_mut(4) {
+                for px in out.as_chunks_mut::<4>().0 {
                     px[3] = 255;
                 }
                 out

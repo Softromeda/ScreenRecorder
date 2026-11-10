@@ -69,10 +69,10 @@ fn mixed_audio(dir: &Path, m: &SessionManifest, duration: f64) -> Result<Option<
         }
         tracks.push(t);
     }
-    if m.settings.click_sound {
-        if let Some(t) = click_track(dir, duration) {
-            tracks.push(t);
-        }
+    if m.settings.click_sound
+        && let Some(t) = click_track(dir, duration)
+    {
+        tracks.push(t);
     }
     if tracks.is_empty() {
         return Ok(None);
@@ -222,15 +222,15 @@ fn remux(
         }
         writer.write_video_sample(&sample)?;
         count += 1;
-        if count % 30 == 0 && duration > 0.0 {
+        if count.is_multiple_of(30) && duration > 0.0 {
             progress(job, (t / duration) as f32 * 0.95, "Saving recording…");
         }
     }
     // Write any audio that extends past the last video sample.
-    if let Some(pcm) = &pcm {
-        if audio_pos < pcm.len() {
-            writer.write_audio(&pcm[audio_pos..])?;
-        }
+    if let Some(pcm) = &pcm
+        && audio_pos < pcm.len()
+    {
+        writer.write_audio(&pcm[audio_pos..])?;
     }
     if count == 0 {
         return Err(anyhow!("the recorded video is empty"));
@@ -315,10 +315,10 @@ fn transcode(
     if let Some(p) = prev {
         write(&mut writer, &p, 1.0 / fps, &mut nv12)?;
     }
-    if let Some(pcm) = &pcm {
-        if audio_pos < pcm.len() {
-            writer.write_audio(&pcm[audio_pos..])?;
-        }
+    if let Some(pcm) = &pcm
+        && audio_pos < pcm.len()
+    {
+        writer.write_audio(&pcm[audio_pos..])?;
     }
     writer.finish()
 }

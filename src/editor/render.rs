@@ -158,7 +158,7 @@ impl Logo {
         let op = self.opacity.clamp(0.0, 1.0);
         let mut bgra = scaled.into_raw();
         // RGBA to BGRA, with the opacity folded into the alpha channel.
-        for px in bgra.chunks_exact_mut(4) {
+        for px in bgra.as_chunks_mut::<4>().0 {
             px.swap(0, 2);
             px[3] = (px[3] as f32 * op).round() as u8;
         }
@@ -527,7 +527,7 @@ fn write_audio(
     };
     // Volume and fade in / fade out, by output time of each frame.
     let total = job.total_duration();
-    for (i, s) in buf.chunks_exact_mut(2).enumerate() {
+    for (i, s) in buf.as_chunks_mut::<2>().0.iter_mut().enumerate() {
         let t = (*written + i) as f64 / audio::RATE as f64;
         let g = job.volume * audio::fade_gain(t, total, job.fade_in, job.fade_out);
         s[0] *= g;

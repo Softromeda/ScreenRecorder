@@ -68,11 +68,11 @@ impl GifWriter {
     /// previous frame is encoded and written, and this one becomes pending.
     pub fn add_rgba(&mut self, rgba: Vec<u8>, seconds: f64) -> Result<()> {
         // Merge with the pending frame when nothing changed on screen.
-        if let Some((prev, dur)) = &mut self.pending {
-            if *prev == rgba {
-                *dur += seconds;
-                return Ok(());
-            }
+        if let Some((prev, dur)) = &mut self.pending
+            && *prev == rgba
+        {
+            *dur += seconds;
+            return Ok(());
         }
         if let Some((prev, dur)) = self.pending.take() {
             self.write(prev, dur)?;

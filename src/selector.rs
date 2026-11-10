@@ -266,18 +266,19 @@ impl Selector {
         }
 
         // Full-screen crosshair through the pointer before a region drag starts.
-        if let Some(p) = pointer {
-            if self.drag_start.is_none() && self.mode == SelectMode::Region {
-                let s = Stroke::new(1.0, Color32::from_white_alpha(140));
-                painter.line_segment(
-                    [Pos2::new(full.left(), p.y), Pos2::new(full.right(), p.y)],
-                    s,
-                );
-                painter.line_segment(
-                    [Pos2::new(p.x, full.top()), Pos2::new(p.x, full.bottom())],
-                    s,
-                );
-            }
+        if let Some(p) = pointer
+            && self.drag_start.is_none()
+            && self.mode == SelectMode::Region
+        {
+            let s = Stroke::new(1.0, Color32::from_white_alpha(140));
+            painter.line_segment(
+                [Pos2::new(full.left(), p.y), Pos2::new(full.right(), p.y)],
+                s,
+            );
+            painter.line_segment(
+                [Pos2::new(p.x, full.top()), Pos2::new(p.x, full.bottom())],
+                s,
+            );
         }
         // Instruction pill at the top centre of the monitor.
         let hint = match self.mode {

@@ -36,14 +36,16 @@ const BINS: usize = N / 2 + 1;
 /// Averages interleaved stereo into mono.
 fn to_mono(stereo: &[f32]) -> Vec<f32> {
     stereo
-        .chunks_exact(2)
+        .as_chunks::<2>()
+        .0
+        .iter()
         .map(|s| (s[0] + s[1]) * 0.5)
         .collect()
 }
 
 /// Writes a mono signal to both channels of an interleaved stereo buffer of the same length.
 fn to_stereo(mono: &[f32], stereo: &mut [f32]) {
-    for (s, m) in stereo.chunks_exact_mut(2).zip(mono) {
+    for (s, m) in stereo.as_chunks_mut::<2>().0.iter_mut().zip(mono) {
         s[0] = *m;
         s[1] = *m;
     }
@@ -407,7 +409,7 @@ impl MusicMixer {
                 self.env += (target - self.env) * if target < self.env { 0.3 } else { 0.025 };
             }
             // Add the looped music with the fade and ducking gains.
-            for (i, s) in chunk.chunks_exact_mut(2).enumerate() {
+            for (i, s) in chunk.as_chunks_mut::<2>().0.iter_mut().enumerate() {
                 let n = start + b * block + i;
                 let fade = (n as f32 / fade_in)
                     .min(total.saturating_sub(n) as f32 / fade_out)
@@ -538,7 +540,7 @@ mod tests {
         let total = sr * 14;
         let mut out = vec![0.0f32; total * 2];
         // Speech from 4 s to 6 s.
-        for (i, v) in out.chunks_exact_mut(2).enumerate() {
+        for (i, v) in out.as_chunks_mut::<2>().0.iter_mut().enumerate() {
             let t = i as f32 / sr as f32;
             if (4.0..6.0).contains(&t) {
                 let s = 0.2 * (2.0 * std::f32::consts::PI * 200.0 * t).sin();

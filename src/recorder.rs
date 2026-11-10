@@ -211,24 +211,25 @@ impl Recorder {
         }
         let mut speakers = None;
         // One program's sound only, when chosen and that program is running.
-        if wants_audio && settings.record_speakers {
-            if let Some(exe) = &settings.speaker_program {
-                let started = crate::media::apploop::find_program(exe)
-                    .ok_or_else(|| anyhow!("{exe} is not running"))
-                    .and_then(|pid| {
-                        AudioCapture::start_program(
-                            pid,
-                            &SessionManifest::speakers_path(&dir),
-                            clock.clone(),
-                            settings.speaker_volume,
-                        )
-                    });
-                match started {
-                    Ok(c) => speakers = Some(c),
-                    Err(e) => warnings.push(format!(
-                        "Speakers: {e:#}. Recording the sound of all programs instead."
-                    )),
-                }
+        if wants_audio
+            && settings.record_speakers
+            && let Some(exe) = &settings.speaker_program
+        {
+            let started = crate::media::apploop::find_program(exe)
+                .ok_or_else(|| anyhow!("{exe} is not running"))
+                .and_then(|pid| {
+                    AudioCapture::start_program(
+                        pid,
+                        &SessionManifest::speakers_path(&dir),
+                        clock.clone(),
+                        settings.speaker_volume,
+                    )
+                });
+            match started {
+                Ok(c) => speakers = Some(c),
+                Err(e) => warnings.push(format!(
+                    "Speakers: {e:#}. Recording the sound of all programs instead."
+                )),
             }
         }
         if wants_audio && settings.record_speakers && speakers.is_none() {
@@ -410,10 +411,10 @@ impl Recorder {
             }
         }
         // Keep the markers for the editor; compose copies them next to the video.
-        if !self.markers.is_empty() {
-            if let Ok(json) = serde_json::to_string(&self.markers) {
-                let _ = std::fs::write(self.dir.join("markers.json"), json);
-            }
+        if !self.markers.is_empty()
+            && let Ok(json) = serde_json::to_string(&self.markers)
+        {
+            let _ = std::fs::write(self.dir.join("markers.json"), json);
         }
         // Record the final duration and mark the session complete.
         self.manifest.duration = self.clock.elapsed_secs();
@@ -568,15 +569,14 @@ fn capture_thread(
                         Ok(Grab::Unchanged) => {
                             // Duplication only reports changes, so a static screen yields no
                             // image at all: take the first one with GDI instead.
-                            if first {
-                                if let Ok(img) =
+                            if first
+                                && let Ok(img) =
                                     monitor.capture_region(rect.0, rect.1, rect.2, rect.3)
-                                {
-                                    let mut px = img.into_raw();
-                                    convert::swap_red_blue(&mut px);
-                                    shared.publish(px);
-                                    first = false;
-                                }
+                            {
+                                let mut px = img.into_raw();
+                                convert::swap_red_blue(&mut px);
+                                shared.publish(px);
+                                first = false;
                             }
                         }
                         Err(e) => {
@@ -898,10 +898,10 @@ fn pace_frames(
     while !ctx.stop.load(Ordering::SeqCst) {
         // A capture error is fatal only before the first image; afterwards the last image is
         // repeated so the recording is not lost.
-        if let Some(e) = shared.error.lock().unwrap().take() {
-            if !have_frame {
-                return Err(anyhow!("Screen capture failed: {e}"));
-            }
+        if let Some(e) = shared.error.lock().unwrap().take()
+            && !have_frame
+        {
+            return Err(anyhow!("Screen capture failed: {e}"));
         }
         // Produce nothing while paused (or before the clock starts).
         if !ctx.clock.is_running() {
@@ -998,10 +998,10 @@ fn pace_frames(
         (&effects.click_log, "clicks.json"),
         (&effects.mouse_log, "mouse.json"),
     ] {
-        if !log.is_empty() {
-            if let Ok(json) = serde_json::to_string(log) {
-                let _ = std::fs::write(ctx.out.with_file_name(name), json);
-            }
+        if !log.is_empty()
+            && let Ok(json) = serde_json::to_string(log)
+        {
+            let _ = std::fs::write(ctx.out.with_file_name(name), json);
         }
     }
     log::info!(

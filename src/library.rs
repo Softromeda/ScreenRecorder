@@ -658,7 +658,7 @@ fn gif_details(path: &Path) -> Option<(Option<f64>, Option<egui::ColorImage>)> {
     // a transparent canvas of the full size.
     let mut canvas = vec![0u8; (w * h * 4) as usize];
     let (fx, fy, fw) = (frame.left as u32, frame.top as u32, frame.width as u32);
-    for (i, px) in frame.buffer.chunks_exact(4).enumerate() {
+    for (i, px) in frame.buffer.as_chunks::<4>().0.iter().enumerate() {
         let (x, y) = (fx + i as u32 % fw, fy + i as u32 / fw);
         if x < w && y < h {
             let o = ((y * w + x) * 4) as usize;

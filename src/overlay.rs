@@ -78,7 +78,12 @@ pub fn blend_layer(frame: &mut [u8], w: u32, h: u32) {
         return;
     }
     // Premultiplied source-over: dst = src + dst * (1 - src_alpha).
-    for (d, s) in frame.chunks_exact_mut(4).zip(px.chunks_exact(4)) {
+    for (d, s) in frame
+        .as_chunks_mut::<4>()
+        .0
+        .iter_mut()
+        .zip(px.as_chunks::<4>().0)
+    {
         let a = s[3] as u32;
         // Alpha 1 is the invisible tint that makes the window take the mouse, not a drawing.
         if a <= 1 {
@@ -597,12 +602,12 @@ unsafe extern "system" fn wndproc(hwnd: HWND, msg: u32, wp: WPARAM, lp: LPARAM) 
             // SAFETY: releasing the capture taken in WM_LBUTTONDOWN; no arguments.
             let _ = unsafe { ReleaseCapture() };
             with_local(|l| {
-                if let Some(c) = l.current.take() {
-                    if let Ok(mut s) = l.shared.lock() {
-                        s.shapes.push(c);
-                        s.version += 1;
-                        s.dirty = true;
-                    }
+                if let Some(c) = l.current.take()
+                    && let Ok(mut s) = l.shared.lock()
+                {
+                    s.shapes.push(c);
+                    s.version += 1;
+                    s.dirty = true;
                 }
             });
             LRESULT(0)

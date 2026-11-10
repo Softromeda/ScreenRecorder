@@ -253,10 +253,11 @@ mod ui {
                     self.markers = project::load_markers(path);
                     self.pointer = project::load_pointer(path);
                     self.follow_cache = None;
-                    if fresh && self.auto_zoom {
-                        if let Some(clicks) = &self.clicks {
-                            project.zooms = project::auto_zooms(clicks, info.duration);
-                        }
+                    if fresh
+                        && self.auto_zoom
+                        && let Some(clicks) = &self.clicks
+                    {
+                        project.zooms = project::auto_zooms(clicks, info.duration);
                     }
                     // Reset all per-video state; the snapshot is the base for undo.
                     self.preview = Some(Preview::new(path.to_path_buf(), info.fps, ctx.clone()));
@@ -405,27 +406,27 @@ mod ui {
 
         /// Restores the previous project state, saves it and makes the current one redoable.
         fn undo(&mut self) {
-            if let Some(prev) = self.undo.pop() {
-                if let Ok(p) = serde_json::from_str::<Project>(&prev) {
-                    self.redo.push(std::mem::replace(&mut self.snapshot, prev));
-                    p.save();
-                    self.project = Some(p);
-                    self.selected = Selected::None;
-                    self.rev += 1;
-                }
+            if let Some(prev) = self.undo.pop()
+                && let Ok(p) = serde_json::from_str::<Project>(&prev)
+            {
+                self.redo.push(std::mem::replace(&mut self.snapshot, prev));
+                p.save();
+                self.project = Some(p);
+                self.selected = Selected::None;
+                self.rev += 1;
             }
         }
 
         /// Re-applies the most recently undone project state and saves it.
         fn redo(&mut self) {
-            if let Some(next) = self.redo.pop() {
-                if let Ok(p) = serde_json::from_str::<Project>(&next) {
-                    self.undo.push(std::mem::replace(&mut self.snapshot, next));
-                    p.save();
-                    self.project = Some(p);
-                    self.selected = Selected::None;
-                    self.rev += 1;
-                }
+            if let Some(next) = self.redo.pop()
+                && let Ok(p) = serde_json::from_str::<Project>(&next)
+            {
+                self.undo.push(std::mem::replace(&mut self.snapshot, next));
+                p.save();
+                self.project = Some(p);
+                self.selected = Selected::None;
+                self.rev += 1;
             }
         }
 
@@ -716,15 +717,14 @@ mod ui {
         /// the video has recorded clicks) automatic zoom.
         fn toolbar(&mut self, ui: &mut egui::Ui) {
             ui.horizontal_wrapped(|ui| {
-                if ui.button(tr("📂 Open…")).clicked() {
-                    if let Some(path) = rfd::FileDialog::new()
+                if ui.button(tr("📂 Open…")).clicked()
+                    && let Some(path) = rfd::FileDialog::new()
                         .add_filter("Video", &["mp4", "mov", "m4v", "avi", "wmv", "mkv"])
                         .pick_file()
                     {
                         let ctx = ui.ctx().clone();
                         self.open_file(&path, &ctx);
                     }
-                }
                 ui.add_enabled_ui(!self.undo.is_empty(), |ui| {
                     if ui.button(tr("↺ Undo")).on_hover_text("Ctrl+Z").clicked() {
                         self.undo();
@@ -791,8 +791,8 @@ mod ui {
                         self.selected = Selected::Title(p.titles.len() - 1);
                     }
                 }
-                if let Some(clicks) = &self.clicks {
-                    if ui
+                if let Some(clicks) = &self.clicks
+                    && ui
                         .button(tr("✨ Auto zoom"))
                         .on_hover_text(tf(
                             "Replace the zooms with zooms on the {} recorded clicks",
@@ -807,7 +807,6 @@ mod ui {
                             self.selected = Selected::None;
                         }
                     }
-                }
             });
         }
 
@@ -869,12 +868,11 @@ mod ui {
                     .add_enabled(has_sel, egui::Button::new(tr("✂ Cut selection")))
                     .on_hover_text(tr("Remove the selected section"))
                     .clicked()
+                    && let (Some(p), Some(s)) = (&mut self.project, self.sel)
                 {
-                    if let (Some(p), Some(s)) = (&mut self.project, self.sel) {
-                        p.cuts.push(s);
-                        self.selected = Selected::Cut(p.cuts.len() - 1);
-                        self.sel = None;
-                    }
+                    p.cuts.push(s);
+                    self.selected = Selected::Cut(p.cuts.len() - 1);
+                    self.sel = None;
                 }
                 if ui
                     .add_enabled(has_sel, egui::Button::new(tr("🔍 Zoom selection")))
@@ -919,11 +917,10 @@ mod ui {
                 if ui
                     .add_enabled(has_sel, egui::Button::new(tr("⬌ Trim to selection")))
                     .clicked()
+                    && let (Some(p), Some(s)) = (&mut self.project, self.sel)
                 {
-                    if let (Some(p), Some(s)) = (&mut self.project, self.sel) {
-                        p.trim = Some(s);
-                        self.sel = None;
-                    }
+                    p.trim = Some(s);
+                    self.sel = None;
                 }
                 if ui
                     .add_enabled(has_sel, egui::Button::new(tr("✖ Clear selection")))
@@ -1238,53 +1235,52 @@ mod ui {
             // Interaction. A drag decides what it changes from where it started (the press
             // origin, since the pointer has already moved when the drag is recognised).
             let shift = ui.input(|i| i.modifiers.shift);
-            if resp.drag_started() {
-                if let Some(pos) = ui
+            if resp.drag_started()
+                && let Some(pos) = ui
                     .input(|i| i.pointer.press_origin())
                     .or_else(|| resp.interact_pointer_pos())
-                {
-                    let near = |t: f64| {
-                        (to_x(t) - pos.x).abs() < 7.0
-                            && pos.y >= track.top() - 4.0
-                            && pos.y <= track.bottom() + 4.0
-                    };
-                    self.timeline_drag = Some(if near(trim.start) {
-                        TimelineDrag::TrimStart
-                    } else if near(trim.end) {
-                        TimelineDrag::TrimEnd
-                    } else if ruler.contains(pos) || shift {
-                        TimelineDrag::Range(to_t(pos.x))
-                    } else {
-                        TimelineDrag::Playhead
-                    });
-                    // Editing the timeline pauses playback.
-                    if self.playing {
-                        self.toggle_play();
-                    }
+            {
+                let near = |t: f64| {
+                    (to_x(t) - pos.x).abs() < 7.0
+                        && pos.y >= track.top() - 4.0
+                        && pos.y <= track.bottom() + 4.0
+                };
+                self.timeline_drag = Some(if near(trim.start) {
+                    TimelineDrag::TrimStart
+                } else if near(trim.end) {
+                    TimelineDrag::TrimEnd
+                } else if ruler.contains(pos) || shift {
+                    TimelineDrag::Range(to_t(pos.x))
+                } else {
+                    TimelineDrag::Playhead
+                });
+                // Editing the timeline pauses playback.
+                if self.playing {
+                    self.toggle_play();
                 }
             }
             // Apply the drag; trim handles keep at least 0.1 s between them and the preview
             // follows the handle being moved.
-            if resp.dragged() {
-                if let (Some(drag), Some(pos)) = (self.timeline_drag, resp.interact_pointer_pos()) {
-                    let t = to_t(pos.x);
-                    match drag {
-                        TimelineDrag::Playhead => self.seek(t),
-                        TimelineDrag::TrimStart => {
-                            if let Some(p) = &mut self.project {
-                                p.trim = Some(Span::new(t.min(trim.end - 0.1), trim.end));
-                            }
-                            self.seek(t);
+            if resp.dragged()
+                && let (Some(drag), Some(pos)) = (self.timeline_drag, resp.interact_pointer_pos())
+            {
+                let t = to_t(pos.x);
+                match drag {
+                    TimelineDrag::Playhead => self.seek(t),
+                    TimelineDrag::TrimStart => {
+                        if let Some(p) = &mut self.project {
+                            p.trim = Some(Span::new(t.min(trim.end - 0.1), trim.end));
                         }
-                        TimelineDrag::TrimEnd => {
-                            if let Some(p) = &mut self.project {
-                                p.trim = Some(Span::new(trim.start, t.max(trim.start + 0.1)));
-                            }
-                            self.seek(t);
+                        self.seek(t);
+                    }
+                    TimelineDrag::TrimEnd => {
+                        if let Some(p) = &mut self.project {
+                            p.trim = Some(Span::new(trim.start, t.max(trim.start + 0.1)));
                         }
-                        TimelineDrag::Range(start) => {
-                            self.sel = Some(Span::new(start, t));
-                        }
+                        self.seek(t);
+                    }
+                    TimelineDrag::Range(start) => {
+                        self.sel = Some(Span::new(start, t));
                     }
                 }
             }
@@ -1297,32 +1293,29 @@ mod ui {
             }
             // Click: select the topmost item under the pointer (moving the playhead into a
             // selected annotation so it is visible), or move the playhead there.
-            if resp.clicked() {
-                if let Some(pos) = resp.interact_pointer_pos() {
-                    // A click on a marker flag jumps to the marker.
-                    let marker = self
-                        .markers
-                        .iter()
-                        .copied()
-                        .find(|m| ruler.contains(pos) && (to_x(*m) - pos.x).abs() < 7.0);
-                    if let Some(m) = marker {
-                        self.seek(m);
-                    } else if let Some((_, s)) = hits.iter().rev().find(|(r, _)| r.contains(pos)) {
-                        self.selected = *s;
-                        if let Selected::Annotation(i) = s {
-                            if let Some(a) =
-                                self.project.as_ref().and_then(|p| p.annotations.get(*i))
-                            {
-                                if !a.span.contains(self.time) {
-                                    let t = a.span.start;
-                                    self.seek(t);
-                                }
-                            }
-                        }
-                    } else {
-                        self.selected = Selected::None;
-                        self.seek(to_t(pos.x));
+            if resp.clicked()
+                && let Some(pos) = resp.interact_pointer_pos()
+            {
+                // A click on a marker flag jumps to the marker.
+                let marker = self
+                    .markers
+                    .iter()
+                    .copied()
+                    .find(|m| ruler.contains(pos) && (to_x(*m) - pos.x).abs() < 7.0);
+                if let Some(m) = marker {
+                    self.seek(m);
+                } else if let Some((_, s)) = hits.iter().rev().find(|(r, _)| r.contains(pos)) {
+                    self.selected = *s;
+                    if let Selected::Annotation(i) = s
+                        && let Some(a) = self.project.as_ref().and_then(|p| p.annotations.get(*i))
+                        && !a.span.contains(self.time)
+                    {
+                        let t = a.span.start;
+                        self.seek(t);
                     }
+                } else {
+                    self.selected = Selected::None;
+                    self.seek(to_t(pos.x));
                 }
             }
             resp.on_hover_text(
@@ -1388,39 +1381,38 @@ mod ui {
                     .iter()
                     .position(|t| (t.at - self.time).abs() < 0.05)
             });
-            if let Some(ti) = title_here {
-                if self.selected == Selected::Title(ti) {
-                    if let Some(p) = &self.project {
-                        let t = &p.titles[ti];
-                        let bg = Color32::from_rgba_unmultiplied(
-                            t.background[0],
-                            t.background[1],
-                            t.background[2],
-                            255,
-                        );
-                        let fg = Color32::from_rgba_unmultiplied(
-                            t.foreground[0],
-                            t.foreground[1],
-                            t.foreground[2],
-                            255,
-                        );
-                        painter.rect_filled(img_rect, 0.0, bg);
-                        painter.text(
-                            img_rect.center() - Vec2::new(0.0, size.y * 0.04),
-                            Align2::CENTER_CENTER,
-                            &t.title,
-                            FontId::proportional(size.y * 0.09),
-                            fg,
-                        );
-                        painter.text(
-                            img_rect.center() + Vec2::new(0.0, size.y * 0.07),
-                            Align2::CENTER_CENTER,
-                            &t.subtitle,
-                            FontId::proportional(size.y * 0.045),
-                            fg,
-                        );
-                    }
-                }
+            if let Some(ti) = title_here
+                && self.selected == Selected::Title(ti)
+                && let Some(p) = &self.project
+            {
+                let t = &p.titles[ti];
+                let bg = Color32::from_rgba_unmultiplied(
+                    t.background[0],
+                    t.background[1],
+                    t.background[2],
+                    255,
+                );
+                let fg = Color32::from_rgba_unmultiplied(
+                    t.foreground[0],
+                    t.foreground[1],
+                    t.foreground[2],
+                    255,
+                );
+                painter.rect_filled(img_rect, 0.0, bg);
+                painter.text(
+                    img_rect.center() - Vec2::new(0.0, size.y * 0.04),
+                    Align2::CENTER_CENTER,
+                    &t.title,
+                    FontId::proportional(size.y * 0.09),
+                    fg,
+                );
+                painter.text(
+                    img_rect.center() + Vec2::new(0.0, size.y * 0.07),
+                    Align2::CENTER_CENTER,
+                    &t.subtitle,
+                    FontId::proportional(size.y * 0.045),
+                    fg,
+                );
             }
 
             // Annotations are positioned on the whole frame, so they are hidden in the zoomed
@@ -1464,79 +1456,78 @@ mod ui {
                     ((p.y - img_rect.top()) / size.y).clamp(0.0, 1.0),
                 )
             };
-            if resp.drag_started() {
-                if let Some(pos) = ui
+            if resp.drag_started()
+                && let Some(pos) = ui
                     .input(|i| i.pointer.press_origin())
                     .or_else(|| resp.interact_pointer_pos())
-                {
-                    let n = to_norm(pos);
-                    match self.tool {
-                        // Select tool: grab the annotation under the pointer (remembering the
-                        // grab offset), or else start redrawing the selected zoom's area.
-                        Tool::Select => {
-                            if let Some(i) = self.hit_annotation(n) {
-                                self.selected = Selected::Annotation(i);
-                                let a = &self.project.as_ref().unwrap().annotations[i];
-                                self.moving = Some((i, n.0 - a.x, n.1 - a.y));
-                            } else if let Selected::Zoom(zi) = self.selected {
-                                self.drag_start = Some(n);
-                                self.moving = Some((usize::MAX - zi, 0.0, 0.0));
-                            }
+            {
+                let n = to_norm(pos);
+                match self.tool {
+                    // Select tool: grab the annotation under the pointer (remembering the
+                    // grab offset), or else start redrawing the selected zoom's area.
+                    Tool::Select => {
+                        if let Some(i) = self.hit_annotation(n) {
+                            self.selected = Selected::Annotation(i);
+                            let a = &self.project.as_ref().unwrap().annotations[i];
+                            self.moving = Some((i, n.0 - a.x, n.1 - a.y));
+                        } else if let Selected::Zoom(zi) = self.selected {
+                            self.drag_start = Some(n);
+                            self.moving = Some((usize::MAX - zi, 0.0, 0.0));
                         }
-                        // Drawing tools: start a rubber band.
-                        _ => self.drag_start = Some(n),
                     }
+                    // Drawing tools: start a rubber band.
+                    _ => self.drag_start = Some(n),
                 }
             }
             // Move the grabbed annotation (it may stick out of the frame by up to half its
             // width) or reshape the zoom area.
-            if resp.dragged() {
-                if let Some(pos) = resp.interact_pointer_pos() {
-                    let n = to_norm(pos);
-                    self.drag_now = Some(n);
-                    if let (Some((i, ox, oy)), Some(p)) = (self.moving, self.project.as_mut()) {
-                        if let Some(a) = p.annotations.get_mut(i) {
-                            a.x = (n.0 - ox).clamp(-0.5, 1.0);
-                            a.y = (n.1 - oy).clamp(-0.5, 1.0);
-                        } else if let (Some(start), Some(z)) =
-                            (self.drag_start, p.zooms.get_mut(usize::MAX - i))
-                        {
-                            z.rect = NRect::from_points(start, n);
-                        }
+            if resp.dragged()
+                && let Some(pos) = resp.interact_pointer_pos()
+            {
+                let n = to_norm(pos);
+                self.drag_now = Some(n);
+                if let (Some((i, ox, oy)), Some(p)) = (self.moving, self.project.as_mut()) {
+                    if let Some(a) = p.annotations.get_mut(i) {
+                        a.x = (n.0 - ox).clamp(-0.5, 1.0);
+                        a.y = (n.1 - oy).clamp(-0.5, 1.0);
+                    } else if let (Some(start), Some(z)) =
+                        (self.drag_start, p.zooms.get_mut(usize::MAX - i))
+                    {
+                        z.rect = NRect::from_points(start, n);
                     }
                 }
             }
             // Rubber band while drawing a new item: a red line for arrows, a box otherwise.
-            if let (Some(a), Some(b)) = (self.drag_start, self.drag_now) {
-                if self.moving.is_none() {
-                    let r = Rect::from_two_pos(
-                        img_rect.min + Vec2::new(a.0 * size.x, a.1 * size.y),
-                        img_rect.min + Vec2::new(b.0 * size.x, b.1 * size.y),
+            if let (Some(a), Some(b)) = (self.drag_start, self.drag_now)
+                && self.moving.is_none()
+            {
+                let r = Rect::from_two_pos(
+                    img_rect.min + Vec2::new(a.0 * size.x, a.1 * size.y),
+                    img_rect.min + Vec2::new(b.0 * size.x, b.1 * size.y),
+                );
+                if self.tool == Tool::Add(AnnotationKind::Arrow) {
+                    painter.line_segment(
+                        [
+                            img_rect.min + Vec2::new(a.0 * size.x, a.1 * size.y),
+                            img_rect.min + Vec2::new(b.0 * size.x, b.1 * size.y),
+                        ],
+                        Stroke::new(3.0, Color32::from_rgb(229, 57, 53)),
                     );
-                    if self.tool == Tool::Add(AnnotationKind::Arrow) {
-                        painter.line_segment(
-                            [
-                                img_rect.min + Vec2::new(a.0 * size.x, a.1 * size.y),
-                                img_rect.min + Vec2::new(b.0 * size.x, b.1 * size.y),
-                            ],
-                            Stroke::new(3.0, Color32::from_rgb(229, 57, 53)),
-                        );
-                    } else {
-                        painter.rect_stroke(
-                            r,
-                            0.0,
-                            Stroke::new(1.5, Color32::from_rgb(255, 214, 0)),
-                            StrokeKind::Outside,
-                        );
-                    }
+                } else {
+                    painter.rect_stroke(
+                        r,
+                        0.0,
+                        Stroke::new(1.5, Color32::from_rgb(255, 214, 0)),
+                        StrokeKind::Outside,
+                    );
                 }
             }
             // Releasing a rubber band creates the item.
             if resp.drag_stopped() {
-                if let (Some(a), Some(b)) = (self.drag_start, self.drag_now) {
-                    if self.moving.is_none() {
-                        self.finish_draw(a, b);
-                    }
+                if let (Some(a), Some(b)) = (self.drag_start, self.drag_now)
+                    && self.moving.is_none()
+                {
+                    self.finish_draw(a, b);
                 }
                 self.drag_start = None;
                 self.drag_now = None;
@@ -1544,35 +1535,33 @@ mod ui {
             }
             // Click: select (or deselect) with the select tool; text, callouts and step numbers
             // can also be placed with a click, at a default size.
-            if resp.clicked() {
-                if let Some(pos) = resp.interact_pointer_pos() {
-                    let n = to_norm(pos);
-                    match self.tool {
-                        Tool::Select => {
-                            self.selected = self
-                                .hit_annotation(n)
-                                .map(Selected::Annotation)
-                                .unwrap_or(Selected::None);
-                        }
-                        Tool::Add(kind)
-                            if matches!(
-                                kind,
-                                AnnotationKind::Text
-                                    | AnnotationKind::Step
-                                    | AnnotationKind::Callout
-                            ) =>
-                        {
-                            // Steps get a box that is square in pixels.
-                            let b = (n.0 + 0.2, n.1 + 0.1);
-                            let b = if kind == AnnotationKind::Step {
-                                (n.0 + 0.05, n.1 + 0.05 * vw / vh)
-                            } else {
-                                b
-                            };
-                            self.finish_draw(n, b);
-                        }
-                        _ => {}
+            if resp.clicked()
+                && let Some(pos) = resp.interact_pointer_pos()
+            {
+                let n = to_norm(pos);
+                match self.tool {
+                    Tool::Select => {
+                        self.selected = self
+                            .hit_annotation(n)
+                            .map(Selected::Annotation)
+                            .unwrap_or(Selected::None);
                     }
+                    Tool::Add(kind)
+                        if matches!(
+                            kind,
+                            AnnotationKind::Text | AnnotationKind::Step | AnnotationKind::Callout
+                        ) =>
+                    {
+                        // Steps get a box that is square in pixels.
+                        let b = (n.0 + 0.2, n.1 + 0.1);
+                        let b = if kind == AnnotationKind::Step {
+                            (n.0 + 0.05, n.1 + 0.05 * vw / vh)
+                        } else {
+                            b
+                        };
+                        self.finish_draw(n, b);
+                    }
+                    _ => {}
                 }
             }
         }
@@ -1693,40 +1682,33 @@ mod ui {
                 .map(|(_, k)| *k != key)
                 .unwrap_or(true);
             // Composite all visible annotations into one pixmap and upload it.
-            if need {
-                if let Some(mut pm) = tiny_skia::Pixmap::new(w, h) {
-                    for &i in &active {
-                        if let Some(a_pm) =
-                            export::render_annotation(&p.annotations[i], w, h, &self.font)
-                        {
-                            pm.draw_pixmap(
-                                0,
-                                0,
-                                a_pm.as_ref(),
-                                &tiny_skia::PixmapPaint::default(),
-                                tiny_skia::Transform::identity(),
-                                None,
-                            );
-                        }
+            if need && let Some(mut pm) = tiny_skia::Pixmap::new(w, h) {
+                for &i in &active {
+                    if let Some(a_pm) =
+                        export::render_annotation(&p.annotations[i], w, h, &self.font)
+                    {
+                        pm.draw_pixmap(
+                            0,
+                            0,
+                            a_pm.as_ref(),
+                            &tiny_skia::PixmapPaint::default(),
+                            tiny_skia::Transform::identity(),
+                            None,
+                        );
                     }
-                    let data = pm.take_demultiplied();
-                    let img =
-                        egui::ColorImage::from_rgba_unmultiplied([w as usize, h as usize], &data);
-                    match &mut self.overlay_tex {
-                        Some((t, k)) => {
-                            t.set(img, egui::TextureOptions::LINEAR);
-                            *k = key;
-                        }
-                        None => {
-                            self.overlay_tex = Some((
-                                ctx.load_texture(
-                                    "editor-overlay",
-                                    img,
-                                    egui::TextureOptions::LINEAR,
-                                ),
-                                key,
-                            ));
-                        }
+                }
+                let data = pm.take_demultiplied();
+                let img = egui::ColorImage::from_rgba_unmultiplied([w as usize, h as usize], &data);
+                match &mut self.overlay_tex {
+                    Some((t, k)) => {
+                        t.set(img, egui::TextureOptions::LINEAR);
+                        *k = key;
+                    }
+                    None => {
+                        self.overlay_tex = Some((
+                            ctx.load_texture("editor-overlay", img, egui::TextureOptions::LINEAR),
+                            key,
+                        ));
                     }
                 }
             }
@@ -2064,16 +2046,14 @@ mod ui {
                         .button(tr("🎵 Add music…"))
                         .on_hover_text(tr("Play music under the whole video"))
                         .clicked()
-                    {
-                        if let Some(path) = rfd::FileDialog::new()
+                        && let Some(path) = rfd::FileDialog::new()
                             .add_filter(tr("Audio"), &["mp3", "m4a", "aac", "wav", "wma"])
                             .pick_file()
-                        {
-                            p.music = Some(project::Music {
-                                path,
-                                ..Default::default()
-                            });
-                        }
+                    {
+                        p.music = Some(project::Music {
+                            path,
+                            ..Default::default()
+                        });
                     }
                 }
                 Some(m) => {
@@ -2108,16 +2088,14 @@ mod ui {
                         .button(tr("🏷 Add logo…"))
                         .on_hover_text(tr("Show your logo in a corner of the exported video"))
                         .clicked()
-                    {
-                        if let Some(path) = rfd::FileDialog::new()
+                        && let Some(path) = rfd::FileDialog::new()
                             .add_filter(tr("Image"), &["png", "jpg", "jpeg"])
                             .pick_file()
-                        {
-                            p.watermark = Some(project::Watermark {
-                                path,
-                                ..Default::default()
-                            });
-                        }
+                    {
+                        p.watermark = Some(project::Watermark {
+                            path,
+                            ..Default::default()
+                        });
                     }
                 }
                 Some(wm) => {

@@ -440,12 +440,12 @@ pub fn export(
     // One fast-forward badge per speed used by sped-up sections.
     let mut badges: Vec<(f64, usize, usize, Vec<u8>)> = vec![];
     for p in &parts {
-        if let Part::Clip { speed, .. } = p {
-            if *speed > 1.0 && !badges.iter().any(|b| b.0 == *speed) {
-                if let Some((w, h, px)) = fast_badge(*speed, oh, font) {
-                    badges.push((*speed, w, h, px));
-                }
-            }
+        if let Part::Clip { speed, .. } = p
+            && *speed > 1.0
+            && !badges.iter().any(|b| b.0 == *speed)
+            && let Some((w, h, px)) = fast_badge(*speed, oh, font)
+        {
+            badges.push((*speed, w, h, px));
         }
     }
     // The logo image, loaded here so a missing or broken file stops the export with a message.
