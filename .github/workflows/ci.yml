@@ -44,7 +44,7 @@ jobs:
           $iscc = Get-ChildItem "${env:ProgramFiles(x86)}\Inno Setup *\ISCC.exe", "$env:ProgramFiles\Inno Setup *\ISCC.exe" -ErrorAction SilentlyContinue
           if (-not $iscc) { choco install innosetup -y --no-progress }
           ./installer/build.ps1
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: SoftromedaScreenRecorder-Setup
           path: installer/output/*.exe
